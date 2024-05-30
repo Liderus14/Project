@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+.logo {
+margin-top: 18px;
+margin-left: 256px;
+}
+
+.header {
+  background-image: url("../images/Фон.png");
+  width: 1924px;
+  height: 655px;
+  top: -8px;
+  gap: 0px;
+  opacity: 0px;
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0 auto;
+}
+
+.messenge {
+	display: flex;
+}
