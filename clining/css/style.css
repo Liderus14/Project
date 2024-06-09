@@ -294,3 +294,39 @@ body {
 	margin-top: 20px;
 	margin-left: 20px;
 }
+
+.adventuge-main{
+  margin-top: 100px;
+  width: 100%;
+  height: 514px;
+  background-image: url('../images/паттерн.png');
+  background-color:  #2d9aff;
+  margin-bottom: 100px;
+}
+
+.adventuge-block{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.adventuge-block-left{
+  padding-top: 162px;
+}
+.adventuge-block-left h2{
+  font-size: 30px;
+}
+
+.advantage-btn{
+  width: 270px;
+  height: 76px;
+  background-color: #0F4F8A;
+  border: none;
+  border-radius: 23px;
+  color: #ffffff;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.adventuge-block-right{
+  margin-top: 128px;
+}
