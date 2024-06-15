@@ -195,26 +195,25 @@ nav {
 	color: yellow;
 }
 
-.main-h1{
+.main-h1 {
 	text-align: center;
 	font-size: 80px;
 }
 
-.main-content{
+.main-content {
 	display: flex;
 	justify-content: space-evenly;
-
 
 	gap: 30px;
 }
 
-.main-text{
+.main-text {
 	display: flex;
 	gap: 20px;
 }
 
-.main-img{
-	background-color: #C6C8FE;
+.main-img {
+	background-color: #c6c8fe;
 	width: 36px;
 	height: 36px;
 	border-radius: 80%;
@@ -222,26 +221,155 @@ nav {
 	margin-top: 10px;
 }
 
-.main-text p{
+.main-text p {
 	font-size: 24px;
 }
 
-.main-p{
+.main-p {
 	max-width: 300px;
 	font-size: 20px;
 }
 
-.actions{
+.actions {
 	width: 100%;
 	height: 200px;
-	background-color: #01021F;
+	background-color: #01021f;
 	margin-bottom: 30px;
 }
 
-.actions-h1{
+.actions-h1 {
 	text-align: center;
 	font-size: 48px;
-	color:#fff;
+	color: #fff;
 	padding-top: 60px;
 }
+
+.block-otzovick-h1 {
+	font-size: 80px;
+	text-align: center;
+}
+
+.container-otzovik {
+	max-width: 1440px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.otzovik-left {
+	margin-top: 100px;
+}
+
+.otzovik-right {
+	margin-top: 100px;
+}
+
+.otzovik-center {
+	max-width: 1100px;
+	height: 280px;
+	margin: 0 auto;
+	border-radius: 24px;
+	border: 1px solid #5f5f5f;
+	display: flex;
+	margin-bottom: 100px;
+}
+
+.otzovik-center-left {
+	margin-top: 55px;
+	margin-left: 20px;
+}
+
+.otzovik-center-right {
+	margin-top: 35px;
+	margin-left: 20px;
+}
+
+.otzovik-center-right p {
+	font-size: 20px;
+}
+
+.actions-voprosnik{
+	margin-bottom: 100px;
+}
+
+.actions-voprosnik h1 {
+	font-size: 80px;
+	text-align: center;
+}
+
+.actions-voprosnik h2 {
+	margin-top: 32px;
+	font-size: 32px;
+	text-align: center;
+}
+
+.container-voprosnik{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.voprosnik-items{
+	width: 550px;
+	background-color: #C6C8FE;
+	border-radius: 16px;
+	height: 47px;
+}
+
+
+.voprosnik-items span{
+	padding-left: 60px;
+}
+
+.voprosnik-right{
+	max-width: 400px;
+	display: block;
+}
+
+.voprosnik-right h1{
+	font-size: 32px;
+	
+}
+.voprosnik-right h2{
+	max-width: 450px;
+	font-size: 22px;
+}
+
+.form{
+	display: inline-block;
+	margin: 0 auto;
+	max-width: 600px;
+	height: 600px;
+}
+
+input{
+	width: 400px;
+	height: 52px;
+	border-radius: 12px;
+	border: 1px solid #000000;
+	display: block;
+	margin-top: 10px;
+	padding: 5px;
+	font-size: 20px;
+	color: #000;
+}
+
+textarea{
+	width: 400px;
+	height: 202px;
+	margin-top: 15px;
+	border-radius: 12px;
+	padding: 5px;
+	font-size: 22px;
+}
+
+.form-btn{
+	background-color: #030999;
+	margin-top: 20px;
+	width: 410px;
+	height: 67px;
+	border-radius: 15px;
+	font-size: 24px;
+	color: #fff;
+	border: none;
+}
+
 
