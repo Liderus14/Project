@@ -85,6 +85,10 @@ nav {
 	cursor: pointer;
 }
 
+.avatar-ot{
+	width: 100px;
+	height: 100px;
+}
 .btn:hover {
 	color: yellow;
 }
@@ -319,6 +323,11 @@ nav {
 
 .otzovik-center-right p {
 	font-size: 20px;
+}
+
+.slide-items{
+	display: flex;
+	gap: 20px;
 }
 
 .actions-voprosnik {

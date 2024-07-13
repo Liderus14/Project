@@ -1,0 +1,22 @@
+#slideshow #slidesContainer {
+  margin:0 auto;
+  width:560px;
+  height:263px;
+  overflow:auto; /* разрешаем прокрутку */
+  position:relative;
+}
+#slideshow #slidesContainer .slide {
+  margin:0 auto;
+  width:540px; 
+  height:263px;
+}
+/**
+ * Slideshow controls style rules.
+ */
+.control {
+  display:block;
+  width: 190px;
+  color: black;
+  position: relative;
+  cursor: pointer;
+}
