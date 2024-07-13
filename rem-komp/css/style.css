@@ -118,6 +118,40 @@ nav {
 	font-size: 24px;
 }
 
+.about-items {
+	display: flex;
+	justify-content: space-between;
+	gap: 40px;
+}
+
+.about-h1 {
+	text-align: center;
+	font-size: 80px;
+}
+
+.about-span {
+	font-size: 28px;
+	color: #030999;
+}
+
+.about-items-p {
+	font-size: 34px;
+}
+
+.about-p {
+	font-size: 20px;
+}
+
+.about-items-button {
+	width: 280px;
+	height: 65px;
+	border-radius: 16px;
+	border: none;
+	color: white;
+	font-size: 24px;
+	background-color: #030999;
+}
+
 .img {
 	text-align: center;
 }
@@ -287,7 +321,7 @@ nav {
 	font-size: 20px;
 }
 
-.actions-voprosnik{
+.actions-voprosnik {
 	margin-bottom: 100px;
 }
 
@@ -302,45 +336,47 @@ nav {
 	text-align: center;
 }
 
-.container-voprosnik{
+.container-voprosnik {
 	display: flex;
 	justify-content: space-evenly;
 }
 
-.voprosnik-items{
+.voprosnik-items {
 	width: 550px;
-	background-color: #C6C8FE;
+	background-color: #c6c8fe;
 	border-radius: 16px;
 	height: 47px;
 }
 
+.voprosnik-left {
+	margin-top: 140px;
+}
 
-.voprosnik-items span{
+.voprosnik-items span {
 	padding-left: 60px;
 }
 
-.voprosnik-right{
+.voprosnik-right {
 	max-width: 400px;
 	display: block;
 }
 
-.voprosnik-right h1{
+.voprosnik-right h1 {
 	font-size: 32px;
-	
 }
-.voprosnik-right h2{
+.voprosnik-right h2 {
 	max-width: 450px;
 	font-size: 22px;
 }
 
-.form{
+.form {
 	display: inline-block;
 	margin: 0 auto;
 	max-width: 600px;
 	height: 600px;
 }
 
-input{
+input {
 	width: 400px;
 	height: 52px;
 	border-radius: 12px;
@@ -352,7 +388,7 @@ input{
 	color: #000;
 }
 
-textarea{
+textarea {
 	width: 400px;
 	height: 202px;
 	margin-top: 15px;
@@ -361,7 +397,7 @@ textarea{
 	font-size: 22px;
 }
 
-.form-btn{
+.form-btn {
 	background-color: #030999;
 	margin-top: 20px;
 	width: 410px;
@@ -372,4 +408,39 @@ textarea{
 	border: none;
 }
 
+.footer {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #01021f;
+	height: 344px;
+}
 
+.footer-left {
+	padding-top: 100px;
+}
+.footer-left p {
+	font-size: 24px;
+	color: #fff;
+}
+
+.footer-center {
+	padding-top: 100px;
+}
+
+
+.footer-center-menu li {
+	padding: 10px;
+}
+.footer-center-menu a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 24px;
+	cursor: pointer;
+}
+.footer-right {
+	padding-top: 100px;
+}
+.footer-right p{
+	color: #fff;
+	font-size: 24px;
+}
