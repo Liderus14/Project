@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.head {
+	width: 100%;
+	height: 800px;
+	background: black;
+}
+
+.menu {
+	margin-left: 300px;
+	padding-top: 59px;
+}
+
+.menu a {
+	font-family: 'DM Serif Display', sans-serif;
+	margin-left: 60px;
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.menu a:hover {
+	color: yellow;
+	cursor: pointer;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1440px;
+}
+
+.main {
+	display: flex;
+	justify-content: space-between;
+	justify-items: center;
+}
+
+.main-left-h1 {
+	font-family: 'DM Serif Display', serif;
+	color: #fff;
+	font-size: 100px;
+	margin-left: 120px;
+	margin-top: 150px;
+}
+
+.main-left-h2 {
+	font-family: 'DM Serif Display', serif;
+	max-width: 475px;
+	color: #fff;
+	font-size: 30px;
+	margin-left: 120px;
+	margin-top: -50px;
+}
+
+.btn {
+	width: 268px;
+	height: 84px;
+	margin-top: 50px;
+	margin-left: 110px;
+	background-color: #e4ba12;
+	font-size: 20px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.btn:hover {
+	font-weight: bold;
+	color: #fff;
+}
+
+.main-right img {
+	width: 560px;
+	height: 700px;
+}
+
+h3 {
+	display: flex;
+	flex: 5;
+	width: 15%;
+	line-height: 1em;
+	font-size: 30px;
+	margin-top: 100px;
+}
+.heading:before,
+.heading:after,
+.heading-ie span.after,
+.heading-ie span.before {
+	content: '';
+	flex-grow: 2;
+	margin: 0px 4px;
+	background: linear-gradient(to right, rgb(218, 214, 24), rgb(229, 250, 43));
+	background-size: 50% 2px;
+	background-position: 0% 50%;
+	background-repeat: repeat-x;
+}
+
+.content {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+
+.content-left {
+	margin-top: 87px;
+}
+
+.content-img {
+	display: block;
+}
+
+.right-block-img {
+	margin-left: 350px;
+}
+
+.content-right h4 {
+	max-width: 650px;
+	font-size: 20px;
+	font-weight: 400px;
+	color: #191817;
+}
+
+.content-right-text {
+	width: 621px;
+	height: 740px;
+	background-color: #f4f4f4;
+}
+
+span {
+	font-size: 50px;
+	color: #554503;
+}
+
+ul {
+	list-style: none;
+}
+
+.content-right-text {
+	max-width: 553px;
+	font-size: 20px;
+	padding-top: 50px;
+}
+
+.running-line-wrapper {
+	height: 380px;
+	background-color: #f4f4f4;
+}
+
+.running-line-wrapper {
+	margin: auto;
+	width: 100%;
+	overflow: hidden;
+}
+.running-line {
+	font-size: 100px;
+	font-family: sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #444;
+	white-space: nowrap;
+}
+.running-line {
+	animation: run 7s linear infinite;
+}
+@keyframes run {
+	from {
+		transform: translateX(0%);
+	}
+	/* Magic is here. This is the width of the elem with text after rendering the page */
+	to {
+		transform: translateX(-1103.35px);
+	}
+}
+
+.aside-block{
+  margin-bottom: 100px;
+}
+
+.aside{
+  width: 1240px;
+  height: 433px;
+  background-color: #111214;
+  margin: 0 auto;
+  margin-top: -240px;
+}
+
+.aside h4{
+  font-size: 20px;
+  color: #ADADAD;
+  padding-top: 60px;
+  text-align: center;
+  font-weight: 400;
+}
+.aside h1{
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  line-height: 0.5em;
+}
+.aside h2{
+  max-width: 692px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  margin: 0 auto;
+
+}
+
+.button-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 50px;
+
+}
+
+.btn-btn{
+  width: 268px;
+  height: 64px;
+  background-color: #e4ba12;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+.btn-btn:hover{
+  color: #fff;
+
+}
