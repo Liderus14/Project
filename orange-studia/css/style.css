@@ -271,6 +271,11 @@ h4 a:hover{
   padding-top: 20px;
 }
 
+.box-content img{
+  border-radius: 5%;
+  background-color: #F17B00;
+}
+
 .box-text p{
   max-width: 420px;
   color: #fff;
@@ -289,3 +294,141 @@ h4 a:hover{
   cursor: pointer;
 }
 
+
+.wrapper-button:hover{
+  color: orangered;
+}
+
+.content-text{
+  margin-top: 250px;
+}
+
+.content-title{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+
+.content-title h2{
+  font-family: "Mulish", sans-serif;
+  max-width: 554px;
+  height: 215px;
+  color: #fff;
+  font-size: 34px;
+}
+
+.content-center{
+  width: 290px;
+  height: 350px;
+  border: 2px solid #F17B00;
+  border-radius: 10px;
+}
+.content-center h3{
+ color: #fff;
+ font-size: 26px;
+ margin-left: 30px;
+}
+
+.content-center p{
+  color: #fff;
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.content-right{
+  width: 546px;
+  height: 350px;
+  background-color: #FBAD4E;
+  margin-left: 25px;
+  border-radius: 12px;
+}
+
+.content-right h1{
+  font-size: 26px;
+  margin-left: 30px;
+}
+
+.content-right p{
+  max-width: 440px;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 35px;
+}
+
+.content-right img{
+  width: 166px;
+  height: 174px;
+  margin-left:300px ;
+}
+
+.content-bottom{
+  display: flex;
+  justify-content: space-between;
+  gap: 25px ;
+}
+
+.content-bottom-left{
+  width: 554px;
+  height: 280px;
+  background-color: #FBAD4E;
+  border-radius: 12px;
+  margin-top: -60px;
+}
+
+.content-bottom-left h1{
+  padding:40px;
+  font-size: 26px;
+}
+.content-bottom-left p{
+  max-width: 440px;
+  font-size: 20px;
+  padding: 20px;
+  margin-top: -50px;
+}
+
+.content-bottom-right{
+  width: 861px;
+  height: 270px;
+  border: 2px solid #F17B00;
+  margin-top: -58px;
+  border-radius: 12px;
+  
+}
+
+.content-bottom-right h1{
+  font-size: 26px;
+  color: #fff;
+  padding: 20px;
+}
+
+.content-bottom-img{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -30px;
+}
+
+.content-bottom-img p{
+  max-width: 543px;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-right: 30px;
+}
+
+.main-content{
+  width: 981px;
+  height: 90px;
+  margin-top: 170px;
+  border: 2px solid #FFC176;
+  margin-left: 450px;
+}
+
+.main-content h1{
+  font-size: 40px;
+  color: #F17B00;
+  text-align: center;
+}
