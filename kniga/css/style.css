@@ -164,7 +164,7 @@ span {
 .rectangle img {
 	width: 450px;
 	height: 2px;
-	rotation: -180 deg;
+	rotate: -180 deg;
 }
 
 ul {
