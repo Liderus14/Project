@@ -427,9 +427,31 @@ h4 a:hover{
   margin-left: 450px;
 }
 
+.main-content-text{
+  display: flex;
+  justify-content: space-between;
+}
+
 .main-h1{
   font-size: 40px;
   color: #F17B00;
   text-align: center;
+}
+
+.main-h2{
+  max-width: 485px;
+  color: #fff;
+  font-size: 34px;
+  margin-top: 175px;
+  margin-right: 300px;
+}
+
+
+
+.main-top p{
+  max-width: 285px;
+  margin-top: 175px;
+  font-size: 20px;
+  color: #fff;
 }
 
