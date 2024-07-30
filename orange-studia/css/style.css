@@ -419,13 +419,7 @@ h4 a:hover{
   margin-right: 30px;
 }
 
-.main-content{
-  width: 981px;
-  height: 90px;
-  margin-top: 170px;
-  border: 2px solid #FFC176;
-  margin-left: 450px;
-}
+
 
 .main-content-text{
   display: flex;
@@ -433,9 +427,18 @@ h4 a:hover{
 }
 
 .main-h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 981px;
+  height: 60px;
+  text-align: center;
   font-size: 40px;
   color: #F17B00;
   text-align: center;
+  margin-top: 170px;
+  border: solid 1px #F17B00;
+  margin-left: 480px;
 }
 
 .main-h2{
@@ -443,7 +446,7 @@ h4 a:hover{
   color: #fff;
   font-size: 34px;
   margin-top: 175px;
-  margin-right: 300px;
+
 }
 
 
@@ -453,5 +456,65 @@ h4 a:hover{
   margin-top: 175px;
   font-size: 20px;
   color: #fff;
+}
+
+.main-soc{
+  display: flex;
+  gap: 10px;
+}
+
+.aside{
+  margin-top: 126px;
+  margin-bottom: 100px;
+}
+
+.aside-block{
+  display: flex;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.aside-left{
+  width: 720px;
+  height: 265px;
+  border: 2px solid #FBAD4E;
+  border-radius: 20px;
+}
+
+.aside-left:hover{
+  background: radial-gradient(ellipse at bottom, #FBAD4E 0%,#000 85%);
+}
+
+.aside-left-block{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.aside-left-img h1{
+  margin-top: 25px;
+  color: black;
+  font-size: 70px;
+  color: #000000; 
+  -webkit-text-stroke: 1px #FBAD4E; /* Толщина и цвет обводки */
+
+}
+
+.aside-left-text h1{
+  font-size: 26px;
+  color: #FBAD4E;
+  margin-top: 52px;
+}
+
+.aside-text{
+  max-width: 640px;
+  font-size: 20px;
+  color: #D0D0D0;
+  margin-left: 80px;
+  margin-top: -30px;
+  padding-right: 20px;
+}
+
+.left-h4{
+  margin-left: 50px;
 }
 
