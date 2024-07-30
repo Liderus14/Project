@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
 	margin: 0;
 	padding: 0;
@@ -27,9 +29,11 @@ body {
 }
 
 .menu a {
+  font-family: "Mulish", sans-serif;;
 	text-decoration: none;
 	color: #fff;
-	font-size: 22px;
+	font-size: 14px;
+  cursor: pointer;
 }
 
 .contact {
@@ -44,9 +48,244 @@ body {
 	color: #fff;
 	font-size: 22px;
 }
+
 .contact img {
 	color: #fff;
 	font-size: 22px;
 	margin-left: 260px;
   margin-top: 25px;
 }
+
+.soc-sety{
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.soc-sety img{
+  width: 39px;
+  height: 39px;
+}
+
+.button{
+  margin-top: 35px;
+  margin-left: 25px;
+}
+
+.btn{
+  width: 195px;
+  height: 52px;
+  background-color: #F17B00;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn:hover{
+  color: black;
+}
+
+.header-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-content-left h1{
+  font-family: "Mulish", sans-serif;
+  max-width: 800px;
+  font-size: 55px;
+  color: #F17B00;
+  margin-top: 115px;
+  line-height: 70px;
+  font-weight: 900;
+}
+.header-content-left h2{
+  font-family: "Mulish", sans-serif;
+  max-width: 800px;
+  font-size: 30px;
+  color: #fff;
+}
+.header-content-left p{
+  font-family: "Mulish", sans-serif;
+  max-width: 420px;
+  font-size: 26px;
+  margin-top: 60px;
+  color: #fff;
+}
+
+span{
+  color: #F17B00;
+}
+
+.text{
+  width: 180px;
+  height: 32px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+  border: solid 1px #fff;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+.phone{
+  width: 180px;
+  height: 32px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+  border: solid 1px #fff;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.form-btn{
+  width: 195px;
+  height: 52px;
+  margin-left: 10px;
+  background-color: #F17B00;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.form-btn:hover{
+  color: black;
+}
+
+h4{
+  max-width: 395px;
+  color: #fff;
+}
+
+h4 a{
+  text-decoration: none;
+  font-size: 18px;
+  color:orange;
+  cursor: pointer;
+}
+h4 a:hover{
+  color: orangered;
+}
+
+.checkbox{
+  display: flex;
+  gap: 20px;
+}
+
+.check{
+  width: 25px;
+}
+
+.advantage{
+  margin-top: 170px;
+}
+
+.advantage h1{
+  text-align: center;
+  color: #F17B00;
+  font-size: 40px;
+  font-weight: 700;
+  border: solid 1px orange;
+  border-radius: 5px;
+  width: 305px;
+  height:50px;
+  margin: 0 auto;
+  padding-top: 20px;
+  
+}
+
+/*Анимация текста*/
+
+.wrapper{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+:root {
+	--d: 500ms;
+	--angle: 90deg;
+	--gradX: 100%;
+	--gradY: 50%;
+	--c1: orange;
+	--c2: rgba(168, 239, 255, 0.1);
+}
+
+.box {
+  text-align: center;
+  color: #F17B00;
+	font-size: 2vw;
+	margin: max(1rem, 3vw);
+	border: 0.20rem solid;
+	padding: 1vw;
+	border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.5turn, var(--c1) 3.15turn, var(--c2) 0.55turn) 1;
+	animation: borderRotate var(--d) linear infinite forwards;
+  margin: 0 auto;
+
+}
+
+.box:nth-child(2) {
+	border-image: radial-gradient(ellipse at var(--gradX) var(--gradY), var(--c1), var(--c1) 50%, var(--c2) 180%) 30;
+	animation: borderRadial var(--d) linear infinite forwards;
+}
+
+@keyframes borderRotate {
+	100% {
+		--angle: 220deg;
+	}
+}
+
+/*Конец анимации*/
+
+.wrapper-items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+}
+
+.wrapper-item{
+  width: 420px;
+  margin-top: 120px;
+
+}
+
+.box-content {
+  display: flex;
+  gap: 40px;
+}
+
+.box-content p{
+  color: #FBAD4E;
+  font-size: 26px;
+  padding-top: 20px;
+}
+
+.box-text p{
+  max-width: 420px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.wrapper-button{
+  width: 195px;
+  height:52px;
+  border: 1px solid #F17B00;
+  background-color: black;
+  color: #fff;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
