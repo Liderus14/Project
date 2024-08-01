@@ -85,10 +85,11 @@ nav {
 	cursor: pointer;
 }
 
-.avatar-ot{
+.avatar-ot {
 	width: 100px;
 	height: 100px;
 }
+
 .btn:hover {
 	color: yellow;
 }
@@ -282,51 +283,30 @@ nav {
 	padding-top: 60px;
 }
 
-.block-otzovick-h1 {
+.container-otzov {
+	display: grid;
+	grid-template-columns: repeat(2, 2fr);
+	gap: 10px;
+	margin-left: 70px;
+}
+
+.blok-otzov-h1 {
 	font-size: 80px;
 	text-align: center;
 }
 
-.container-otzovik {
-	max-width: 1440px;
-	margin: 0 auto;
+.otzov-img img {
+	width: 120px;
+	height: 120px;
+}
+
+.otzov-img {
 	display: flex;
-}
-
-.otzovik-left {
-	margin-top: 100px;
-}
-
-.otzovik-right {
-	margin-top: 100px;
-}
-
-.otzovik-center {
-	max-width: 1100px;
-	height: 280px;
-	margin: 0 auto;
-	border-radius: 24px;
+	align-items: center;
 	border: 1px solid #5f5f5f;
-	display: flex;
-	margin-bottom: 100px;
-}
-
-.otzovik-center-left {
-	margin-top: 55px;
-	margin-left: 20px;
-}
-
-.otzovik-center-right {
-	margin-top: 35px;
-	margin-left: 20px;
-}
-
-.otzovik-center-right p {
-	font-size: 20px;
-}
-
-.slide-items{
-	display: flex;
+	border-radius: 24px;
+	width: 650px;
+	height: 170px;
 	gap: 20px;
 }
 
@@ -373,14 +353,17 @@ nav {
 .voprosnik-right h1 {
 	font-size: 32px;
 }
+
 .voprosnik-right h2 {
 	max-width: 450px;
 	font-size: 22px;
 }
-.accordion{
-	max-width: 30rem; 
+
+.accordion {
+	max-width: 30rem;
 	margin: 1rem auto 2rem;
 }
+
 .form {
 	display: inline-block;
 	margin: 0 auto;
@@ -430,6 +413,7 @@ textarea {
 .footer-left {
 	padding-top: 100px;
 }
+
 .footer-left p {
 	font-size: 24px;
 	color: #fff;
@@ -443,191 +427,346 @@ textarea {
 .footer-center-menu li {
 	padding: 10px;
 }
+
 .footer-center-menu a {
 	text-decoration: none;
 	color: #fff;
 	font-size: 24px;
 	cursor: pointer;
 }
+
 .footer-right {
 	padding-top: 100px;
 }
-.footer-right p{
+
+.footer-right p {
 	color: #fff;
 	font-size: 24px;
 }
 
 @media screen and (max-width:768px) {
-	.navigation{
+	.navigation {
 		width: 768px;
 	}
-	.logo img{
+
+	.logo img {
 		width: 187px;
 		height: 52px;
 	}
-	.menu{
+
+	.menu {
 		display: none;
 	}
 
-	.number{
+	.number {
 		width: 287px;
 	}
-	.header{
+
+	.header {
 		display: flex;
 		justify-content: center;
 		margin-left: -110px;
 		margin-top: -60px;
 		margin-bottom: 50px;
 	}
-	.header-left h1{
+
+	.header-left h1 {
 		font-size: 40px;
 		margin-top: 40px;
 	}
-	.header-right img{
+
+	.header-right img {
 		width: 422px;
 		height: 253px;
 		margin-top: 90px;
 	}
-	.bloc{
+
+	.bloc {
 		width: 688px;
 		display: grid;
 		grid-template-columns: repeat(2, 2fr);
 		gap: 28px;
 		margin-left: 40px;
 	}
-	.bloc-title{
+
+	.bloc-title {
 		width: 300px;
 		margin: 0;
 	}
-	.about-items-left img{
+
+	.about-items-left img {
 		width: 688px;
 	}
-	.about-p{
+
+	.about-p {
 		width: 688px;
 	}
-	.about-items{
+
+	.about-items {
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 		justify-items: center;
 	}
-	.about-items-p{
+
+	.about-items-p {
 		margin-top: -10px;
 		text-align: center;
 	}
-	.about-p{
+
+	.about-p {
 		font-size: 32px;
 	}
-	.items-block{
+
+	.items-block {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: 5px;
 	}
-	.item{
+
+	.item {
 		width: 300px;
 	}
-	.main-content{
+
+	.main-content {
 		display: grid;
 		grid-template-columns: repeat(2, 2fr);
 		margin-left: 40px;
 	}
-	.main-text{
+
+	.main-text {
 		display: flex;
 		align-items: center;
 	}
-	.main-text p{
+
+	.main-text p {
 		font-size: 40px;
 		color: #5F5F5F;
 		font-weight: bold;
 	}
-	.main-h3{
+
+	.main-h3 {
 		font-size: 32px;
 		margin-top: -30px;
 		margin-left: 90px;
 	}
-	.main-p{
+
+	.main-p {
 		margin-top: -30px;
 		margin-left: 90px;
 	}
-	.container-voprosnik{
+	.container-otzov{
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 20px;
+	}
+	.otzov-text{
+		margin-left: 15px;
+		width: 500px;
+	}
+	.container-voprosnik {
 		display: grid;
 		grid-template-columns: repeat(1, 2fr);
 		justify-items: center;
 		margin-top: -150px;
 		margin-bottom: -150px;
 	}
-	.accordion{
+
+	.accordion {
 		max-width: 40rem;
 	}
-	.accordion__item{
+
+	.accordion__item {
 		width: 600px;
 	}
-	.footer{
+
+	.footer {
 		display: grid;
 		grid-template-columns: repeat(1, 3fr);
 		justify-items: center;
 		height: auto;
 	}
-	.footer-center{
+
+	.footer-center {
 		padding: 0;
 	}
-	.footer-right{
+
+	.footer-right {
 		padding: 0;
 	}
 }
 
 @media screen and (max-width: 360px) {
-	.logo{
-		margin-left: -500px;
+	.navigation {
+		width: 360px;
 	}
-	.logo img{
+
+	.logo {
+		margin-left: -160px;
+	}
+
+	.logo img {
 		width: 177px;
 		height: 42px;
 	}
-	.contact{
+
+	.contact {
 		display: none;
 	}
-	.contacts{
+
+	.contacts {
 		display: none;
 	}
-	.number{
+
+	.number {
 		display: none;
 	}
-	.header{
+
+	.header {
 		display: flex;
 		flex-direction: column;
-    align-items: flex-end;
+		align-items: flex-end;
 	}
-	.header-right img{
+
+	.header-right img {
 		width: 360px;
 		margin-top: -20px;
 	}
-	.bloc{
+
+	.bloc {
 		display: grid;
 		grid-template-columns: repeat(2, 2fr);
 		width: 320px;
 		margin-left: 10px;
 	}
-	.bloc-title{
+
+	.bloc-title {
 		width: 120px;
 		height: 128px;
 	}
-	.bloc-title p{
+
+	.bloc-title p {
 		font-size: 17px;
 	}
-	.about-items{
+
+	.about-items {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
-	.about-h1{
+
+	.about-h1 {
 		font-size: 28px;
 	}
-	.about-items-left img{
+
+	.about-items-left img {
 		width: 320px;
 	}
-	.about-p{
+
+	.about-p {
 		width: 330px;
 		font-size: 20px;
 		margin-left: 20px;
 	}
+
+	.item {
+		margin-left: 10px;
+	}
+
+	.items h1 {
+		font-size: 28px;
+	}
+
+	.items-block {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.main-h1 {
+		font-size: 28px;
+	}
+
+	.main-content {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 10px;
+	}
+
+	.main-p {
+		font-size: 16px;
+	}
+
+	.actions-h1 {
+		font-size: 25px;
+	}
+
+	.container-otzov{
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		align-items: center;
+	}
+	.otzov-img{
+		display: flex;
+		width: 330px;
+		margin-left: -60px;
+	}
+	.otzov-img img{
+		width: 70px;
+		height: 70px;
+		margin-left: 10px;
+	}
+	.blok-otzov-h1{
+		font-size: 28px;
+	}
+	.slide-text p {
+		width: 210px;
+		font-size: 14px;
+	}
+
+
+	.actions-voprosnik h1 {
+		font-size: 28px;
+	}
+
+	.actions-voprosnik h2 {
+		font-size: 18px;
+	}
+
+	.accordion__item {
+		width: 330px;
+	}
+
+	input {
+		width: 330px;
+	}
+
+	textarea {
+		width: 330px;
+	}
+
+	.form-btn {
+		width: 330px;
+	}
+
+	.form {
+		margin-left: 10px;
+	}
+
+	.footer {
+		display: flex;
+		flex-direction: column;
+		padding: 0 20px;
+	}
+
+	.footer-left p {
+		font-size: 18px;
+	}
+
+	.footer-center-menu a {
+		font-size: 18px;
+	}
+
+	.footer-right p {
+		font-size: 18px;
+	}
+
 }
