@@ -127,10 +127,34 @@ ul {
 
 .header-right {
 	margin-top: 240px;
-	margin-left: 90px;
+	margin-left: 40px;
 }
 
 .header-right img {
 	width: 389px;
 	height: 392px;
+}
+.item-block{
+	display: flex;
+}
+.items-left{
+	display: flex;
+}
+.item-left{
+	display: flex;
+	flex-direction: column;
+}
+.item-top{
+	display: flex;
+	flex-direction: ;
+}
+.item-top-t{
+	display: flex;
+	flex-direction: ;
+}
+.item-top-t{
+	font-family: Ubuntu;
+font-size: 20px;
+font-weight: 500;
+line-height: 22.98px;
 }
