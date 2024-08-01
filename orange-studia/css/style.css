@@ -667,7 +667,7 @@ h4 a:hover {
 	font-size: 40px;
 	color: #f17b00;
 	text-align: center;
-	margin-top: 170px;
+	margin-top: 120px;
 	border: solid 1px #f17b00;
 	margin-left: 480px;
 }
@@ -803,4 +803,154 @@ h4 a:hover {
 	justify-content: center;
 	margin-left: 20px;
 	margin-top: 20px;
+}
+
+.items-block-item{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+}
+
+
+
+.items-block-center{
+	width: 340px;
+	height: 610px;
+	border: solid 1px #FBAD4E;
+	border-radius: 20px;
+	margin-top: 80px;
+}
+
+.items-block-center:hover{
+	background-color: #ffa161;
+}
+
+.items-block-center h1{
+	font: size 26px;
+	text-align: center;
+	color: #FBAD4E;
+	margin-top: 50px;
+}
+
+
+
+.items-block-center:hover .items-blok{
+	color: #000;
+}
+
+.items-block-center p{
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+
+.items-block-center img{
+	margin-left: 100px;
+}
+
+.items-block-center h3{
+	font-size: 26px;
+	color: #FBAD4E;
+	text-align: center;
+}
+
+.items-block-center a{
+	color: #000;
+	font-size: 26px;
+	text-decoration: none;
+	padding-left: 100px;
+}
+
+
+
+.form-container{
+	max-width: 1438px;
+	height: 406px;
+	border-radius: 40px;
+	background-color:#FBAD4E;
+	margin: 0 auto;
+	margin-top: 85px;
+}
+
+.form-block{
+	display: flex;
+	justify-content: space-around;
+}
+
+.form-bloc-left{
+	margin-top: 143px;
+}
+.form-bloc-left img{
+	margin-left: 100px;
+}
+
+.form-bloc-centr{
+	margin-top: 60px;
+}
+
+.form-bloc-centr h1{
+	text-align: center;
+	color: #fff;
+	font-size: 34px;
+}
+
+.block-forma{
+	margin-left: 300px;
+	margin-top: -40px;
+}
+
+.block-forma input{
+	width:280px ;
+	height:52px ;
+	border-radius: 12px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	margin-left: 13px;
+	background: transparent;
+  border: 1px solid #0D0C0B;
+}
+
+.forma-btn{
+	width: 324px;
+	height: 70px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #F17B00;
+	border-radius: 12px;
+	border: none;
+	margin-left: 8px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.forma-btn:hover{
+	color: #000;
+	font-weight: bold;
+}
+
+.block-forma input::placeholder {
+	color: #000;
+}
+
+.che-b{
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.check-b{
+	width: 20px;
+	margin-left: 80px;
+}
+
+.che-b h5{
+	font-size: 20px;
+	color: #000;
+}
+
+.che-b a{
+	text-decoration: none;
+	color: orangered;
 }
