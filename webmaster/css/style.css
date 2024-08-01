@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.head-menu {
+	display: flex;
+	justify-content: space-evenly;
+	background-size: 100%;
+	margin: 0;
+	width: 100%;
+}
+
+.logo {
+	margin-top: 32px;
+}
+
+.logo img {
+	width: 261px;
+	height: 70px;
+}
+
+.navigation {
+	margin-top: 40px;
+}
+
+.menu-list {
+	display: flex;
+	margin-left: -100px;
+	gap: 20px;
+}
+
+.menu-list a {
+	text-decoration: none;
+	color: #fff;
+	font-family: Ubuntu;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 20.68px;
+	text-align: left;
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+.burger-checkbox {
+	display: none;
+}
+
+.button-nav button {
+	margin-top: 40px;
+	width: 163px;
+	height: 50px;
+	background: #EE883D;
+	border: 2px solid #EE883D;
+	border-radius: 12px;
+	color: #fff;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18.38px;
+}
+
+.header {
+	display: flex;
+	justify-content: flex-start;
+	background-image: url(../images/lava.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+	margin-top: -120px;
+}
+
+.header-left h1 {
+	font-family: Nunito Sans;
+	font-size: 48px;
+	font-weight: 900;
+	line-height: 48.02px;
+	text-align: left;
+	color: #fff;
+	margin-top: 220px;
+	margin-left: 150px;
+}
+
+.header-left p {
+	font-family: Ubuntu;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 41.36px;
+	text-align: left;
+	margin-left: 150px;
+	color: #fff;
+}
+
+.span {
+	font-family: Ubuntu;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 45.96px;
+	text-align: left;
+	color: #F2C31C;
+	margin-top: 10px;
+}
+
+.header-left span {
+	color: #EE883D;
+}
+
+.header-button {
+	padding: 25px 53px 25px 53px;
+	border-radius: 16px;
+	border: none;
+	margin-left: 150px;
+	font-family: Inter;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 29.05px;
+	text-align: left;
+	background-color: #EE883D;
+	color: #fff;
+}
+
+.header-right {
+	margin-top: 240px;
+	margin-left: 90px;
+}
+
+.header-right img {
+	width: 389px;
+	height: 392px;
+}
