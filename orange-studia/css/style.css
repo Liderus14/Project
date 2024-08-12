@@ -444,6 +444,7 @@ h4 a:hover {
 	margin-top: 170px;
 	border: solid 1px #f17b00;
 	margin-left: 480px;
+	border-radius: 8px;
 }
 
 .main-h2 {
@@ -670,6 +671,7 @@ h4 a:hover {
 	margin-top: 120px;
 	border: solid 1px #f17b00;
 	margin-left: 480px;
+	border-radius: 8px;
 }
 
 .work-top{
@@ -953,4 +955,128 @@ h4 a:hover {
 .che-b a{
 	text-decoration: none;
 	color: orangered;
+}
+
+.command-h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 581px;
+	height: 60px;
+	text-align: center;
+	font-size: 40px;
+	color: #f17b00;
+	margin-top: 120px;
+	border: solid 1px #f17b00;
+	margin-left: 240px;
+	border-radius: 8px;
+}
+
+.command-block{
+	display: flex;
+	justify-content: space-evenly;
+	
+}
+
+
+.command-p{
+	max-width: 720px;
+	color: #fff;
+	font-size: 26px;
+	margin-right: 350px;
+}
+
+
+.command-h3{
+	max-width: 385px;
+	color: #FBAD4E;
+	font-size: 26px;
+}
+
+.command-right{
+	display: block;
+}
+
+.item-block-command{
+	width: 700px;
+	height: 436px;
+	border: solid 3px #FBAD4E;
+	border-radius: 20px;
+}
+
+.items-block-command{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	gap: 40px;
+}
+
+.block-command-left{
+	display: block;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
+.block-command-img img{
+	border-radius: 10px;
+}
+
+.block-command-title h3{
+	color: #fff;
+	margin-left: 60px;
+	font-size: 26px;
+}
+.block-command-title p{
+	color: #fff;
+	margin-left: 40px;
+	font-size: 20px;
+	margin-top: -20px;
+}
+
+.block-command-icon{
+	display: flex;
+	gap: 20px;
+	margin-left: 32px;
+	margin-top: 40px;
+}
+
+.item-block-command{
+	display: flex;
+	gap: 20px;
+}
+
+.block-command-right-title{
+	display: flex;
+	gap: 30px;
+}
+
+.block-command-right-title h3{
+	color: #fff;
+	font-size: 16px;
+	margin-top: 40px;
+}
+
+.block-command-right-title p{
+	color: #fff;
+	font-size: 20px;
+	margin-top: 40px;
+}
+
+.block-command-right p{
+	max-width: 400px;
+	color: #fff;
+	font-size: 20px;
+}
+
+.block-command-btn{
+	width: 400px;
+	height: 80px;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	margin-top: 70px;
+	background-color:#F17B00;
+	font-size: 26px;
+	color: #fff;
+	border: none;
+	border-radius: 20px;
 }
