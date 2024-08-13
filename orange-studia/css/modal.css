@@ -39,7 +39,7 @@
 	padding: 30px;
 	border-radius: 20px;
 	background-color: #000000;
-	transition: 0.3s all;
+	transition: 2.3s all;
 }
 
 /* Стили для активных классов подложки и окна */
@@ -58,7 +58,7 @@
 	position: absolute;
 	top: 20px;
 	right: 20px;
-	fill: #444;
+	fill: #eb0000;
 	cursor: pointer;
 }
 
@@ -131,3 +131,8 @@
   margin-left: 50px;
 }
 
+.krestik img{
+	margin-top: 200px;
+	width: 50px;
+	margin-left: 1240px;
+}
