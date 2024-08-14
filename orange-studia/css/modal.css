@@ -1,0 +1,138 @@
+/* Стили для подложки */
+
+.overlay {
+	/* Скрываем подложку  */
+	opacity: 0;
+	visibility: hidden;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 20;
+	transition: 0.3s all;
+}
+
+/* Стили для модальных окон */
+
+.modal {
+	/* Скрываем окна  */
+	opacity: 0;
+	visibility: hidden;
+
+	/*  Установаем ширину окна  */
+	width: 100%;
+	max-width: 500px;
+
+	/*  Центрируем и задаем z-index */
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 30; /* Должен быть выше чем у подложки*/
+
+	/*  Побочные стили   */
+	box-shadow: 0 3px 10px -0.5px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	padding: 30px;
+	border-radius: 20px;
+	background-color: #000000;
+	transition: 2.3s all;
+}
+
+/* Стили для активных классов подложки и окна */
+
+.modal.active,
+.overlay.active {
+	opacity: 1;
+	visibility: visible;
+}
+
+/* Стили для кнопки закрытия */
+
+.modal__cross {
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	fill: #eb0000;
+	cursor: pointer;
+}
+
+/* Стили для кнопок. Мы ведь порядочные разработчики, негоже простые ссылки оставлять */
+
+.js-open-modal{
+  width: 195px;
+	height: 52px;
+	background-color: #f17b00;
+	border-radius: 12px;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+  text-decoration: none
+}
+
+.js-open-modal:hover{
+  color: #000;
+}
+
+/* форма */
+.modal-form h1{
+  font-size: 26px;
+  color: #FBAD4E;
+  text-align: center;
+}
+
+.modal-form-name input{
+  width: 350px;
+  height: 52px;
+  border-radius: 12px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+}
+
+.modal-form-phone input{
+  width: 350px;
+  height: 52px;
+  border-radius: 12px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  margin-top: 15px;
+}
+
+.modal-form-btn{
+  width: 360px;
+  height: 62px;
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 12px;
+  font-size: 20px;
+  border: none;
+  background-color:#F17B00;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-form-btn:hover{
+  color: #000;
+  font-weight: bold;
+}
+
+.checkbox-modal{
+  display: flex;
+  margin-left: 50px;
+}
+
+.krestik img{
+	margin-top: 200px;
+	width: 50px;
+	margin-left: 1240px;
+}

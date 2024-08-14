@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Web studio Orange</title>
 		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/modal.css" />
 	</head>
 	<body>
 		<nav class="navigation">
@@ -35,7 +36,9 @@
 					</div>
 
 					<div class="button">
-						<button class="btn">Оставить заявку</button>
+						<button class="btn">
+							<a class="js-open-modal" data-modal="1" href="#">Оставить заявку</a>
+						</button>
 					</div>
 				</header>
 			</div>
@@ -50,18 +53,8 @@
 						<p>Поможем Вам выгодно привести клиентов для Вашего бизнеса</p>
 
 						<form class="form" action="" method="post">
-							<input
-								class="text"
-								type="text"
-								name="name"
-								placeholder="Ваше имя"
-							/>
-							<input
-								class="phone"
-								type="tel"
-								name="phone"
-								placeholder="Номер телефона"
-							/>
+							<input class="text" type="text" name="name" placeholder="Ваше имя"/>
+							<input	class="phone"	type="tel"	name="phone"	placeholder="Номер телефона"/>
 							<button class="form-btn">Оставить заявку</button>
 						</form>
 						<div class="checkbox">
@@ -388,23 +381,28 @@
 
 										<div class="project-text-title">
 											<div class="project-text-img">
-												<img src="images/strelka.png">
-												<p>с нуля подбор рекламной компании, площадок для размещения</p>
+												<img src="images/strelka.png" />
+												<p>
+													с нуля подбор рекламной компании, площадок для
+													размещения
+												</p>
 											</div>
 										</div>
 										<div class="project-text-title">
 											<div class="project-text-img">
-												<img src="images/strelka.png">
+												<img src="images/strelka.png" />
 												<p>разработка сайта для привлечения трафика</p>
 											</div>
 										</div>
 										<div class="project-text-title">
 											<div class="project-text-img">
-												<img src="images/strelka.png">
-												<p>консультации и поддержка по настройке рекламе после завершения работ</p>
+												<img src="images/strelka.png" />
+												<p>
+													консультации и поддержка по настройке рекламе после
+													завершения работ
+												</p>
 											</div>
 										</div>
-
 									</div>
 								</div>
 							</div>
@@ -412,7 +410,7 @@
 					</div>
 
 					<div class="project-right">
-												<div class="project-left-l">
+						<div class="project-left-l">
 							<img class="project-img" src="images/фото-2.png" alt="" />
 							<h2>Скупка техники в г. Пермь</h2>
 							<div class="project-text">
@@ -439,23 +437,28 @@
 
 										<div class="project-text-title">
 											<div class="project-text-img">
-												<img src="images/strelka.png">
-												<p>с нуля подбор рекламной компании, площадок для размещения</p>
+												<img src="images/strelka.png" />
+												<p>
+													с нуля подбор рекламной компании, площадок для
+													размещения
+												</p>
 											</div>
 										</div>
 										<div class="project-text-title">
 											<div class="project-text-img">
-												<img src="images/strelka.png">
+												<img src="images/strelka.png" />
 												<p>разработка сайта для привлечения трафика</p>
 											</div>
 										</div>
 										<div class="project-text-title">
 											<div class="project-text-img">
-												<img src="images/strelka.png">
-												<p>консультации и поддержка по настройке рекламе после завершения работ</p>
+												<img src="images/strelka.png" />
+												<p>
+													консультации и поддержка по настройке рекламе после
+													завершения работ
+												</p>
 											</div>
 										</div>
-
 									</div>
 								</div>
 							</div>
@@ -472,29 +475,40 @@
 					<div class="items-block-center">
 						<h1 class="items-blok">Одностраничный сайт</h1>
 						<p>Сайт-визитка/лендинг</p>
-						<img src="images/7681.png" alt="">
-						<p>Сайт подходит для презентации специалиста, компании или услуги</p>
+						<img src="images/7681.png" alt="" />
+						<p>
+							Сайт подходит для презентации специалиста, компании или услуги
+						</p>
 						<h3 class="items-blok">от 9 600 руб</h3>
 					</div>
 					<div class="items-block-center">
 						<h1 class="items-blok">Сайт-каталог услуг</h1>
-							<p>Сайт-визитка/лендинг</p>
-						<img src="images/7691.png" alt="">
-						<p>Если у Вас несколько услуг и Вы хотите описать каждую на отдельной странице</p>
+						<p>Сайт-визитка/лендинг</p>
+						<img src="images/7691.png" alt="" />
+						<p>
+							Если у Вас несколько услуг и Вы хотите описать каждую на отдельной
+							странице
+						</p>
 						<h3 class="items-blok">от 25 600 руб</h3>
 					</div>
 					<div class="items-block-center">
 						<h1 class="items-blok">Сайт-каталог товаров</h1>
 						<p>Сайт-визитка/лендинг</p>
-						<img src="images/77.png" alt="">
-						<p>Если у Вас сложные товары и перед покупкой Вам нужна консультация специалиста</p>
+						<img src="images/77.png" alt="" />
+						<p>
+							Если у Вас сложные товары и перед покупкой Вам нужна консультация
+							специалиста
+						</p>
 						<h3 class="items-blok">от 35 900 руб</h3>
 					</div>
 					<div class="items-block-center">
 						<h1 class="items-blok">Интернет-магазин</h1>
 						<p>Сайт-визитка/лендинг</p>
-						<img src="images/111.png" alt="">
-						<p>Подходит тем, кто хочет продавать товары онлайн (без звонка перед покупкой)</p>
+						<img src="images/111.png" alt="" />
+						<p>
+							Подходит тем, кто хочет продавать товары онлайн (без звонка перед
+							покупкой)
+						</p>
 						<h3 class="items-blok">от 56 900 руб</h3>
 					</div>
 				</div>
@@ -505,28 +519,373 @@
 			<div class="container">
 				<div class="form-block">
 					<div class="form-bloc-left">
-						<img src="images/str.png" alt="">
+						<img src="images/str.png" alt="" />
 					</div>
 					<div class="form-bloc-centr">
-						<h1>А хотите БЕСПЛАТНО?<br> Оставьте заявку и мы расскажем об этом подробнее</h1>
+						<h1>
+							А хотите БЕСПЛАТНО?<br />
+							Оставьте заявку и мы расскажем об этом подробнее
+						</h1>
 					</div>
 					<div class="form-bloc-riht">
-						<img src="images/34.png" alt="">
+						<img src="images/34.png" alt="" />
 					</div>
 				</div>
 				<form class="block-forma" action="" method="post">
-					<input type="text" name="name" placeholder="Ваше имя">
-					<input type="tel" name="phone" placeholder="Номер телефона">
+					<input type="text" name="name" placeholder="Ваше имя" />
+					<input type="tel" name="phone" placeholder="Номер телефона" />
 					<button class="forma-btn">Оставить заявку</button>
 				</form>
-						<div class="che-b">
-							<input class="check-b" type="checkbox" name="a" value="" checked />
-								<h5>
-								Отправляя заявку, Вы принимаете условия соглашения и обработки
-								<a href="#">персональных данных</a>
-							</h5>
-							</div>
+				<div class="che-b">
+					<input class="check-b" type="checkbox" name="a" value="" checked />
+					<h5>
+						Отправляя заявку, Вы принимаете условия соглашения и обработки
+						<a href="#">персональных данных</a>
+					</h5>
+				</div>
 			</div>
 		</section>
+		<section class="command">
+			<h1 class="command-h1">НАША КОМАНДА</h1>
+			<div class="container">
+				<div class="command-block">
+					<div class="command-left">
+						<p class="command-p">
+							Приветствуем Вас в нашей команде! У нас работают настоящие мастера
+							своего дела. Наши разработчики, дизайнеры, аналитики и менеджеры
+							проектов готовы взяться за вашу задачу. Мы ценим индивидуальный
+							подход к каждому клиенту и стремимся сделать ваш проект успешным.
+						</p>
+					</div>
+					<div class="command-right">
+						<div class="coomand-text">
+							<h3 class="command-h3">
+								Если Вы хотите поработать с конкретным специалистом, выбирайте
+								того, кто Вас вдохновляет и оставляйте заявку на его услуги
+							</h3>
+						</div>
+						<div class="command-img">
+							<img src="images/Vector14.png" alt="" />
+						</div>
+					</div>
+				</div>
+				<div class="items-block-command">
+					<div class="item-block-command">
+						<div class="block-command-left">
+							<div class="block-command-img">
+								<img src="images/1photo.png" alt="" />
+							</div>
+							<div class="block-command-title">
+								<h3>Ольга</h3>
+								<p>Веб-дизайнер</p>
+							</div>
+							<div class="block-command-icon">
+								<img src="images/photoshjp.png" alt="" />
+								<img src="images/figma.png" alt="" />
+								<img src="images/tilda1.png" alt="" />
+							</div>
+						</div>
+						<div class="bloc-command-i">
+							<img src="images/Rectangle77.png" alt="" />
+						</div>
+
+						<div class="block-command-right">
+							<div class="block-command-right-title">
+								<h3>Специализация</h3>
+								<p>Дизайн сайтов, цифровые баннеры, проработка UX</p>
+							</div>
+
+							<p>
+								Люблю совмещать удобство и красоту. Уже 1,5 года делаю это
+								профессионально, помогая бизнесу клиентов выделяться на рынке и
+								развиваться. Узнаю всё о Вашем бизнесе и создам дизайн, который
+								будет актуален именно в Вашей нише!
+							</p>
+
+							<button class="block-command-btn">Оставить заявку</button>
+						</div>
+					</div>
+					<div class="item-block-command">
+						<div class="block-command-left">
+							<div class="block-command-img">
+								<img src="images/photo2.png" alt="" />
+							</div>
+							<div class="block-command-title-a">
+								<h3>Александр</h3>
+								<p>Разработчик</p>
+							</div>
+							<div class="block-command-icon">
+								<img src="images/pngwing.png" alt="" />
+								<img src="images/pngwi.png" alt="" />
+								<img src="images/jq.png" alt="" />
+							</div>
+						</div>
+						<div class="bloc-command-i">
+							<img src="images/Rectangle77.png" alt="" />
+						</div>
+
+						<div class="block-command-right">
+							<div class="block-command-right-title">
+								<h3>Специализация</h3>
+								<p>Разработка сайтов, мобильных приложений, баз данных.</p>
+							</div>
+
+							<p>
+								Один из лучших специалистов в данной области, умею работать
+								качественно и в срок, выполняю любые задачи которые мне под
+								силу, берусь за проект если могу. Не откладываю на завтра то что
+								могу сделать сегодня! Сказал сделаю значит сделаю!
+							</p>
+
+							<button class="block-command-btn">Оставить заявку</button>
+						</div>
+					</div>
+					<div class="item-block-command">
+						<div class="block-command-left">
+							<div class="block-command-img">
+								<img class="img-m" src="images/misha.png" alt="" />
+							</div>
+							<div class="block-command-title-m">
+								<h3>Михаил</h3>
+								<p>Разработчик</p>
+							</div>
+							<div class="block-command-icon">
+								<img src="images/html.png" alt="" />
+								<img src="images/css.png" alt="" />
+								<img src="images/js.png" alt="" />
+							</div>
+						</div>
+						<div class="bloc-command-i">
+							<img src="images/Rectangle77.png" alt="" />
+						</div>
+
+						<div class="block-command-right">
+							<div class="block-command-right-title">
+								<h3>Специализация</h3>
+								<p>Разработка адаптивных сайтов, лендингов.</p>
+							</div>
+
+							<p>
+								Всем привет! Умею делать классные продающие сайты, чтоб
+								посмотрел на сайт и захотелось купить услугу или продукт, делаю
+								качественную верстку, добавляю свои фишки, иногда отклоняюсь от
+								дизайна так как вижу немного иначе сайт, и еще не разу не
+								ошибся.
+							</p>
+
+							<button class="block-command-btn">Оставить заявку</button>
+						</div>
+					</div>
+					<div class="item-block-command">
+						<div class="block-command-left">
+							<div class="block-command-img">
+								<img src="images/1photo.png" alt="" />
+							</div>
+							<div class="block-command-title-n">
+								<h3>Анастасия</h3>
+								<p>Маркетолог</p>
+							</div>
+							<div class="block-command-icon">
+								<img src="images/mail.png" alt="" />
+								<img src="images/yandex.png" alt="" />
+								<img src="images/tag.png" alt="" />
+							</div>
+						</div>
+						<div class="bloc-command-i">
+							<img src="images/Rectangle77.png" alt="" />
+						</div>
+
+						<div class="block-command-right">
+							<div class="block-command-right-title">
+								<h3>Специализация</h3>
+								<p>Реклама Яндекс директ, таргет-майл, таргет-вк,соц.сети</p>
+							</div>
+
+							<p>
+								Реклама это мое! Люблю настраивать рекламу, проводить анализ
+								ниши,стартапа или уже прибыльного бизнеса, подхожу с умом к
+								любому проекту, всегда держу клиента вкурсе его бюджетов, раз в
+								неделю провожу отчетность, в общем работаю по полной.
+							</p>
+
+							<button class="block-command-btn">Оставить заявку</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="block-otzov">
+			<h1 class="otzov-h1">ОТЗЫВЫ</h1>
+			<div class="container">
+				<div class="block-otzov-item">
+					<div class="block-otzov-items">
+						<div class="block-items-top">
+							<img src="images/otziv1.png" alt="" />
+							<div class="block-items-tite">
+								<h3>Услуга</h3>
+								<p>Рекламная кампания, одностраничный сайт</p>
+							</div>
+						</div>
+						<h1>Школа танцев Первый шаг</h1>
+
+						<h4>
+							Обратилась в компанию для продвижения моих услуг. Хорошая команда
+							профессионалов. Сайт получился не сложный, понятный любому
+							пользователю, удобный- всë как я хотела. Все шаги утверждались
+							мной, что тоже очень важно. Если что то не нравилось - быстро
+							исправляли. Классно, что сами настроили рекламу, быстро пошел
+							поток клиентов. Оперативно отвечают на вопросы, помогают, если
+							требуется. Спасибо!
+						</h4>
+
+						<button class="btn-video">
+							<img src="images/Polygon 3.png" alt="" />
+							<h5>Видеоотзыв</h5>
+						</button>
+					</div>
+					<div class="block-otzov-items">
+						<div class="block-items-top">
+							<img src="images/otziv1.png" alt="" />
+							<div class="block-items-tite">
+								<h3>Услуга</h3>
+								<p>Рекламная кампания, одностраничный сайт</p>
+							</div>
+						</div>
+						<h1>Школа танцев Первый шаг</h1>
+
+						<h4>
+							Обратилась в компанию для продвижения моих услуг. Хорошая команда
+							профессионалов. Сайт получился не сложный, понятный любому
+							пользователю, удобный- всë как я хотела. Все шаги утверждались
+							мной, что тоже очень важно. Если что то не нравилось - быстро
+							исправляли. Классно, что сами настроили рекламу, быстро пошел
+							поток клиентов. Оперативно отвечают на вопросы, помогают, если
+							требуется. Спасибо!
+						</h4>
+
+						<button class="btn-video">
+							<img src="images/Polygon 3.png" alt="" />
+							<h5>Видеоотзыв</h5>
+						</button>
+					</div>
+					<div class="block-otzov-items">
+						<div class="block-items-top">
+							<img src="images/otziv1.png" alt="" />
+							<div class="block-items-tite">
+								<h3>Услуга</h3>
+								<p>Рекламная кампания, одностраничный сайт</p>
+							</div>
+						</div>
+						<h1>Школа танцев Первый шаг</h1>
+
+						<h4>
+							Обратилась в компанию для продвижения моих услуг. Хорошая команда
+							профессионалов. Сайт получился не сложный, понятный любому
+							пользователю, удобный- всë как я хотела. Все шаги утверждались
+							мной, что тоже очень важно. Если что то не нравилось - быстро
+							исправляли. Классно, что сами настроили рекламу, быстро пошел
+							поток клиентов. Оперативно отвечают на вопросы, помогают, если
+							требуется. Спасибо!
+						</h4>
+
+						<button class="btn-video">
+							<img src="images/Polygon 3.png" alt="" />
+							<h5>Видеоотзыв</h5>
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="block-form-items">
+			<div class="continer">
+				<div class="block-form-item">
+					<div class="block-form-item-left">
+						<h1>Что мы можем Вам предложить?</h1>
+						<div class="block-form-title">
+							<img src="images/strelka-orange.png" alt="" />
+							<p>Быстро вникнем в специфику Вашего проекта</p>
+						</div>
+						<div class="block-form-title">
+							<img src="images/strelka-orange.png" alt="" />
+							<p>Продумаем работу по продвижению и поиску клиентов</p>
+						</div>
+						<div class="block-form-title">
+							<img src="images/strelka-orange.png" alt="" />
+							<p>Разработаем сайт для трафика</p>
+						</div>
+						<div class="block-form-title">
+							<img src="images/strelka-orange.png" alt="" />
+							<p>Запустим рекламную кампанию за свой бюджет</p>
+						</div>
+						<div class="block-form-title">
+							<img src="images/strelka-orange.png" alt="" />
+							<p>Получите горячих клиентов в короткие сроки</p>
+						</div>
+
+						<div class="block-form-socseti">
+							<img src="images/whatsapp1.png" alt="" />
+							<img src="images/telegran1.png" alt="" />
+						</div>
+					</div>
+					<div class="block-form-item-right">
+						<form class="form-block-1-1" action="" method="post">
+							<h1>Оставьте заявку на<br/>консультацию</h1>
+							<label class="form-name">
+								<input type="text" name="name" placeholder="Ваше имя" />
+							</label>
+							<label class="form-phone">
+								<input type="tel" name="phone" placeholder="Номер телефона" />
+							</label>
+							<button class="formbutton">Оставить заявку</button>
+							<div class="che-b">
+								<input class="check-b" type="checkbox" name="a" value="" checked/>
+								<h5>
+									Отправляя заявку, Вы принимаете условия соглашения и обработки
+									<a href="#">персональных данных</a>
+								</h5>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- модальное окно -->
+
+		<div class="modal" data-modal="1">
+			<form class="modal-form" action="" method="post">
+				<h1>Оставьте заявку на услугу или консультацию</h1>
+				<div class="modal-form-block">
+					<label class="modal-form-name">
+						<input type="text" name="name" placeholder="Ваше имя" />
+					</label>
+					<label class="modal-form-phone">
+						<input type="tel" name="phone" placeholder="Ваш номер" />
+					</label>
+				</div>
+
+				<button class="modal-form-btn">Оставить заявку</button>
+
+				<div class="checkbox-modal">
+					<input class="check" type="checkbox" name="a" value="" checked />
+					<h4>
+						Отправляя заявку, Вы принимаете условия соглашения и обработки
+						<a href="#">персональных данных</a>
+					</h4>
+				</div>
+			</form>
+		</div>
+		<!-- Подложка под модальным окном -->
+		<div class="overlay js-overlay-modal">
+			<div class="krestik">
+				<img src="images/krestik.png" alt="" />
+			</div>
+		</div>
+
+		<!-- конец модального окна -->
+
+		<script src="js/modal.js"></script>
 	</body>
 </html>
