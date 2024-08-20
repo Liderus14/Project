@@ -1191,6 +1191,10 @@ h4 a:hover {
 	margin-top: 30px;
 }
 
+.btn-video h5:hover{
+	color: #f37107;
+}
+
 .btn-video p {
 	font-size: 16px;
 	margin-top: 20px;
@@ -1474,4 +1478,84 @@ h4 a:hover {
 
 .footer-img p{
 	font-size: 20px;
+}
+
+
+
+
+.footer-logo{
+	margin-top: 50px;
+}
+
+.footer-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 50px;
+	gap: 150px;
+}
+
+.footer-contact{
+	margin-left: 170px;
+}
+
+.footer-contact h2{
+	margin-top: 100px;
+	color: #fff;
+}
+
+.footer-contact h3{
+	font-size: 20px;
+	color: #FBAD4E;
+}
+
+.form-h1{
+	max-width: 300px;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+}
+
+.form-class{
+	max-width: 300px;
+	display: block;
+	margin-top: 20px;
+}
+
+.name-for input{
+	width: 300px;
+	height: 52px;
+	border: solid 1px #D0D0D0;
+	border-radius: 12px;
+	background: transparent;
+	font-size: 20px;
+	padding: 10px;
+}
+.phone-for input{
+	width: 300px;
+	height: 52px;
+	border: solid 1px #D0D0D0;
+	border-radius: 12px;
+	margin-top: 15px;
+	background: transparent;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.button-for{
+	width: 320px;
+	height: 62px;
+	margin-top: 20px;
+	font-size: 20px;
+	padding: 20px;
+	border-radius: 12px;
+	align-items: center;
+	background-color: #F17B00;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.button-for:hover{
+	color: #000;
 }

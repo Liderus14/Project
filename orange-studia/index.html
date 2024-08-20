@@ -7,6 +7,8 @@
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/modal.css" />
 		<link rel="stylesheet" href="css/acordion.css" />
+		<link rel="stylesheet" href="css/video-modal.css" />
+		
 	</head>
 	<body>
 		<nav class="navigation">
@@ -38,9 +40,7 @@
 
 					<div class="button">
 						<button class="btn">
-							<a class="js-open-modal" data-modal="1" href="#"
-								>Оставить заявку</a
-							>
+							<a class="js-open-modal" data-modal="1" href="#">Оставить заявку</a>
 						</button>
 					</div>
 				</header>
@@ -754,7 +754,8 @@
 
 						<button class="btn-video">
 							<img src="images/Polygon 3.png" alt="" />
-							<h5>Видеоотзыв</h5>
+							<h5 data-modal-btn="my_modall">Видеоотзыв</h5>
+
 						</button>
 					</div>
 					<div class="block-otzov-items">
@@ -779,7 +780,7 @@
 
 						<button class="btn-video">
 							<img src="images/Polygon 3.png" alt="" />
-							<h5>Видеоотзыв</h5>
+							<h5 data-modal-btn="my_modall1">Видеоотзыв</h5>
 						</button>
 					</div>
 					<div class="block-otzov-items">
@@ -804,7 +805,7 @@
 
 						<button class="btn-video">
 							<img src="images/Polygon 3.png" alt="" />
-							<h5>Видеоотзыв</h5>
+							<h5 data-modal-btn="my_modall2">Видеоотзыв</h5>
 						</button>
 					</div>
 				</div>
@@ -999,12 +1000,13 @@
 							</label>
 							<button class="footer-btn">Оставить заявку</button>
 							<div class="footer-check">
-								<input type="checkbox" checked=""> 
-									<p>Отправляя заявку, вы принимаете условия соглашения и обработки персональных данных</p>
+								<input type="checkbox" checked="" />
+								<p>
+									Отправляя заявку, вы принимаете условия соглашения и обработки
+									персональных данных
+								</p>
 							</div>
-						
 						</form>
-						
 					</div>
 
 					<div class="footer-block-item-right">
@@ -1017,8 +1019,38 @@
 			</div>
 		</section>
 
-		<!-- модальное окно -->
+		<section class="footer">
+			<div class="container">
+				<div class="footer-container">
+					<div class="footer-logo">
+						<img src="images/logo.png" alt="" />
+					</div>
+					<div class="footer-contact">
+						<h2>Связь с нами</h2>
+						<h3>8 999 999 99 99</h3>
+						<h3>studio-orange@yandex.ru</h3>
+						<div class="soc-footer">
+							<img src="images/whatsapp.png" alt="" />
+							<img src="images/telegran.png" alt="" />
+						</div>
+					</div>
+					<div class="footer-form">
+						<h1 class="form-h1">Оставить заявку на консультацию или услугу</h1>
+						<form class="form-class" action="" method="post">
+							<label class="name-for">
+								<input type="text" name="name" placeholder="Ваше имя" />
+							</label>
+							<label class="phone-for">
+								<input type="tel" name="phone" placeholder="Номер телефона" />
+							</label>
+							<button class="button-for">Оставить заявку</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
 
+		<!-- модальное окно форма -->
 		<div class="modal" data-modal="1">
 			<form class="modal-form" action="" method="post">
 				<h1>Оставьте заявку на услугу или консультацию</h1>
@@ -1048,10 +1080,86 @@
 				<img src="images/krestik.png" alt="" />
 			</div>
 		</div>
-
 		<!-- конец модального окна -->
+
+		<!-- Первый отзыв -->
+
+<div data-modal-window="my_modall" class="modal-form-okno">
+	<div class="modal_content">
+		<div class="modal_inner">
+			<div class="modal_title">Отзыв первый "Скупка техники"</div>
+			<div class="close_modal_window">&times;</div>
+		</div>
+		<div class="modal_content-video">
+			
+      <iframe
+        width="720"
+        height="405"
+        src="https://rutube.ru/play/embed/66a556a034e1bf66cae8eb3bd9b0b023"
+        frameBorder="0"
+        allow="clipboard-write; autoplay"
+        webkitAllowFullScreen
+        mozallowfullscreen
+        allowFullScreen
+      ></iframe>
+    
+		</div>
+	</div>
+</div>
+<!-- Второй отзыв -->
+
+<div data-modal-window="my_modall1" class="modal-form-okno">
+	<div class="modal_content">
+		<div class="modal_inner">
+			<div class="modal_title">Отзыв второй "Студия Маникюра"</div>
+			<div class="close_modal_window">&times;</div>
+		</div>
+		<div class="modal_content-video">
+			
+      <iframe
+        width="720"
+        height="405"
+        src="https://rutube.ru/play/embed/66a556a034e1bf66cae8eb3bd9b0b023"
+        frameBorder="0"
+        allow="clipboard-write; autoplay"
+        webkitAllowFullScreen
+        mozallowfullscreen
+        allowFullScreen
+      ></iframe>
+    
+		</div>
+	</div>
+</div>
+<!-- третий отзыв -->
+
+<div data-modal-window="my_modall2" class="modal-form-okno">
+	<div class="modal_content">
+		<div class="modal_inner">
+			<div class="modal_title">Отзыв 3 "Ремонт компьютеров"</div>
+			<div class="close_modal_window">&times;</div>
+		</div>
+		<div class="modal_content-video">
+			
+      <iframe
+        width="720"
+        height="405"
+        src="https://rutube.ru/play/embed/66a556a034e1bf66cae8eb3bd9b0b023"
+        frameBorder="0"
+        allow="clipboard-write; autoplay"
+        webkitAllowFullScreen
+        mozallowfullscreen
+        allowFullScreen
+      ></iframe>
+    
+		</div>
+	</div>
+</div>
+
+<!-- конец модального окна видео -->
+
 
 		<script src="js/modal.js"></script>
 		<script src="js/acordion.js"></script>
+		<script src="js/video-modal.js"></script>
 	</body>
 </html>
