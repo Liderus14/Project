@@ -24,6 +24,10 @@ nav {
 	margin-top: 40px;
 }
 
+.menu a:hover{
+	color: yellow;
+}
+
 menu {
 	width: 1920px;
 }
@@ -33,6 +37,8 @@ menu {
 	color: #fff;
 	text-decoration: none;
 }
+
+
 
 ul {
 	list-style-type: none;
@@ -51,13 +57,12 @@ ul {
 
 
 .contacts {
-	width: 287px;
+	width: 300px;
 	height: 52px;
 	display: flex;
 	justify-content: center;
 	gap: 20px;
 	border-radius: 10px;
-	border: 1px solid rgb(228, 253, 84);
 	margin-top: 40px;
 }
 
@@ -74,15 +79,15 @@ ul {
 .header {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 150px;
 }
 
 .header-left {
 	margin-top: 60px;
-	margin-left: 120px;
+	margin-left: 30px;
 }
 
 .header-left h1 {
-	font-weight: 600;
 	font-size: 60px;
 }
 
@@ -90,11 +95,7 @@ ul {
 	color: #030999;
 }
 
-.header-right {
-	margin-left: -100px;
-}
-
-.btn {
+.btn{
 	width: 414px;
 	height: 88px;
 	background-color: #01021f;
@@ -195,7 +196,7 @@ ul {
 
 .item {
 	width: 350px;
-	height: 508px;
+	height: 450px;
 	border: solid 2px #5f5f5f;
 	border-radius: 18px;
 	padding: 18px;
@@ -209,7 +210,7 @@ ul {
 
 .item-p {
 	max-width: 463px;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .item-text {
@@ -217,10 +218,11 @@ ul {
 	border: solid 1px #cccccc;
 	padding: 10px;
 	border-radius: 18px;
+	font-size: 15px;
 }
 
 .items-h3 {
-	font-size: 24px;
+	font-size: 23px;
 	max-width: 320px;
 }
 
@@ -319,6 +321,10 @@ ul {
 .otzov-img img {
 	width: 120px;
 	height: 120px;
+	margin-left: 10px;
+}
+.otzov-text{
+	width: 480px;
 }
 
 .otzov-img {
@@ -359,7 +365,7 @@ ul {
 }
 
 .voprosnik-left {
-	margin-top: 140px;
+	margin-top: 10px;
 }
 
 .voprosnik-items span {
@@ -367,10 +373,13 @@ ul {
 }
 
 .voprosnik-right {
-	max-width: 400px;
 	display: block;
+	border: solid 2px #000000;
+	border-radius: 16px;
+	max-width: 440px;
+	height: 450px;
+	margin-top: 30px;
 }
-
 .voprosnik-right h1 {
 	font-size: 32px;
 }
@@ -399,18 +408,10 @@ input {
 	border: 1px solid #000000;
 	display: block;
 	margin-top: 10px;
+	margin-left: 15px;
 	padding: 5px;
 	font-size: 20px;
 	color: #000;
-}
-
-textarea {
-	width: 400px;
-	height: 202px;
-	margin-top: 15px;
-	border-radius: 12px;
-	padding: 5px;
-	font-size: 22px;
 }
 
 .form-btn {
@@ -418,6 +419,7 @@ textarea {
 	margin-top: 20px;
 	width: 410px;
 	height: 67px;
+	margin-left: 15px;
 	border-radius: 15px;
 	font-size: 24px;
 	color: #fff;
@@ -465,6 +467,157 @@ textarea {
 	font-size: 24px;
 }
 
+@media screen and (max-width:1440px) {
+	.header-left h1{
+		font-size: 60px;
+	}
+	.header-right{
+		margin-left: 40px;
+	}
+	.header-right img{
+		width: 700px;
+		margin-top: 90px;
+		margin-left: -90px;
+	}
+	.bloc{
+		margin-top: -90px;
+		gap: 20px;
+	}
+	.bloc-title{
+		width: 280px;
+	}
+	.about-h1{
+		font-size: 70px;
+		margin-top: 0px;
+	}
+	.about-items-left img{
+		width: 700px;
+		margin-left: 30px;
+	}
+	.about-items-right{
+		display: flex;
+		flex-direction: column;
+		width: 630px;
+		
+	}
+	.about-items{
+		display: flex;
+		justify-content: flex-start;
+		gap: 55px;
+	}
+	.items h1{
+		font-size: 70px;
+	}
+	.items-block{
+		display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+	}
+	.main-h1{
+		font-size: 70px;
+	}
+	.main-content{
+		display: flex;
+    justify-content: space-evenly;
+	}
+	.actions{
+		height: 150px;
+	}
+	.actions-h1{
+		font-size: 40px;
+	}
+	.blok-otzov-h1{
+		font-size: 70px;
+	}
+	.container-otzov{
+		margin-left: 35px;
+	}
+	.actions-voprosnik{
+		font-size: 70px;
+	}
+}
+@media screen and (max-width:1024px) {
+	.menu-item{
+		font-size: 19px;
+
+	}
+	.menu ul{
+		display: flex;
+		gap: 15px;
+	}
+	.contacts{
+		margin-top: 30px;
+	}
+	.header-left{
+		margin-left: 30px;
+		margin-top: 20px;
+	}
+	.header-left h1{
+		font-size: 50px;
+	}
+	.header-right img{
+		width: 550px;
+	}
+	.bloc-title{
+		width: 200px;
+		height: 120px;
+	}
+	.bloc-title p{
+		font-size: 19px;
+	}
+	.about-h1{
+		font-size: 60px;
+	}
+	.about-items-left img{
+		width: 550px;
+	}
+	.about-items-p{
+		font-size: 25px;
+	}
+	.about-p{
+		font-size: 16px;
+	}
+	.items h1{
+		font-size: 60px;
+	}
+	.main-content{
+		display: flex;
+		margin-left: 20px;
+	}
+	.main-h1{
+		font-size: 60px;
+	}
+	.main-text img{
+		width: 30px;
+		height: 30px;
+	}
+	.main-text p{
+		font-size: 20px;
+	}
+	.main-p{
+		font-size: 18px;
+	}
+	.actions-h1{
+		font-size: 35px;
+	}
+	.container-otzov{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+	}
+	.block-otzov-h1{
+		font-size: 60px;
+	}
+.actions-voprosnik h1{
+	font-size: 60px;
+}
+.voprosnik-right h1{
+	font-size: 40px;
+}
+}
+
 @media screen and (max-width:768px) {
 	.navigation {
 		width: 768px;
@@ -474,10 +627,6 @@ textarea {
 		width: 187px;
 		height: 52px;
 	}
-
-	/* .menu {
-		display: none;
-	} */
 
 	.menu-list {
 		display: grid;
@@ -588,20 +737,22 @@ textarea {
 	}
 
 	.header {
-		display: flex;
-		justify-content: center;
-		margin-left: -110px;
+		text-align: center;
+		margin-left: 50px;
 		margin-top: -60px;
 		margin-bottom: 50px;
 	}
-
+	.header-left{
+		margin-top: 30px;
+	}
 	.header-left h1 {
 		font-size: 40px;
 		margin-top: 40px;
+		text-align: left;
 	}
 
 	.header-right img {
-		width: 422px;
+		width: 350px;
 		height: 253px;
 		margin-top: 90px;
 	}
@@ -612,6 +763,7 @@ textarea {
 		grid-template-columns: repeat(2, 2fr);
 		gap: 28px;
 		margin-left: 40px;
+		margin-top: 0px;
 	}
 
 	.bloc-title {
@@ -622,9 +774,14 @@ textarea {
 	.about-items-left img {
 		width: 688px;
 	}
-
+	.about-h1{
+		font-size: 50px;
+		margin-top: 50px;
+	}
 	.about-p {
 		width: 688px;
+		font-size: 28px;
+		margin-top: -20px;
 	}
 
 	.about-items {
@@ -636,10 +793,7 @@ textarea {
 	.about-items-p {
 		margin-top: -10px;
 		text-align: center;
-	}
-
-	.about-p {
-		font-size: 32px;
+		font-size: 40px;
 	}
 
 	.items-block {
@@ -844,6 +998,10 @@ textarea {
 		align-items: flex-end;
 	}
 
+	.header-left h1{
+		margin-left: 40px;
+	}
+
 	.header-right img {
 		width: 360px;
 		margin-top: -20px;
@@ -853,7 +1011,7 @@ textarea {
 		display: grid;
 		grid-template-columns: repeat(2, 2fr);
 		width: 320px;
-		margin-left: 10px;
+		margin-left: 20px;
 	}
 
 	.bloc-title {
@@ -866,7 +1024,7 @@ textarea {
 	}
 
 	.about-items {
-		display: flex;
+
 		flex-direction: column;
 		align-items: center;
 	}
