@@ -1,3 +1,6 @@
+html{
+	scroll-behavior: smooth;
+}
 body {
 	margin: 0;
 	padding: 0;
@@ -467,6 +470,40 @@ input {
 	color: #fff;
 	font-size: 24px;
 }
+
+.btn-up {
+	position: fixed;
+	background-color: #030999;
+	right: 20px;
+	bottom: 20px;
+	border-radius: 12px;
+	cursor: pointer;
+	width: 55px;
+	height: 55px;
+}
+
+.btn-up::before {
+	content: "";
+	text-align: center;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 17px;
+	top: 17px;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cg fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 17V4M3 10l7-7 7 7'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+	.btn-up_hide {
+		display: none;
+	}
+
+	@media (hover: hover) and (pointer: fine) {
+		.btn-up:hover {
+			background-color: #512da8;
+		}
+	}
+
+
 
 @media screen and (max-width:1440px) {
 	.header-left h1{
@@ -1075,9 +1112,9 @@ input {
 }
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:376px) {
 	.navigation {
-		width: 360px;
+		width: 375px;
 	}
 
 	.logo img {
@@ -1090,7 +1127,7 @@ input {
 	}
 
 	.menu ul {
-		width: 360px;
+		width: 375px;
 	}
 
 	.burger-checkbox {
@@ -1194,10 +1231,8 @@ input {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-end;
-	}
-
-	.header-left h1{
-		margin-left: 40px;
+		text-align: center;
+		margin-left: 50px;
 	}
 
 	.header-right img {
@@ -1209,7 +1244,7 @@ input {
 		display: grid;
 		grid-template-columns: repeat(2, 2fr);
 		width: 320px;
-		margin-left: 20px;
+		margin-left: 25px;
 	}
 
 	.bloc-title {
@@ -1230,15 +1265,22 @@ input {
 	.about-h1 {
 		font-size: 28px;
 	}
-
+	.about-items-right {
+		width: 350px;
+		margin-left: 15px;
+}
 	.about-items-left img {
-		width: 320px;
+		width: 345px;
 	}
-
+	.about-items-p {
+		font-size: 20px;
+		margin-top: -20px;
+}
 	.about-p {
 		width: 330px;
-		font-size: 20px;
+		font-size: 15px;
 		margin-left: 20px;
+		margin-top: 10px;
 	}
 
 	.item {
@@ -1276,6 +1318,7 @@ input {
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 		align-items: center;
+		margin-left: 80px;
 	}
 
 	.otzov-img {
@@ -1305,15 +1348,22 @@ input {
 	}
 
 	.actions-voprosnik h2 {
-		font-size: 18px;
+		font-size: 15px;
 	}
-
+	.voprosnik-right {
+		display: block;
+		border: solid 2px #000000;
+		border-radius: 16px;
+		max-width: 350px;
+		height: 450px;
+		margin-top: 30px;
+}
 	.accordion__item {
 		width: 330px;
 	}
 
 	input {
-		width: 330px;
+		width: 290px;
 	}
 
 	textarea {
@@ -1321,7 +1371,7 @@ input {
 	}
 
 	.form-btn {
-		width: 330px;
+		width: 300px;
 	}
 
 	.form {
@@ -1330,20 +1380,123 @@ input {
 
 	.footer {
 		display: flex;
-		flex-direction: column;
 		padding: 0 20px;
+		height: 150px;
 	}
 
 	.footer-left p {
-		font-size: 18px;
+		font-size: 14px;
 	}
-
+	.footer-left img{
+		width: 120px;
+		height: 50px;
+	}
 	.footer-center-menu a {
-		font-size: 18px;
+		font-size: 14px;
 	}
 
 	.footer-right p {
 		font-size: 18px;
 	}
 
+}
+@media screen and (max-width: 320px) {
+	.navigation{
+		width: 320px;
+	}
+	.menu ul{
+		width: 320px;
+	}
+	.header-left{
+		margin-left: 20px;
+	}
+	.header-left a{
+		width: 190px;
+	}
+	.bloc-title {
+		width: 100px;
+		height: 100px;
+}
+.bloc {
+	display: grid;
+	grid-template-columns: repeat(2, 2fr);
+	width: 300px;
+	margin-left: 20px;
+	gap: 10px;
+}
+.img img{
+	width: 30px;
+	height: 30px;
+}
+.bloc-title p {
+	font-size: 15px;
+}
+.about-items-left img {
+	width: 300px;
+	margin-left: 10px;
+}
+.about-items-right {
+	width: 300px;
+}
+.about-p {
+	width: 300px;
+	font-size: 15px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.about-items-right a {
+	width: 200px;
+	margin-left: 15px;
+}
+.item {
+	width: 250px;
+	height: 350px;
+	margin-left: 1px;
+}
+.item-h3 {
+	font-size: 25px;
+	margin-top: 10px;
+}
+.items-h3 {
+	font-size: 17px;
+}
+.main-content{
+	margin-left: 20px;
+}
+.otzov-img {
+	display: flex;
+	width: 280px;
+	height: 270px;
+	margin-left: -60px;
+}
+.otzov-text{
+	font-size: 15px;
+}
+.accordion__item {
+	width: 290px;
+}
+.voprosnik-right {
+	display: block;
+	border: solid 2px #000000;
+	border-radius: 16px;
+	max-width: 300px;
+	height: 400px;
+	margin-top: 30px;
+}
+input {
+	width: 250px;
+	margin-left: 9px;
+}
+.form-btn {
+	width: 250px;
+	height: 60px;
+}
+.footer-left img {
+	width: 100px;
+	height: 50px;
+	margin-left: -30px;
+}
+.footer-left p {
+	font-size: 12px;
+}
 }

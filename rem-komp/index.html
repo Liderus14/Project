@@ -13,6 +13,7 @@
 </head>
 
 <body>
+	<div class="btn-up btn-up_hide"></div>
 	<nav class="navigation">
 		<div class="logo">
 			<img src="images/logo.png" alt="" />
@@ -22,13 +23,13 @@
 			<input type="checkbox" id="burger-checkbox" class="burger-checkbox">
 			<label for="burger-checkbox" class="burger"></label>
 			<ul class="menu-list">
-				<li><a href="#" class="menu-item">Главная</a>
+				<li><a href="#glavnay" class="menu-item">Главная</a>
 				<li>
-				<li><a href="#" class="menu-item">О нас</a>
+				<li><a href="#o-nas" class="menu-item">О нас</a>
 				<li>
-				<li><a href="#" class="menu-item">Наши услуги</a>
+				<li><a href="#uslugi" class="menu-item">Наши услуги</a>
 				<li>
-				<li><a href="#" class="menu-item">Отзывы</a>
+				<li><a href="#otzov" class="menu-item">Отзывы</a>
 				<li>
 			</ul>
 		</div>
@@ -37,7 +38,7 @@
 		</div>
 	</nav>
 <div class="container">
-	<section class="header">
+	<section class="header" id="glavnay">
 		<div class="header-left">
 			<h1>
 				РЕМОНТ КОМПЬЮТЕРОВ <span>БЫСТРО</span> И <span>КАЧЕСТВЕННО</span>
@@ -73,7 +74,7 @@
 	</section>
 
 	<section class="container">
-		<h1 class="about-h1">О нас</h1>
+		<h1 class="about-h1" id="o-nas">О нас</h1>
 		<div class="about-items">
 			<div class="about-items-left">
 				<img src="images/komand.png" alt="" />
@@ -92,7 +93,7 @@
 		</div>
 	</section>
 <div class="container">
-	<section class="items">
+	<section class="items" id="uslugi">
 		<h1>Наши услуги</h1>
 
 		<div class="items-block">
@@ -244,35 +245,37 @@
 		<h1 class="actions-h1">СКИДКА -10% ВЫЗОВИТЕ МАСТЕРА ПРЯМО СЕЙЧАС</h1>
 	</section>
 	<div class="container">
-	<section class="otzov">
+	<section class="otzov" id="otzov">
 		<h1 class="blok-otzov-h1">Наши отзывы</h1>
 		<div class="container-otzov">
 			<div class="otzov-img">
 				<img src="./images/img1.png" alt="">
 				<div class="otzov-text">
-					<p>Отдавал на ремонт сгоревший после скачка напряжения ноутбук, который вообще не включался. Реанимировали комп, провели замену видеочипа и чипа памяти видеокарты, переподключили сгоревший аудиовыход на наушники. <br />
+					<p>Отдавал на ремонт сгоревший после скачка напряжения ноутбук, который вообще не включался. 
+						Реанимировали комп, провели замену видеочипа и чипа памяти видеокарты, 
+						переподключили сгоревший аудиовыход на наушники. <br />
 					Очень отзывчивый сервис, адекватный, вежливый персонал, приятные цены.</p>
 				</div>
 			</div>
 			<div class="otzov-img">
 				<img src="./images/img2.png" alt="">
 				<div class="otzov-text">
-					<p>Лучший сервис! Лучшее обслуживание которое я видела. Пришла с проблемой, все рассказали, обьяснили и решили. <br />
-				  Если у вас произошло что то с ноутбуком, то советую вам прийти сюда!! <br />
+					<p>Лучший сервис! Лучшее обслуживание которое я видела. Обратилась с проблемой, все рассказали, обьяснили и решили. <br />
+				  Если у вас произошло что то с ноутбуком, то советую вам обратиться сюда!! <br />
 					Вам все обьяснят, подскажут и все испаравят.</p>
 				</div>
 			</div>
 			<div class="otzov-img">
 				<img src="./images/img3.png" alt="">
 				<div class="otzov-text">
-					<p>Постоянно приношу им свою технику, очень быстро и качественно делают. Диагностика занимает не больше 3х дней. <br />
-					Удобное расположение, найти кому то их не составляет проблем.
+					<p>Постоянно сдаю им свою технику, очень быстро и качественно делают. Диагностика занимает не больше 3х дней. <br />
+					Удобное обслуживание, приезжают сами и привозят технику обратно.
 				</div>
 			</div>
 			<div class="otzov-img">
 				<img src="./images/img4.png" alt="">
 				<div class="otzov-text">
-					<p>Систематически обслуживаю свой ноутбук в этом сц, делают быстро. Ремонтируют буквально за один день!<br />
+					<p>Систематически обслуживаю свой ноутбук у ребят, делают быстро. Ремонтируют буквально за один день!<br />
 					Топовый сервис - рекомендую.</p>
 				</div>
 			</div>
@@ -377,9 +380,9 @@
 		</div>
 		<div class="footer-center">
 			<div class="footer-center-menu">
-				<li><a href="#">О нас</a></li>
-				<li><a href="#">Наши услуги</a></li>
-				<li><a href="#">Отзывы</a></li>
+				<li><a href="#o-nas">О нас</a></li>
+				<li><a href="#uslugi">Наши услуги</a></li>
+				<li><a href="#otzov">Отзывы</a></li>
 			</div>
 		</div>
 	</section>
@@ -401,9 +404,43 @@
 			</div>
 		</form>
 	</div>
+	
+
 	<script src="js/acardeon.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/slider.js"></script>
+	
+	<script>const btnUp = {
+		el: document.querySelector('.btn-up'),
+		show() {
+			// удалим у кнопки класс btn-up_hide
+			this.el.classList.remove('btn-up_hide');
+		},
+		hide() {
+			// добавим к кнопке класс btn-up_hide
+			this.el.classList.add('btn-up_hide');
+		},
+		addEventListener() {
+			// при прокрутке содержимого страницы
+			window.addEventListener('scroll', () => {
+				// определяем величину прокрутки
+				const scrollY = window.scrollY || document.documentElement.scrollTop;
+				// если страница прокручена больше чем на 400px, то делаем кнопку видимой, иначе скрываем
+				scrollY > 400 ? this.show() : this.hide();
+			});
+			// при нажатии на кнопку .btn-up
+			document.querySelector('.btn-up').onclick = () => {
+				// переместим в начало страницы
+				window.scrollTo({
+					top: 0,
+					left: 0,
+					behavior: 'smooth'
+				});
+			}
+		}
+	}
+	btnUp.addEventListener();
+</script>
 </body>
 
 </html>

@@ -154,3 +154,77 @@
 	margin-top: 10px;
 }
 }
+@media screen and (max-width: 430px){
+	.popup {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background: #fff;
+		width: 310px;
+		padding: 25px;
+		border-radius: 24px;
+		height: 350px;
+	}
+	.popup .label_text {
+		font-size: 20px;
+		color: #000;
+		padding: 10px;
+		margin-left: 0px;
+	}
+	.checkbox p {
+		font-size: 17px;
+	}
+}
+@media screen and (max-width: 375px){
+	.popup {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background: #fff;
+		width: 280px;
+		padding: 25px;
+		border-radius: 24px;
+		height: 350px;
+	}
+	.popup .label_text {
+		font-size: 20px;
+		color: #000;
+		padding: 10px;
+		margin-left: 0px;
+	}
+	.checkbox p {
+		font-size: 17px;
+	}
+}
+@media screen and (max-width:320px) {
+	.open-popup {
+		width: 200px;
+		font-size: 20px;
+		margin-top: 10px;
+		margin-left: -5px;
+}
+
+.popup {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fff;
+	width: 250px;
+	padding: 25px;
+	border-radius: 24px;
+	height: 350px;
+}
+.popup .label_text {
+	font-size: 20px;
+	color: #000;
+	padding: 10px;
+	width: 200px;
+	height: 40px;
+}
+.checkbox p {
+	font-size: 15px;
+}
+}
