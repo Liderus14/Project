@@ -148,11 +148,9 @@
 }
 
 @media screen and (max-width: 768px) {
-	.open-popup {
-		height: 30px;
-		font-size: 20px;
-		border-radius: 16px;
-		text-align: center;
-		margin-left: 35px;
-	}
+.open-popup{
+	width: 240px;
+	font-size: 20px;
+	margin-top: 10px;
+}
 }
