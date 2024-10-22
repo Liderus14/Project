@@ -98,90 +98,10 @@ ul {
 	color: #030999;
 }
 
-
-.btn{
-	width: 290px;
-	height: 30px;
-	display: inline-block;
-	padding: 15px 30px;
-	text-transform: uppercase;
-	background: #030999;
-	color: #fff;
+.knopka a{
+	font-size: 22px;
+	color: #000;
 	text-decoration: none;
-	font-weight: 500;
-	border-radius: 10px;
-	font-size: 25px;
-	text-align: center;
-}
-.btn2{
-	width: 290px;
-	height: 30px;
-	display: inline-block;
-	padding: 15px 30px;
-	text-transform: uppercase;
-	background: #030999;
-	color: #fff;
-	text-decoration: none;
-	font-weight: 500;
-	border-radius: 10px;
-	font-size: 25px;
-	text-align: center;
-}
-.btn3{
-	width: 290px;
-	height: 30px;
-	display: inline-block;
-	padding: 15px 30px;
-	text-transform: uppercase;
-	background: #030999;
-	color: #fff;
-	text-decoration: none;
-	font-weight: 500;
-	border-radius: 10px;
-	font-size: 25px;
-	text-align: center;
-}
-.btn4{
-	width: 290px;
-	height: 30px;
-	display: inline-block;
-	padding: 15px 30px;
-	text-transform: uppercase;
-	background: #030999;
-	color: #fff;
-	text-decoration: none;
-	font-weight: 500;
-	border-radius: 10px;
-	font-size: 25px;
-	text-align: center;
-}
-.btn5{
-	width: 290px;
-	height: 30px;
-	display: inline-block;
-	padding: 15px 30px;
-	text-transform: uppercase;
-	background: #030999;
-	color: #fff;
-	text-decoration: none;
-	font-weight: 500;
-	border-radius: 10px;
-	font-size: 25px;
-	text-align: center;
-}
-.btn6{
-	width: 290px;
-	height: 30px;
-	display: inline-block;
-	padding: 15px 30px;
-	text-transform: uppercase;
-	background: #030999;
-	color: #fff;
-	text-decoration: none;
-	font-weight: 500;
-	border-radius: 10px;
-	font-size: 25px;
-	text-align: center;
 }
 
 .avatar-ot {
@@ -928,24 +848,7 @@ input {
 		grid-template-columns: repeat(2, 1fr);
 		gap: 5px;
 	}
-	.btn{
-		width: 240px;
-	}
-	.btn2{
-		width: 240px;
-	}
-	.btn3{
-		width: 240px;
-	}
-	.btn4{
-		width: 240px;
-	}
-	.btn5{
-		width: 240px;
-	}
-	.btn6{
-		width: 240px;
-	}
+	
 	.item {
 		width: 300px;
 		height: 350px;
@@ -1554,32 +1457,7 @@ input {
 .items-h3 {
 	font-size: 17px;
 }
-.btn{
-	width: 190px;
-	font-size: 20px;
-	margin-top: 10px;
-}
-.btn2{
-	width: 190px;
-	font-size: 20px;
-	margin-top: -10px;
-}
-.btn3{
-	width: 190px;
-	font-size: 20px;
-}
-.btn4{
-	width: 190px;
-	font-size: 20px;
-}
-.btn5{
-	width: 190px;
-	font-size: 20px;
-}
-.btn6{
-	width: 190px;
-	font-size: 20px;
-}
+
 .main-content{
 	margin-left: 20px;
 }
