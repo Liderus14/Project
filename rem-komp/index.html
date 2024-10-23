@@ -1,3 +1,8 @@
+<?php
+$cms = require_once $_SERVER['DOCUMENT_ROOT'] . '/init.php';
+$cms->landing( 381, 393 );
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -40,7 +45,7 @@
 	<section class="header" id="glavnay">
 		<div class="header-left">
 			<h1>
-				РЕМОНТ КОМПЬЮТЕРОВ <span>БЫСТРО</span> И <span>КАЧЕСТВЕННО</span>
+				РЕМОНТ КОМПЬЮТЕРОВ <span>С ВЫЕЗДОМ</span> НА <span>ДОМ</span>
 			</h1>
 			<a class="open-popup" class="btn" href="#">Оставить заявку</a>
 		</div>
@@ -366,8 +371,9 @@
 				</h2>
 				<form class="form" action="" method="post" >
 					<input type="text" name="name" placeholder="Ваше имя" />
-					<input type="email" name="email" placeholder="Ваш email" />
+					<input type="tel" name="phone" placeholder="Ваш номер" />
 					<button class="form-btn">Отправить</button>
+						<?=$cms->params();?> 
 				</form>
 			</div>
 		</div>
@@ -401,6 +407,7 @@
 				<input class="check" type="checkbox" checked />
 				<p>Cоглашаюсь с политикой <a href="#">конфенденциальности</a></p>
 			</div>
+				<?=$cms->params();?> 
 		</form>
 	</div>
 	<div class="btn-up btn-up_hide"></div>
@@ -440,6 +447,8 @@
 	}
 	btnUp.addEventListener();
 </script>
+
+<?php $cms->footer(); ?>
 </body>
 
 </html>
