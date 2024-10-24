@@ -69,3 +69,24 @@
   margin-right: 25px;
   padding: 10px 15px;
 }
+
+@media screen and (max-width: 360px) {
+	.faq-title {
+		max-width: 306px;
+		display: block;
+		cursor: pointer;
+		font-size: 14px;
+		color: #fff;
+		padding: 10px 15px;
+		position: relative;
+		transition: background .5s ease-out;
+	}
+	.faq-text {
+    display: none;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 10px 15px;
+}
+}
