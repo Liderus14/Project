@@ -2761,9 +2761,14 @@ h4 {
 }
 .project-text-right p {
 	margin-top: -10px;
-	margin-left: -60px;
+	margin-left: -87px;
 	color: #fbad4e;
-	font-size: 20px;
+	font-size: 15px;
+}
+.project-left-l h2 {
+	font-size: 19px;
+	color: #fff;
+	margin-left: 30px;
 }
 .project-left {
 	width: 340px;
