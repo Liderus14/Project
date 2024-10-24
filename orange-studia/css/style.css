@@ -3137,5 +3137,7 @@ h4 a:hover {
 	.footer-logo {
 		width: 100px;
 	}
-
+#footer-form{
+	display: none;
+}
 }
