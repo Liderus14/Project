@@ -2770,6 +2770,12 @@ h4 {
 	color: #fff;
 	margin-left: 30px;
 }
+.project-text-left p {
+	margin-top: -14px;
+	margin-left: 20px;
+	color: #fff;
+	font-size: 16px;
+}
 .project-left {
 	width: 340px;
 	height: 1000px;
