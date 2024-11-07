@@ -36,8 +36,11 @@ body {
 	color: #fff;
 	font-size: 14px;
 	cursor: pointer;
+	font-weight: bold;
 }
-
+.menu a:hover{
+	color: #f17b00;
+}
 .contact {
 	display: flex;
 	justify-content: center;
@@ -1279,7 +1282,7 @@ h4 a:hover {
 	margin-left: 60px;
 	border-radius: 12px;
 	border: solid 1px #000;
-	font-size: 16px;
+	font-size: 20px;
 	padding: 10px;
 }
 
@@ -1289,7 +1292,7 @@ h4 a:hover {
 	margin-left: 60px;
 	border-radius: 12px;
 	border: solid 1px #000;
-	font-size: 16px;
+	font-size: 20px;
 	padding: 10px;
 	margin-top: 16px;
 }
@@ -1348,6 +1351,9 @@ h4 a:hover {
 .footer-block-item-left {
 	margin-top: 250px;
 }
+.soc-footer{
+	text-decoration: none;
+}
 
 .footer-block-item-left h2 {
 	max-width: 362px;
@@ -1403,7 +1409,7 @@ h4 a:hover {
 	height: 52px;
 	border-radius: 12px;
 	border: solid 1px #000;
-	font-size: 16px;
+	font-size: 20px;
 	padding: 10px;
 	color: #000;
 	background: transparent;
@@ -1417,7 +1423,7 @@ h4 a:hover {
 	height: 52px;
 	border-radius: 12px;
 	border: solid 1px #000;
-	font-size: 16px;
+	font-size: 20px;
 	padding: 10px;
 	color: #000;
 	background: transparent;
@@ -1555,7 +1561,24 @@ h4 a:hover {
 .button-for:hover {
 	color: #000;
 }
-
+.footer-footer{
+	display: grid;
+	grid-template-columns: repeat(2, 2fr);
+	justify-items: center;
+	align-items: center;
+}
+.footer-footer-r a{
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+}
+.footer-footer-r a:hover{
+	color: #f17b00;
+}
+.footer-footer-c{
+	color: #fff;
+	font-size: 20px;
+}
 @media screen and (max-width: 1280px) {
 	.container {
 		width: 1240px;
