@@ -1,0 +1,287 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	background-color: black;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.nav {
+	width: 100%;
+	height: 800px;
+	background-image: url(../image/header.jpg);
+	background-repeat: no-repeat;
+}
+
+.logo h1 {
+	max-width: 750px;
+	font-size: 85px;
+	font-weight: bold;
+	margin-left: 180px;
+	margin-top: 120px;
+}
+
+.logo h2 {
+	max-width: 650px;
+	margin-left: 180px;
+	margin-top: -50px;
+}
+
+.button-right {
+	margin-top: 50px;
+	margin-left: 200px;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navigation-btn {
+	margin-left: 250px;
+}
+
+.img-right img {
+	width: 450px;
+	margin-right: 250px;
+	margin-top: 100px;
+}
+
+.btn {
+	width: 350px;
+	height: 80px;
+	background-color: #cda379;
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btn:hover {
+	color: #000;
+}
+
+.header-btn {
+	width: 300px;
+	height: 60px;
+	margin-top: 40px;
+	border: none;
+	margin-right: 50px;
+	color: #fff;
+	background-color: #cda379;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+.header-btn:hover {
+	color: #000;
+}
+
+.header-btn a {
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+.header-btn a:hover {
+	color: #000;
+}
+
+.items-pool {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: -140px;
+}
+
+.items {
+	background-color: #000;
+	width: 300px;
+	height: 100px;
+	border: 2px solid #fff;
+	border-radius: 15px;
+	padding: 10px;
+	margin-left: 10px;
+}
+
+.items h2 {
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+}
+
+.items p {
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	margin-top: -20px;
+}
+
+.items:hover {
+	box-shadow: 16px 10px 64px rgba(61, 105, 136, 4.5);
+}
+
+.gallery h1 {
+	font-size: 54px;
+	text-align: center;
+	color: #fff;
+	margin-top: 100px;
+}
+
+.gallery-photo {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	margin-bottom: 150px;
+}
+
+.gallery-photo-item img {
+	width: 450px;
+	height: 550px;
+	border-radius: 10px;
+}
+
+.gallery-photo-item img:hover {
+	box-shadow: #fff 0px 0px 0px 4px;
+}
+
+.footer h3 {
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+}
+
+.footer h4 {
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	margin-top: -10px;
+}
+
+.footer a {
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	margin-bottom: 50px;
+	margin-top: -10px;
+}
+
+/* Стили для модального окна */
+
+.popup {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.8s ease 0s;
+}
+
+.popup:target {
+	opacity: 1;
+	visibility: visible;
+}
+
+.popup:target .popup__content {
+	transform: translate(0px, 0px);
+	opacity: 1;
+}
+
+.popup__body {
+	margin: 0 auto;
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 10px;
+	max-width: 450px;
+}
+
+.popup__content {
+	background-color: #fff;
+	border-radius: 10px;
+	color: #000;
+	padding: 30px;
+	position: relative;
+	transition: all 0.8s ease 0s;
+	opacity: 0;
+	transform: translate(0px, -100%);
+}
+
+.popup__close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	text-decoration: none;
+}
+
+.popup__title{
+	text-align: center;
+	font-size: 24px;
+}
+
+/* Конец модульного окна */
+
+/* Начало стилей для формы */
+
+.form{
+	display: block;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.name{
+	width: 350px;
+	margin-left: 20px;
+	height: 60px;
+	font-size: 24px;
+	padding: 10px 30px;
+	border-radius: 5px;
+}
+
+.phone{
+	width: 350px;
+	margin-left: 20px;
+	height: 60px;
+	font-size: 24px;
+	padding: 10px 30px;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.button__form{
+	margin-left: 50px;
+	width: 350px;
+	height: 60px;
+	margin-top: 30px;
+	font-size: 24px;
+	background-color: #cda379;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.button__form:hover{
+	color: #000
+}
+
+.check{
+	margin-top: 20px;
+	margin-left: 60px ;
+}
