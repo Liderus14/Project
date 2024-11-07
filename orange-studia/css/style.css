@@ -299,8 +299,8 @@ h4 a:hover {
 .wrapper-button {
 	width: 195px;
 	height: 52px;
-	border: 1px solid #f17b00;
-	background-color: black;
+	border: 1px solid #f17b00 !important;
+	background-color: black !important;
 	color: #fff;
 	border-radius: 12px;
 	font-size: 16px;
@@ -309,7 +309,7 @@ h4 a:hover {
 }
 
 .wrapper-button:hover {
-	color: orangered;
+	color: orangered !important;
 }
 
 .content-text {
@@ -697,7 +697,7 @@ h4 a:hover {
 	margin-left: 70px;
 }
 
-.work-buttons {
+.work-button {
 	width: 226px;
 	height: 57px;
 	background-color: #f17b00;
@@ -1059,22 +1059,22 @@ h4 a:hover {
 }
 
 .block-command-btn {
-	width: 400px;
-	height: 80px;
-	display: block;
-	justify-content: center;
-	align-items: center;
-	margin-top: 70px;
-	background-color: #f17b00;
-	font-size: 26px;
-	color: #fff;
-	border: none;
-	border-radius: 20px;
-	font-weight: bold;
+	width: 400px !important;
+	height: 80px !important;
+	display: block !important;
+	justify-content: center !important;
+	align-items: center !important;
+	margin-top: 70px !important;
+	background-color: #f17b00 !important;
+	font-size: 26px !important;
+	color: #fff !important;
+	border: none !important;
+	border-radius: 20px !important;
+	font-weight: bold !important;
 }
 .block-command-btn:hover {
-	color: #000;
-	font-weight: bold;
+	color: #000 !important;
+	font-weight: bold !important;
 }
 
 .block-command-title-a h3 {
@@ -1673,18 +1673,18 @@ h4 a:hover {
 		font-size: 16px;
 	}
 	.block-command-btn {
-		width: 300px;
-		height: 60px;
-		display: block;
-		justify-content: center;
-		align-items: center;
-		margin-top: 70px;
-		background-color: #f17b00;
-		font-size: 26px;
-		color: #fff;
-		border: none;
-		border-radius: 20px;
-		font-weight: bold;
+		width: 300px !important;
+		height: 60px !important;
+		display: block !important;
+		justify-content: center !important;
+		align-items: center !important;
+		margin-top: 70px !important;
+		background-color: #f17b00 !important;
+		font-size: 26px !important;
+		color: #fff !important;
+		border: none !important;
+		border-radius: 20px !important;
+		font-weight: bold !important;
 	}
 	.otzov-h1 {
 		display: flex;
@@ -2246,7 +2246,7 @@ h4 a:hover {
 	}
 	.block-otzov-items {
 		width: 350px;
-		height: 591px;
+		height: 540px;
 		border: solid 2px #fbad4e;
 		border-radius: 16px;
 	}
@@ -2517,7 +2517,7 @@ h4 a:hover {
 	}
 	.header-content-right img {
 		margin-top: 235px;
-		margin-left: -266px;
+		margin-left: -269px;
 		width: 278px;
 		height: 299px;
 	}
@@ -2946,17 +2946,17 @@ h4 a:hover {
 		margin-top: 1px;
 	}
 	.block-command-btn {
-		width: 250px;
-		height: 47px;
-		align-items: center;
-		margin-top: 45px;
-		background-color: #f17b00;
-		font-size: 20px;
-		color: #fff;
-		border: none;
-		border-radius: 10px;
-		font-weight: bold;
-		margin-left: -132px;
+		width: 250px !important;
+		height: 47px !important;
+		align-items: center !important;
+		margin-top: 45px !important;
+		background-color: #f17b00 !important;
+		font-size: 20px !important;
+		color: #fff !important;
+		border: none !important;
+		border-radius: 10px !important;
+		font-weight: bold !important;
+		margin-left: -132px !important;
 	}
 	.block-command-title-a h3 {
 		color: #fff;
@@ -3016,7 +3016,7 @@ h4 a:hover {
 	}
 	.block-otzov-items {
 		width: 320px;
-		height: 620px;
+		height: 540px;
 		border: solid 2px #fbad4e;
 		border-radius: 16px;
 	}
@@ -3064,6 +3064,9 @@ h4 a:hover {
 		background-color: #ffffff;
 		border-radius: 12px;
 		margin-top: 40px;
+	}
+	.footer-block-item-center {
+		width: 360px;
 	}
 	.footer-block-item-center h1 {
 		max-width: 318px;
@@ -3137,7 +3140,45 @@ h4 a:hover {
 	.footer-logo {
 		width: 100px;
 	}
-#footer-form{
-	display: none;
-}
+
+	.label-name input {
+		display: block;
+		width: 300px;
+		height: 35px;
+		border-radius: 12px;
+		border: solid 1px #000;
+		font-size: 16px;
+		padding: 10px;
+		color: #000;
+		background: transparent;
+		margin-left: 20px;
+	}
+
+	.label-phone input {
+		display: block;
+		width: 300px;
+		height: 35px;
+		border-radius: 12px;
+		border: solid 1px #000;
+		font-size: 16px;
+		padding: 10px;
+		color: #000;
+		background: transparent;
+		margin-left: 20px;
+	}
+	.footer-btn {
+		width: 325px;
+		height: 62px;
+		margin-top: 20px;
+		background-color: #f17b00;
+		font-size: 24px;
+		color: #fff;
+		border-radius: 12px;
+		border: none;
+		cursor: pointer;
+		margin-left: 20px;
+	}
+	#footer-form {
+		display: none;
+	}
 }
