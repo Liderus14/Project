@@ -368,6 +368,7 @@ body {
 	.gallery-photo {
 		display: grid;
 		grid-template-columns: repeat(2, 2fr);
+		justify-items: start;
 		gap: 10px;
 		margin-bottom: 150px;
 		margin-left: 40px;
