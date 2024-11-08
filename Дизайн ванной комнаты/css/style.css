@@ -620,6 +620,7 @@ body {
 	.gallery-photo {
 		display: grid;
 		grid-template-columns: repeat(1, 2fr);
+		justify-items: center;
 		gap: 10px;
 		margin-bottom: 60px;
 		margin-left: 0px;
@@ -637,13 +638,13 @@ body {
 	}
 	.footer h3 {
     text-align: center;
-    font-size: 17px;
+    font-size: 15px;
     color: #fff;
 }
 .footer h4 {
     text-align: center;
     color: #fff;
-    font-size: 15px;
+    font-size: 13px;
     margin-top: -10px;
 }
 .footer a {
