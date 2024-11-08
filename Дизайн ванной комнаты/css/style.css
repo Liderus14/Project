@@ -237,6 +237,71 @@ body {
 
 /* Конец модульного окна */
 
+/* Стили для модального окна политики*/
+
+.politika {
+	position: absolute;
+	width: 100%;
+	background-color: rgba(114, 114, 114, 0.8);
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.8s ease 0s;
+
+}
+
+.politika:target {
+	opacity: 1;
+	visibility: visible;
+}
+
+.politika:target .politika__content {
+	transform: translate(0px, 0px);
+	opacity: 1;
+}
+
+.politika__body {
+	margin: 0 auto;
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 10px;
+	max-width: 1000px;
+}
+.politika__text{
+	font-size: 15px;
+}
+.soglashenie-text{
+	text-align: center;
+	margin-top: 10px;
+}
+.politika__content {
+	background-color: #fff;
+	border-radius: 10px;
+	color: #000;
+	padding: 30px;
+	position: relative;
+	transition: all 0.8s ease 0s;
+	opacity: 0;
+	transform: translate(0px, -100%);
+}
+
+.politika__close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	text-decoration: none;
+}
+
+.politika__title {
+	text-align: center;
+	font-size: 24px;
+}
+
+/* Конец модульного окна политики*/
+
 /* Начало стилей для формы */
 
 .form {
@@ -288,6 +353,10 @@ body {
 .check-p{
 	margin-top: -20px;
 	margin-left: 80px;
+}
+.check-p a{
+	text-decoration: none;
+	color: #000;
 }
 @media screen and (max-width: 1440px) {
 	.logo h1 {
