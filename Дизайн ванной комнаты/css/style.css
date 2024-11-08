@@ -621,7 +621,7 @@ body {
 		grid-template-columns: repeat(1, 2fr);
 		gap: 10px;
 		margin-bottom: 60px;
-		margin-left: 15px;
+		margin-left: 0px;
 	}
 	.gallery h1 {
 		font-size: 30px;
