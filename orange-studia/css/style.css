@@ -1527,6 +1527,7 @@ h4 a:hover {
 .name-for input {
 	width: 300px;
 	height: 52px;
+	color: #fff;
 	border: solid 1px #d0d0d0;
 	border-radius: 12px;
 	background: transparent;
@@ -1536,6 +1537,7 @@ h4 a:hover {
 .phone-for input {
 	width: 300px;
 	height: 52px;
+	color: #fff;
 	border: solid 1px #d0d0d0;
 	border-radius: 12px;
 	margin-top: 15px;
