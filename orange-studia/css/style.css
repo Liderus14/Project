@@ -90,8 +90,12 @@ body {
 	color: #fff;
 	font-weight: bold;
 }
+.btn a{
+	color: #fff;
+	text-decoration: none;
+}
 
-.btn:hover {
+.btn a:hover {
 	color: black;
 }
 
@@ -129,28 +133,10 @@ span {
 	color: #f17b00;
 }
 
-.text {
-	width: 180px;
-	height: 32px;
-	padding: 10px;
-	background-color: black;
-	border-radius: 10px;
-	border: solid 1px #fff;
-	color: #fff;
-	font-weight: bold;
-	font-size: 16px;
-}
-.phone {
-	width: 180px;
-	height: 32px;
-	padding: 10px;
-	background-color: black;
-	border-radius: 10px;
-	border: solid 1px #fff;
-	color: #fff;
-	font-weight: bold;
-	font-size: 16px;
-	margin-left: 10px;
+.form {
+	display: block;
+	margin: 0 auto;
+	margin-top: 40px;
 }
 
 .form-btn {
@@ -165,10 +151,40 @@ span {
 	border: none;
 	cursor: pointer;
 }
-
-.form-btn:hover {
-	color: black;
+.name {
+	width: 350px;
+	margin-left: 10px;
+	height: 60px;
+	font-size: 24px;
+	padding: 10px 30px;
+	border-radius: 5px;
 }
+
+.tel {
+	width: 350px;
+	margin-left: 10px;
+	height: 60px;
+	font-size: 24px;
+	padding: 10px 30px;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+.button__form {
+	margin-left: 50px;
+	width: 350px;
+	height: 60px;
+	margin-top: 30px;
+	font-size: 24px;
+	background-color: #f17b00;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.button__form:hover {
+	color: #000;
+}
+
 
 h4 {
 	max-width: 395px;
@@ -185,12 +201,13 @@ h4 a:hover {
 	color: orangered;
 }
 
-.checkbox {
+
+.checkbox1 {
 	display: flex;
 	gap: 20px;
 }
 
-.check {
+.check1 {
 	width: 25px;
 }
 
@@ -302,17 +319,20 @@ h4 a:hover {
 .wrapper-button {
 	width: 195px;
 	height: 52px;
-	border: 1px solid #f17b00 !important;
-	background-color: black !important;
+	border: 1px solid #f17b00;
+	background-color: black;
 	color: #fff;
 	border-radius: 12px;
 	font-size: 16px;
 	font-weight: bold;
 	cursor: pointer;
 }
-
-.wrapper-button:hover {
-	color: orangered !important;
+.wrapper-button a{
+	color: #fff;
+	text-decoration: none;
+}
+.wrapper-button a:hover {
+	color: orangered;
 }
 
 .content-text {
@@ -718,8 +738,11 @@ h4 a:hover {
 	align-items: center;
 	cursor: pointer;
 }
-
-.work-btn:hover {
+.work-btn a{
+	color: #fff;
+	text-decoration: none;
+}
+.work-btn a:hover {
 	color: #000;
 }
 
@@ -1062,21 +1085,26 @@ h4 a:hover {
 }
 
 .block-command-btn {
-	width: 400px !important;
-	height: 80px !important;
-	display: block !important;
-	justify-content: center !important;
-	align-items: center !important;
-	margin-top: 70px !important;
-	background-color: #f17b00 !important;
-	font-size: 26px !important;
-	color: #fff !important;
-	border: none !important;
-	border-radius: 20px !important;
-	font-weight: bold !important;
+	width: 400px;
+	height: 80px;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	margin-top: 70px;
+	background-color: #f17b00;
+	font-size: 26px;
+	color: #fff;
+	border: none;
+	border-radius: 20px;
+	font-weight: bold;
 }
-.block-command-btn:hover {
-	color: #000 !important;
+.block-command-btn a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.block-command-btn a:hover {
+	color: #000;
 	font-weight: bold !important;
 }
 
@@ -1152,7 +1180,17 @@ h4 a:hover {
 	margin-left: 650px;
 	border-radius: 8px;
 }
-
+.podrobno{
+	margin-left: 20px;
+}
+.podrobno a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+.podrobno a:hover{
+	color: #f17b00;
+}
 .block-items-top p {
 	color: #fff;
 	font-size: 16px;
@@ -1456,7 +1494,13 @@ h4 a:hover {
 	display: flex;
 	gap: 20px;
 }
-
+.footer-check a{
+	color: #000;
+	text-decoration: none;
+}
+.footer-check a:hover{
+	color: #fff;
+}
 .footer-check input {
 	width: 20px;
 }
@@ -1581,6 +1625,175 @@ h4 a:hover {
 	color: #fff;
 	font-size: 20px;
 }
+
+/* Стили для модального окна политики*/
+
+.politika {
+	position: absolute;
+	width: 100%;
+	background-color: rgba(114, 114, 114, 0.8);
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.8s ease 0s;
+
+}
+
+.politika:target {
+	opacity: 1;
+	visibility: visible;
+}
+
+.politika:target .politika__content {
+	transform: translate(0px, 0px);
+	opacity: 1;
+}
+
+.politika__body {
+	margin: 0 auto;
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 10px;
+	max-width: 1000px;
+}
+.politika__text{
+	font-size: 15px;
+}
+.soglashenie-text{
+	text-align: center;
+	margin-top: 10px;
+}
+.politika__content {
+	background-color: #fff;
+	border-radius: 10px;
+	color: #000;
+	padding: 30px;
+	position: relative;
+	transition: all 0.8s ease 0s;
+	opacity: 0;
+	transform: translate(0px, -100%);
+}
+
+.politika__close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	text-decoration: none;
+}
+
+.politika__title {
+	text-align: center;
+	font-size: 24px;
+}
+
+/* Конец модульного окна политики*/
+
+/* Стили для модального окна */
+
+.popup {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.8s ease 0s;
+}
+
+.popup:target {
+	opacity: 1;
+	visibility: visible;
+}
+
+.popup:target .popup__content {
+	transform: translate(0px, 0px);
+	opacity: 1;
+}
+
+.popup__body {
+	margin: 0 auto;
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 10px;
+	max-width: 450px;
+}
+
+.popup__content {
+	background-color: #070707;
+	border-radius: 10px;
+	color: #000;
+	padding: 30px;
+	position: relative;
+	transition: all 0.8s ease 0s;
+	opacity: 0;
+	transform: translate(0px, -100%);
+	border: 2px solid #f37107;
+}
+
+.popup__close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	text-decoration: none;
+	color: #f17b00;
+}
+
+.popup__title {
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+}
+.check {
+	margin-top: 20px;
+	margin-left: 60px;
+}
+.check-p{
+	color: #d0d0d0;
+	margin-top: -19px;
+	margin-left: 87px;
+}
+.check-p a{
+	color: #d0d0d0;
+	text-decoration: none;
+}
+.check-p a:hover{
+	color: #f17b00;
+	text-decoration: none;
+}
+.text {
+    width: 180px;
+    height: 32px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    border: solid 1px #fff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+.phone {
+    width: 180px;
+    height: 32px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    border: solid 1px #fff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+		margin-left: 10px;
+}
+/* Конец модульного окна */
+
+
+
 @media screen and (max-width: 1280px) {
 	.container {
 		width: 1240px;
@@ -2424,8 +2637,14 @@ h4 a:hover {
 		color: #fff;
 		font-size: 20px;
 		text-align: center;
-		margin-left: -60px;
+		margin-left: -120px;
 	}
+	.form-class {
+    max-width: 300px;
+    display: block;
+    margin-top: 30px;
+    margin-left: -65px;
+}
 	.name-for input {
 		width: 250px;
 		height: 35px;
@@ -3041,7 +3260,7 @@ h4 a:hover {
 	}
 	.block-otzov-items {
 		width: 320px;
-		height: 540px;
+		height: 620px;
 		border: solid 2px #fbad4e;
 		border-radius: 16px;
 	}
@@ -3205,5 +3424,84 @@ h4 a:hover {
 	}
 	#footer-form {
 		display: none;
+	}
+	.footer-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+	.footer-footer-r a {
+    color: #fff;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+  .footer-footer-c {
+    color: #fff;
+    font-size: 10px;
+	}
+	.politika__body {
+    margin: 0 auto;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+    max-width: 1000px;
+    margin-top: 50px;
+}
+.popup__content {
+		background-color: #000;
+		border-radius: 10px;
+		color: #fff;
+		padding: 30px;
+		position: relative;
+		transition: all 0.8s ease 0s;
+		opacity: 0;
+		transform: translate(0px, -100%);
+		width: 240px;
+	}
+	.popup__title {
+		text-align: center;
+		font-size: 20px;
+	}
+	.name {
+		width: 200px;
+		margin-left: -12px;
+		height: 30px;
+		font-size: 20px;
+		padding: 10px 30px;
+		border-radius: 5px;
+	}
+	.tel {
+		width: 200px;
+		margin-left: -12px;
+		height: 30px;
+		font-size: 20px;
+		padding: 10px 30px;
+		border-radius: 5px;
+	}
+	.check {
+		margin-top: 20px;
+		margin-left: -5px;
+	}
+	.check-p {
+		font-size: 11px;
+		margin-top: -15px;
+		margin-left: 15px;
+	}
+	.button__form {
+		margin-left: -4px;
+		width: 250px;
+		height: 50px;
+		margin-top: 10px;
+		font-size: 20px;
+		background-color: #cda379;
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		font-weight: bold;
 	}
 }
