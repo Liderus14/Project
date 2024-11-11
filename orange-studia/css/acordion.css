@@ -69,6 +69,13 @@
   margin-right: 25px;
   padding: 10px 15px;
 }
+@media screen and (max-width: 1440px) {
+  .faq{
+  max-width: 1380px;
+  margin:  20px auto;
+}
+}
+
 
 @media screen and (max-width: 360px) {
 	.faq-title {
