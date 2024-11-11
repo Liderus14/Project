@@ -75,6 +75,12 @@
   margin:  20px auto;
 }
 }
+@media screen and (max-width: 1024px) {
+  .faq{
+  max-width: 980px;
+  margin:  20px auto;
+}
+}
 
 
 @media screen and (max-width: 360px) {
