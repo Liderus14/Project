@@ -83,18 +83,18 @@
 								class="text"
 								type="text"
 								name="name"
-								placeholder="Ваше имя"
+								placeholder="Ваше имя" required
 							/>
 							<input
 								class="phone"
 								type="tel"
 								name="phone"
-								placeholder="Номер телефона"
+								placeholder="Номер телефона" required
 							/>
 							<button class="form-btn">Оставить заявку</button>
 						</form>
 						<div class="checkbox1">
-							<input class="check1" type="checkbox" name="a" value="" checked />
+							<input class="check1" type="checkbox" name="a" value="" checked required/>
 							<h4>
 								Отправляя заявку, Вы принимаете условия соглашения и обработки
 								<a href="#politika">персональных данных</a>
@@ -583,12 +583,12 @@
 					</div>
 				</div>
 				<form class="block-forma" action="" method="post">
-					<input type="text" name="name" placeholder="Ваше имя" />
-					<input type="tel" name="phone" placeholder="Номер телефона" />
+					<input type="text" name="name" placeholder="Ваше имя" required/>
+					<input type="tel" name="phone" placeholder="Номер телефона" required/>
 					<button class="forma-btn">Оставить заявку</button>
 				</form>
 				<div class="che-b">
-					<input class="check-b" type="checkbox" name="a" value="" checked />
+					<input class="check-b" type="checkbox" name="a" value="" checked required/>
 					<h5>
 						Отправляя заявку, Вы принимаете условия соглашения и обработки
 						<a href="#politika">персональных данных</a>
@@ -627,7 +627,7 @@
 								<img src="images/photo3.png" alt="" />
 							</div>
 							<div class="block-command-title">
-								<h3>Ольга</h3>
+								<h3>Татьяна</h3>
 								<p>Веб-дизайнер</p>
 							</div>
 							<div class="block-command-icon">
@@ -646,7 +646,7 @@
 								<p>Дизайн сайтов, цифровые баннеры, проработка UX</p>
 							</div>
 
-							<p>
+							<p class="block-p">
 								Люблю совмещать удобство и красоту. Уже 1,5 года делаю это
 								профессионально, помогая бизнесу клиентов выделяться на рынке и
 								развиваться. Узнаю всё о Вашем бизнесе и создам дизайн, который
@@ -666,7 +666,7 @@
 								<img src="images/photo2.png" alt="" />
 							</div>
 							<div class="block-command-title-a">
-								<h3>Александр</h3>
+								<h3>Кирилл</h3>
 								<p>Разработчик</p>
 							</div>
 							<div class="block-command-icon">
@@ -685,7 +685,7 @@
 								<p>Разработка сайтов, мобильных приложений, баз данных.</p>
 							</div>
 
-							<p>
+							<p class="block-p">
 								Один из лучших специалистов в данной области, умею работать
 								качественно и в срок, выполняю любые задачи которые мне под
 								силу, берусь за проект если могу. Не откладываю на завтра то что
@@ -722,7 +722,7 @@
 								<p>Разработка адаптивных сайтов, лендингов.</p>
 							</div>
 
-							<p>
+							<p class="block-p">
 								Всем привет! Умею делать классные продающие сайты, чтоб
 								посмотрел на сайт и захотелось купить услугу или продукт, делаю
 								качественную верстку, добавляю свои фишки, иногда отклоняюсь от
@@ -760,20 +760,16 @@
 								<p>Реклама Яндекс директ, таргет-майл, таргет-вк,соц.сети</p>
 							</div>
 
-							<p>
+							<p class="block-p">
 								Реклама это мое! Люблю настраивать рекламу, проводить анализ
 								ниши,стартапа или уже прибыльного бизнеса, подхожу с умом к
 								любому проекту, всегда держу клиента вкурсе его бюджетов, раз в
 								неделю провожу отчетность, в общем работаю по полной.
 							</p>
 
-							<button
-								class="js-open-modal block-command-btn"
-								data-modal="1"
-								href="#"
-							>
-								Оставить заявку
-							</button>
+							<button class="block-command-btn">
+							<a  href="#popup">Оставить заявку</a>
+						</button>
 						</div>
 					</div>
 				</div>
@@ -799,7 +795,7 @@
 							лендинга для одного из наших направлений деятельности и были
 							приятно удивлены скоростью и качеством выполнения работ. Лендинг
 							работает и по сей день и даже по прошествию времени не потерял
-							актуальность в плане дизайна и как раньше приносит нам клиентов
+							актуальность в плане дизайна и как раньше приносит нам клиентов.
 							Далее мы обращались в студию Orange за созданием еще одного
 							лендинга, а самое главное мы заказали разработку многостраничного
 							корпоративного сайта. Orange справились со всеми задачами на
@@ -820,7 +816,7 @@
 						<h1>Ремонт ванных комнат</h1>
 
 						<h4>
-							Заказал в orange создание сайт. К моему запросу отнеслись очень
+							Заказал в orange создание сайта. К моему запросу отнеслись очень
 							внимательно и кропотливо. Ребята давали хорошую коммуникацию на
 							каждом этапе работы. Круто проявили себя в создании уникального
 							фирменного стиля. Я искренне люблю итоговый результат, получил
@@ -848,7 +844,7 @@
 							ними категорически не согласна. Но в итоге, они оказывается правы.
 							Это не первое наше сотрудничество и результат всегда на высоте.
 							Настоятельно рекомендую! Наши успехи в продвижении без их помощи
-							не состоялись бы. Спасибо!!!! 1 Показать список оценивших
+							не состоялись бы. Спасибо!!!!
 						</h4>
 						<div class="podrobno">
 							<a href="https://mylead-store.ru/go2848" target="_blank">Перейти на сайт...</a>
@@ -891,12 +887,12 @@
 					</div>
 					<div class="block-form-item-right">
 						<form class="form-block-1-1" action="" method="post">
-							<h1>Оставьте заявку на<br />консультацию</h1>
+							<h1>ОСТАВЬТЕ ЗАЯВКУ НА<br />КОНСУЛЬТАЦИЮ</h1>
 							<label class="form-name">
-								<input type="text" name="name" placeholder="Ваше имя" />
+								<input type="text" name="name" placeholder="Ваше имя" required/>
 							</label>
 							<label class="form-phone">
-								<input type="tel" name="phone" placeholder="Номер телефона" />
+								<input type="tel" name="phone" placeholder="Номер телефона" required/>
 							</label>
 							<button class="formbutton">Оставить заявку</button>
 							<div class="che-b">
@@ -905,7 +901,7 @@
 									type="checkbox"
 									name="a"
 									value=""
-									checked
+									checked required
 								/>
 								<h5>
 									Отправляя заявку, Вы принимаете условия соглашения и обработки
@@ -1039,14 +1035,14 @@
 						<h1>Не нашли ответ на свой вопрос?</h1>
 						<form class="footer-form" action="" method="post">
 							<label class="label-name">
-								<input type="text" name="name" placeholder="Ваше имя" />
+								<input type="text" name="name" placeholder="Ваше имя" required/>
 							</label>
 							<label class="label-phone">
 								<input type="tel" name="phone" placeholder="+7 (777) 777-77-77" pattern="[+]7\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" required/>
 							</label>
 							<button class="footer-btn">Оставить заявку</button>
 							<div class="footer-check">
-								<input type="checkbox" checked="" />
+								<input type="checkbox" checked="" required/>
 								<p>
 									Отправляя заявку, вы принимаете условия соглашения и обработки
 									<a href="#politika">персональных данных</a> 
@@ -1088,10 +1084,10 @@
 						<h1 class="form-h1">Оставить заявку на консультацию или услугу</h1>
 						<form class="form-class" action="" method="post">
 							<label class="name-for">
-								<input type="text" name="name" placeholder="Ваше имя" />
+								<input type="text" name="name" placeholder="Ваше имя" required/>
 							</label>
 							<label class="phone-for">
-								<input type="tel" name="phone" placeholder="Номер телефона" />
+								<input type="tel" name="phone" placeholder="Номер телефона" required/>
 							</label>
 							<button class="button-for">Оставить заявку</button>
 						</form>
@@ -1113,6 +1109,7 @@
 <!-- Модальное окно -->
 
 		<div id="popup" class="popup">
+			<a href="#" class="popup__area"></a>
 			<div class="popup__body">
 				<div class="popup__content">
 					<a href="#" class="popup__close">X</a>

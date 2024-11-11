@@ -1039,7 +1039,7 @@ h4 a:hover {
 
 .block-command-title h3 {
 	color: #fff;
-	margin-left: 60px;
+	margin-left: 48px;
 	font-size: 26px;
 }
 .block-command-title p {
@@ -1110,7 +1110,7 @@ h4 a:hover {
 
 .block-command-title-a h3 {
 	color: #fff;
-	margin-left: 50px;
+	margin-left: 64px;
 	font-size: 26px;
 }
 
@@ -1163,7 +1163,7 @@ h4 a:hover {
 
 .block-items-top h3 {
 	color: #fff;
-	font-size: 16px;
+	font-size: 23px;
 }
 
 .otzov-h1 {
@@ -1214,8 +1214,11 @@ h4 a:hover {
 
 .block-otzov-items h4 {
 	max-width: 309px;
-	font-size: 16px;
+	font-size: 17px;
 	margin-left: 20px;
+	letter-spacing: 0.2px;
+	font-weight: lighter;
+	font-weight: lighter;
 }
 
 .block-otzov-items h5 {
@@ -1308,7 +1311,7 @@ h4 a:hover {
 }
 
 .form-block-1-1 h1 {
-	margin-top: 158px;
+	margin-top: 110px;
 	text-align: center;
 	font-size: 34px;
 	font-weight: bold;
@@ -1389,7 +1392,7 @@ h4 a:hover {
 .footer-block-item-left {
 	margin-top: 250px;
 }
-.soc-footer{
+.soc-footer a{
 	text-decoration: none;
 }
 
@@ -1704,7 +1707,13 @@ h4 a:hover {
 	visibility: hidden;
 	transition: all 0.8s ease 0s;
 }
-
+.popup__area{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
 .popup:target {
 	opacity: 1;
 	visibility: visible;
@@ -1792,7 +1801,260 @@ h4 a:hover {
 }
 /* Конец модульного окна */
 
+@media screen and (max-width: 1440px){
+.head {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+	.contact img {
+    color: #fff;
+    font-size: 22px;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+.header-content-left {
+    margin-left: 30px;
+}
+.wrapper-items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+}
+.content-title {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.content-title h2 {
+    font-family: 'Mulish', sans-serif;
+    max-width: 400px;
+    height: 215px;
+    color: #fff;
+    font-size: 34px;
+}
+.content-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+}
 
+.content-bottom-left {
+    width: 480px;
+    height: 280px;
+    background-color: #fbad4e;
+    border-radius: 12px;
+    margin-top: -60px;
+}
+.content-bottom-right {
+    width: 800px;
+    height: 270px;
+    border: 2px solid #f17b00;
+    margin-top: -58px;
+    border-radius: 12px;
+}
+
+.main-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: #f17b00;
+    text-align: center;
+    margin-top: 170px;
+    border: solid 1px #f17b00;
+    margin-left: 390px;
+    border-radius: 8px;
+}
+.main-content-text {
+    display: flex;
+    justify-content: space-around;
+}
+.work-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: #f17b00;
+    text-align: center;
+    margin-top: 170px;
+    border: solid 1px #f17b00;
+    margin-left: 390px;
+    border-radius: 8px;
+}
+.work-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.project-block {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.project-left {
+    width: 600px;
+    height: 550px;
+    border-radius: 20px;
+    border: solid 1px #613200;
+}
+.project-img {
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.project-left-l h2 {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 18px;
+}
+.project-right {
+    width: 600px;
+    height: 550px;
+    border-radius: 20px;
+    border: solid 1px #613200;
+}
+.items-block-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.items-block-center {
+    width: 300px;
+    height: 610px;
+    border: solid 1px #fbad4e;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+.items-block-center p {
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+}
+.items-block-command {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.command-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: #f17b00;
+    text-align: center;
+    margin-top: 170px;
+    border: solid 1px #f17b00;
+    margin-left: 390px;
+    border-radius: 8px;
+}
+.command-p {
+    max-width: 600px;
+    color: #fff;
+    font-size: 26px;
+    margin-right: 351px;
+}
+.item-block-command {
+    width: 600px;
+    height: 550px;
+    border: solid 3px #fbad4e;
+    border-radius: 20px;
+}
+.block-command-right p {
+    max-width: 300px;
+    color: #fff;
+    font-size: 20px;
+		margin-top: -20px;
+
+}
+.block-command-right-title {
+    display: flex;
+    flex-direction: column;
+}
+.block-command-right-title h3 {
+    color: #fff;
+    font-size: 23px;
+    margin-top: 40px;
+}
+.block-p{
+	margin-top: 20px !important;
+}
+.block-command-btn {
+    width: 300px;
+    height: 80px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #f17b00;
+    font-size: 26px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.otzov-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: #f17b00;
+    text-align: center;
+    margin-top: 170px;
+    border: solid 1px #f17b00;
+    margin-left: 390px;
+    border-radius: 8px;
+}
+.block-otzov-item {
+    display: flex;
+    justify-content: space-evenly;
+}
+.block-form-item-left {
+    margin-left: 190px;
+    padding-top: 80px;
+}
+
+.block-form-item-right {
+    margin-right: 60px;
+}
+.form-block-1-1 h1 {
+    margin-top: 120px;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+}
+.footer-block {
+    width: 100%;
+    height: 720px;
+    background-color: #fbad4e;
+}
+.footer-block-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+}
 
 @media screen and (max-width: 1280px) {
 	.container {
@@ -2209,7 +2471,7 @@ h4 a:hover {
 	}
 	.header-content-right img {
 		margin-top: 180px;
-		margin-left: -400px;
+		margin-left: -430px;
 		width: 450px;
 		height: 450px;
 	}
@@ -2720,7 +2982,7 @@ h4 a:hover {
 		margin-left: 10px;
 	}
 	.menu-mobail label {
-		margin-left: -10px;
+		margin-left: 30px;
 		margin-top: 45px;
 	}
 	.menu-list {
@@ -2738,17 +3000,17 @@ h4 a:hover {
 		width: 360px;
 		height: auto;
 	}
-	.header-content-left h1 {
-		width: 340px;
-		margin-top: 55px;
-		font-size: 45px;
-		line-height: 3rem;
-		text-align: center;
-	}
+	    .header-content-left h1 {
+        width: 300px;
+        margin-top: 38px;
+        font-size: 38px;
+        line-height: 3rem;
+        text-align: left;
+    }
 	.header-content-left h2 {
 		font-family: 'Mulish', sans-serif;
 		max-width: 800px;
-		font-size: 30px;
+		font-size: 16px;
 		color: #fff;
 		width: 223px;
 	}
@@ -2759,19 +3021,25 @@ h4 a:hover {
 	.img-mobile {
 		display: inline;
 	}
-	.header-content-right img {
-		margin-top: 235px;
-		margin-left: -269px;
-		width: 278px;
-		height: 299px;
-	}
+    .header-content-right img {
+        margin-top: 205px;
+        margin-left: -238px;
+        width: 253px;
+        height: 318px;
+    }
 	.header-content-left p {
 		font-family: 'Mulish', sans-serif;
 		max-width: 420px;
 		font-size: 17px;
-		margin-top: 120px;
+		margin-top: 200px;
 		color: #fff;
 	}
+	.form {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-left: -17px;
+}
 	.form input {
 		margin-top: 10px;
 	}
@@ -3469,7 +3737,7 @@ h4 a:hover {
 	}
 	.name {
 		width: 200px;
-		margin-left: -12px;
+		margin-left: 5px;
 		height: 30px;
 		font-size: 20px;
 		padding: 10px 30px;
@@ -3477,7 +3745,7 @@ h4 a:hover {
 	}
 	.tel {
 		width: 200px;
-		margin-left: -12px;
+		margin-left: 5px;
 		height: 30px;
 		font-size: 20px;
 		padding: 10px 30px;
@@ -3485,15 +3753,15 @@ h4 a:hover {
 	}
 	.check {
 		margin-top: 20px;
-		margin-left: -5px;
+		margin-left: 20px;
 	}
 	.check-p {
 		font-size: 11px;
 		margin-top: -15px;
-		margin-left: 15px;
+		margin-left: 38px;
 	}
 	.button__form {
-		margin-left: -4px;
+		margin-left: 13px;
 		width: 250px;
 		height: 50px;
 		margin-top: 10px;
