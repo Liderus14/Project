@@ -75,7 +75,28 @@
   margin:  20px auto;
 }
 }
+@media screen and (max-width: 1024px) {
+  .faq{
+  max-width: 980px;
+  margin:  20px auto;
+}
+}
+@media screen and (max-width: 425px) {
+  .faq{
+  width: 390px;
+  margin:  20px auto;
+}
 
+.faq-title {
+    display: block;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 15px;
+    position: relative;
+    transition: background .5s ease-out;
+}
+}
 
 @media screen and (max-width: 360px) {
 	.faq-title {
@@ -95,5 +116,11 @@
     margin-left: 25px;
     margin-right: 25px;
     padding: 10px 15px;
+}
+}
+@media screen and (max-width: 320px) {
+  .faq{
+  width: 290px;
+  margin:  20px auto;
 }
 }
