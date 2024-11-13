@@ -5198,7 +5198,7 @@ h4 a:hover {
 	}
 	.aside-left {
 		width: 300px;
-		height: 265px;
+		height: 300px;
 		margin-left: -3px;
 	}
 	.work-h1 {
@@ -5305,7 +5305,7 @@ h4 a:hover {
 	}
 	.items-block-center {
 		width: 290px;
-		height: 550px;
+		height: 600px;
 		border: solid 1px #fbad4e;
 		border-radius: 20px;
 		margin-top: 40px;
@@ -5433,7 +5433,7 @@ h4 a:hover {
 	}
 	.block-otzov-items {
 		width: 300px;
-		height: 650px;
+		height: 700px;
 		border: solid 2px #fbad4e;
 		border-radius: 16px;
 	}
