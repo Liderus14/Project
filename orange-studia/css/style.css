@@ -4387,7 +4387,7 @@ h4 a:hover {
 	}
 	.aside-left {
 		width: 340px;
-		height: 320px;
+		height: 350px;
 		margin-left: -3px;
 	}
 	.work {
@@ -5190,7 +5190,7 @@ h4 a:hover {
 	}
 	.aside-text {
 		max-width: 640px;
-		font-size: 14px;
+		font-size: 15px;
 		color: #d0d0d0;
 		margin-left: 60px;
 		margin-top: -60px;
@@ -5198,7 +5198,7 @@ h4 a:hover {
 	}
 	.aside-left {
 		width: 300px;
-		height: 340px;
+		height: 265px;
 		margin-left: -3px;
 	}
 	.work-h1 {
@@ -5305,7 +5305,7 @@ h4 a:hover {
 	}
 	.items-block-center {
 		width: 290px;
-		height: 600px;
+		height: 550px;
 		border: solid 1px #fbad4e;
 		border-radius: 20px;
 		margin-top: 40px;
@@ -5385,7 +5385,7 @@ h4 a:hover {
 	}
 	.item-block-command {
 		width: 300px;
-		height: 540px;
+		height: 510px;
 		border: solid 3px #fbad4e;
 		border-radius: 20px;
 	}
@@ -5433,7 +5433,7 @@ h4 a:hover {
 	}
 	.block-otzov-items {
 		width: 300px;
-		height: 730px;
+		height: 650px;
 		border: solid 2px #fbad4e;
 		border-radius: 16px;
 	}
