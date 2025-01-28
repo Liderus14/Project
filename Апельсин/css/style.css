@@ -79,7 +79,64 @@
 	display: flex;
 	justify-content: space-between;
 }
+/* Анимация меню начало */
+.rect:hover {
+	position: relative;
+	margin: auto;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	
+	&:hover {
+			filter: contrast(1.1);
+	}
+	
+	&:active {
+			filter: contrast(0.9);
+	}
+	
+	&::before,
+	&::after {
+			content: "";
+			position: absolute;
+			top: -10px;
+			left: -10px;
+			right: -10px;
+			bottom: -10px;
+			border: 2px solid #f17b00;
+			transition: all .5s;
+			animation: clippath 3s infinite linear;
+			border-radius: 10px;
+	}
+	
+	&::after {
+			animation: clippath 3s infinite -1.5s linear;
+	}
+}
 
+@keyframes clippath {
+	0%,
+	100% {
+			clip-path: inset(0 0 98% 0);
+	}
+	
+	25% {
+			clip-path: inset(0 98% 0 0);
+	}
+	50% {
+			clip-path: inset(98% 0 0 0);
+	}
+	75% {
+			clip-path: inset(0 0 0 98%);
+	}
+}
+
+.bg::before {
+	background: rgba(255, 215, 0, .5);
+}
+
+/* Анимация меню конец */
 .menu ul {
 	display: flex;
 	gap: 44px;
@@ -408,9 +465,10 @@
 }
 
 .section__block span {
-	background-image: url(/images/Vecto.png);
+	background-image: url(../images/Vecto.png);
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .aside {
 	width: 100%;
