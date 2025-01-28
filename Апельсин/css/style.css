@@ -79,6 +79,7 @@
 	display: flex;
 	justify-content: space-between;
 }
+
 /* Анимация меню начало */
 .rect:hover {
 	position: relative;
@@ -87,48 +88,51 @@
 	font-size: 20px;
 	border-radius: 10px;
 	cursor: pointer;
-	
+
 	&:hover {
-			filter: contrast(1.1);
+		filter: contrast(1.1);
 	}
-	
+
 	&:active {
-			filter: contrast(0.9);
+		filter: contrast(0.9);
 	}
-	
+
 	&::before,
 	&::after {
-			content: "";
-			position: absolute;
-			top: -10px;
-			left: -10px;
-			right: -10px;
-			bottom: -10px;
-			border: 2px solid #f17b00;
-			transition: all .5s;
-			animation: clippath 3s infinite linear;
-			border-radius: 10px;
+		content: "";
+		position: absolute;
+		top: -10px;
+		left: -10px;
+		right: -10px;
+		bottom: -10px;
+		border: 2px solid #f17b00;
+		transition: all .5s;
+		animation: clippath 3s infinite linear;
+		border-radius: 10px;
 	}
-	
+
 	&::after {
-			animation: clippath 3s infinite -1.5s linear;
+		animation: clippath 3s infinite -1.5s linear;
 	}
 }
 
 @keyframes clippath {
+
 	0%,
 	100% {
-			clip-path: inset(0 0 98% 0);
+		clip-path: inset(0 0 98% 0);
 	}
-	
+
 	25% {
-			clip-path: inset(0 98% 0 0);
+		clip-path: inset(0 98% 0 0);
 	}
+
 	50% {
-			clip-path: inset(98% 0 0 0);
+		clip-path: inset(98% 0 0 0);
 	}
+
 	75% {
-			clip-path: inset(0 0 0 98%);
+		clip-path: inset(0 0 0 98%);
 	}
 }
 
@@ -192,10 +196,29 @@
 	font-family: 'Montserrat', sans-serif;
 	font-size: 40px;
 }
-
-.header__text-h1 span:hover {
-	color: #ff7300;
+/* Анимация header */
+.header__text-h1 {
+	h1 {
+		color: #fff;
+		font-family: 'Montserrat', sans-serif;
+		background: linear-gradient(to right, #ff7300, #000 30%, #f17b00 20%);
+		background-size: auto auto;
+		background-size: 200% auto;
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: textclip 5s linear infinite;
+		animation-direction: normal;
+		display: inline-block;
+	}
 }
+
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}
+/* Анимация header конец */
 
 .header__text-h2 {
 	font-family: 'Montserrat', sans-serif;
@@ -284,10 +307,10 @@
 }
 
 
-.main-left-items{
-  display: flex;
-  justify-content: space-around;
-  margin-top: 40px;
+.main-left-items {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 40px;
 }
 
 .main-left-items h1 {
@@ -295,7 +318,7 @@
 	font-size: 90px;
 }
 
-.coding{
+.coding {
 	background-image: url(../images/coding.png), url(../images/Ellipse.png);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -309,10 +332,11 @@
 	padding-top: 52px;
 	font-size: 26px;
 }
-.main-right-items{
-  display: flex;
-  justify-content: space-around;
-  margin-top: 40px;
+
+.main-right-items {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 40px;
 }
 
 .main-right-items h1 {
@@ -320,7 +344,7 @@
 	font-size: 90px;
 }
 
-.search-engine{
+.search-engine {
 	background-image: url(../images/search-engine.png), url(../images/Ellipse.png);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -374,6 +398,7 @@
 	border-radius: 20px;
 	padding: 30px;
 }
+
 .article__items-img {
 	display: flex;
 	justify-content: space-between;
@@ -384,6 +409,7 @@
 	font-size: 18px;
 	color: #a4a4a4;
 }
+
 .article__items-h3 {
 	font-family: 'Montserrat', sans-serif;
 	margin-top: 20px;
@@ -470,6 +496,7 @@
 	background-size: contain;
 	background-repeat: no-repeat;
 }
+
 .aside {
 	width: 100%;
 	height: 1000px;
@@ -522,50 +549,50 @@
 	margin-top: 50px;
 	background-color: #f7f7f7;
 	border-radius: 20px;
-  padding: 50px;
+	padding: 50px;
 }
 
-.aside__text-block{
-  display: flex;
-  justify-content: space-between;
+.aside__text-block {
+	display: flex;
+	justify-content: space-between;
 }
 
-.aside__text-h1{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
+.aside__text-h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
 }
 
-.svg{
-  background-image: url(../images/svg.png), url(../images/Ellipse.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 102px;
-  height: 102px;
+.svg {
+	background-image: url(../images/svg.png), url(../images/Ellipse.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 102px;
+	height: 102px;
 }
 
-.aside__title h2{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
-  margin-top: 50px;
+.aside__title h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	margin-top: 50px;
 }
 
-.aside__title p{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  margin-top: 15px;
+.aside__title p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	margin-top: 15px;
 }
 
-.aside__p{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+.aside__p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
 }
 
-.aside__ol{
-  margin-top: 50px;
+.aside__ol {
+	margin-top: 50px;
 }
 
 .aside__li {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  margin-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	margin-top: 10px;
 }
