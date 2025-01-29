@@ -212,7 +212,7 @@
 		color: #fff;
 		font-family: 'Montserrat', sans-serif;
 		background: linear-gradient(to right, #ff7300, #000 30%, #f17b00 20%);
-		background-size: auto auto;
+
 		background-size: 200% auto;
 		background-clip: text;
 		-webkit-background-clip: text;
@@ -225,7 +225,7 @@
 
 @keyframes textclip {
 	to {
-		background-position: 200% center;
+		background-position: 200%;
 	}
 }
 /* Анимация header конец */
