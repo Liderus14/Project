@@ -202,32 +202,28 @@
 	margin-top: 100px;
 }
 
-.header__text-h1 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 40px;
-}
 /* Анимация header */
-.header__text-h1 {
-	h1 {
-		color: #fff;
-		font-family: 'Montserrat', sans-serif;
-		background: linear-gradient(to right, #ff7300, #000 30%, #f17b00 20%);
 
-		background-size: 200% auto;
-		background-clip: text;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		animation: textclip 5s linear infinite;
-		animation-direction: normal;
-		display: inline-block;
+.header__text-h1 h1{
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 4em;
+}
+.header__text-h1 h1::before {
+	content: attr(data-text);
+	position: absolute;
+	overflow: hidden;
+	max-width: 630px;
+	white-space: nowrap;
+	color: #f17b00;
+	animation: loading 8s linear infinite;
+}
+@keyframes loading {
+	0% {
+			max-width: 0%;
 	}
 }
 
-@keyframes textclip {
-	to {
-		background-position: 200%;
-	}
-}
 /* Анимация header конец */
 
 .header__text-h2 {

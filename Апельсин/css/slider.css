@@ -110,4 +110,13 @@ height: 15px;
 }
 .swiper-button-prev, .swiper-button-next{
 	color: #f17b00;
+	}
+	.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: var(--swiper-navigation-sides-offset, 5px);
+    right: auto;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-next {
+	right: var(--swiper-navigation-sides-offset, 5px);
+	left: auto;
 }
