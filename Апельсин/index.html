@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/slider.css" />
+	<link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body>
@@ -76,7 +77,7 @@
 		<div class="header__blog">
 			<div class="header__btn">
 				<button class="btn__header">
-					<a href="#">Получить консультацию</a>
+					<a href="#myModal" id="myModal">Получить консультацию</a>
 				</button>
 			</div>
 			<div class="header__pull1">
@@ -587,8 +588,32 @@
 			</div>
 		</section>
 
+
+
+
+		<div class="modal" id="myModal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+					<div class="contact__modal">
+			<div class="contact__form">
+				<h3 class="contact__form-h3">Связаться с нами можно</h3>
+				<div class="form__soc-icon">
+					<a href=""><img src="images/tg.png" alt="telegram"></a>
+					<a href=""><img src="images/wh.png" alt="whatsapp"></a>
+				</div>
+				<div class="form__contact">
+					<a href="mailto:info@studia.ru">info@studia.ru</a>
+					<a href="tel:+7(993) 196-05-76">+7(993) 196-05-76</a>
+				</div>
+			</div>
+		</div>
+    </div>
+</div>
+
 	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 	<script src="js/slider.js"></script>
+	<script src="js/contact.js"></script>
+
 </body>
 
 </html>
