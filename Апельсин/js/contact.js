@@ -12,7 +12,13 @@ window.onclick = function (event) {
 	if (event.target == modal) {
 		modal.style.display = 'none'
 	}
-}
+};
+
+  document.addEventListener('DOMContentLoaded', function () {
+		const yearElement = document.getElementById('currentYear')
+		const currentYear = new Date().getFullYear()
+		yearElement.textContent = currentYear
+	})
 
 
 
