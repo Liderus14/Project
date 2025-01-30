@@ -893,16 +893,4 @@
 	color: #5A5A5A;
 	
 }
-.down__reklama{
-	display: flex;
-	gap: 10px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 13px;
-	color: #5A5A5A;
-}
-.down__reklama a{
-	text-decoration: none;
-	color: #838688;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 13px;
-}
+
