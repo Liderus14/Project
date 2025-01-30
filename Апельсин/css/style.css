@@ -454,14 +454,15 @@
 	border-radius: 10px;
 	border: 1px #232c31 solid;
 	background-color: #f17b00;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	cursor: pointer;
 }
 
 .btn__box a {
 	text-decoration: none;
-	color: #232c31;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 15px;
-	font-weight: bold;
+	color: #232c31;	
 }
 
 .block__section {
@@ -813,4 +814,95 @@
 	font-size: 18px;
 	color: #A4A4A4;
 	margin-top: 20px;
+}
+.footer{
+	background-color: #1D1D1D;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+}
+.footer__hr{
+	border: 1px solid #313131 ;
+	margin-top: 30px;
+}
+.footer__up{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__tel p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #838688;
+}
+.footer__tel a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.footer__email p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #838688;
+}
+.footer__email a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	color: #FFFFFF;
+	text-decoration: none;
+}.footer__icon{
+	display: flex;
+	gap: 10px;
+	margin-top: 8px;
+}
+.footer__messenger p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #838688;
+}
+.footer__center{
+	display: flex;
+	justify-content: center;
+}
+.footer__menu ul {
+	display: flex;
+	justify-content: space-between;
+	gap: 220px;
+	margin-top: 40px;
+	list-style: none;
+}
+
+.footer__menu a {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+}
+.footer__down{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.down__politika{
+	color: #5A5A5A;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+}
+.down__politika a{
+	color: #5A5A5A;
+	
+}
+.down__reklama{
+	display: flex;
+	gap: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	color: #5A5A5A;
+}
+.down__reklama a{
+	text-decoration: none;
+	color: #838688;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
 }
