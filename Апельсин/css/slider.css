@@ -1,7 +1,6 @@
 .swiper{
   width: 1280px;
-	
-  margin-top: 200px;
+  margin-top: 80px;
 }
 .swiper-slide-items{
 	display: flex;

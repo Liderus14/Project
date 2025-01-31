@@ -50,14 +50,13 @@
 	transform: translate(0px, -100%);
 }
 
-.popup__close {
+.popup__close img{
 	position: absolute;
-	right: 25px;
+	right: 15px;
 	top: 15px;
-	font-size: 20px;
 	text-decoration: none;
-	color: #232C31;
-	font-weight: bold;
+	width: 30px;
+	height: 30px;
 }
 
 .popup__title h2{
