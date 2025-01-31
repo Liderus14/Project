@@ -1,5 +1,6 @@
 .swiper{
   width: 1280px;
+	
   margin-top: 200px;
 }
 .swiper-slide-items{
@@ -107,16 +108,4 @@ height: 15px;
 .swiper__blok{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
-}
-.swiper-button-prev, .swiper-button-next{
-	color: #f17b00;
-	}
-	.swiper-button-prev, .swiper-rtl .swiper-button-next {
-    left: var(--swiper-navigation-sides-offset, 5px);
-    right: auto;
-}
-
-.swiper-button-next, .swiper-rtl .swiper-button-next {
-	right: var(--swiper-navigation-sides-offset, 5px);
-	left: auto;
 }
