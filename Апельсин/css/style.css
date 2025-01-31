@@ -791,6 +791,7 @@
 	gap: 53px;
 	justify-content: center;
 }
+
 .promo__title{
 	width: 391px;
 	height: 407px;
@@ -799,27 +800,32 @@
 	border-radius: 20px;
 	padding: 35px;
 }
+
 .promo__img{
 	display: flex;
 	justify-content: flex-end
 }
+
 .promo__text-h3{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 26px;
 	color: #FFFFFF;
 	margin-top: 55px;
 }
+
 .promo__text-p{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	color: #A4A4A4;
 	margin-top: 20px;
 }
+
 .footer{
 	background-color: #1D1D1D;
 	border-top-left-radius: 50px;
 	border-top-right-radius: 50px;
 }
+
 .footer__hr{
 	border: 1px solid #313131 ;
 	margin-top: 30px;
@@ -835,36 +841,44 @@
 	font-size: 18px;
 	color: #838688;
 }
+
 .footer__tel a{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 25px;
 	color: #FFFFFF;
 	text-decoration: none;
 }
+
 .footer__email p{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	color: #838688;
 }
+
 .footer__email a{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 25px;
 	color: #FFFFFF;
 	text-decoration: none;
-}.footer__icon{
+}
+
+.footer__icon{
 	display: flex;
 	gap: 10px;
 	margin-top: 8px;
 }
+
 .footer__messenger p{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	color: #838688;
 }
+
 .footer__center{
 	display: flex;
 	justify-content: center;
 }
+
 .footer__menu ul {
 	display: flex;
 	justify-content: space-between;
@@ -879,30 +893,23 @@
 	color: #fff;
 	font-size: 18px;
 }
+
 .footer__down{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-.down__politika{
+
+.footer-footer{
 	color: #5A5A5A;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 13px;
 }
-.down__politika a{
+
+.footer-footer a{
 	color: #5A5A5A;
 	
 }
-.down__reklama{
-	display: flex;
-	gap: 10px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 13px;
-	color: #5A5A5A;
-}
-.down__reklama a{
-	text-decoration: none;
-	color: #838688;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 13px;
-}
+
+
+
