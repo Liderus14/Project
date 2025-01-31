@@ -5,12 +5,12 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Студия разработки</title>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/slider.css" />
 	<link rel="stylesheet" href="css/contact.css">
 	<link rel="stylesheet" href="css/form.css">
 	<link rel="stylesheet" href="css/popup.css">
+	<link rel="stylesheet" href="css/style_slaider.css">
 </head>
 
 <body>
@@ -51,7 +51,7 @@
 				<a href="tel:+7(993) 196-05-76">+7(993) 196-05-76</a>
 			</div>
 			<div class="button__nav">
-				<a href="#popup" ><button class="nav__btn">Заказать звонок</button></a>
+				<a href="#popup"><button class="nav__btn">Заказать звонок</button></a>
 			</div>
 		</div>
 	</section>
@@ -81,7 +81,7 @@
 		<div class="header__blog">
 			<div class="header__btn">
 
-				<a href="#" id="myBtn"><button class="btn__header">Получить консультацию</button></a>
+				<a href="#popup__modals"><button class="btn__header">Получить консультацию</button></a>
 
 			</div>
 			<div class="header__pull1">
@@ -168,9 +168,9 @@
 						улучшить показатели.
 					</p>
 					<div class="box__btn">
-						
-							<a href="#" id="myBtn"><button class="btn__box">Получить бесплатную консультацию</button></a>
-						
+
+						<a href="#popup__modals"><button class="btn__box">Получить бесплатную консультацию</button></a>
+
 					</div>
 				</div>
 			</div>
@@ -179,7 +179,7 @@
 
 	<!-- Swiper -->
 	<div class="container" id="keyse">
-		<div class="swiper" >
+		<div class="swiper">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
 					<div class="swiper-slide-items">
@@ -338,7 +338,7 @@
 				<h2>Подпишем договор сегодня, получите скидку 10%</h2>
 			</div>
 			<div class="section__footer">
-				<a href="#"><button class="section__btn">Заключить договор сейчас</button></a>
+				<a href="договор.docx" download target="_blank"><button class="section__btn">Ознакомиться с договором</button></a>
 			</div>
 		</div>
 	</section>
@@ -348,7 +348,7 @@
 			<h1 class="aside-p">Схема работы</h1>
 			<div class="aside__block-item">
 				<div class="aside__block">
-					<div class="aside__block-title">
+					<div class="aside__block-text">
 						<div class="aside__check">
 							<input type="radio" id="check" name="check" />
 							<h3 class="aside__h3">Прототип сайта</h3>
@@ -602,71 +602,97 @@
 		</div>
 	</section>
 
-<section class="meta">
-	<div>
-
-	</div>
-
-</section>
+	<section class="meta">
+		<div class="meta__text">
+			<h1 class="meta__h1"> Узнайте, как увеличить онлайн-продажи вашего сайта</h1>
+			<p class="meta__p">За 3 дня составим набор точечных рекомендаций по вашему сайту, как за 1 месяц сделать рост на 30-50%</p>
+		</div>
+		<div class="meta__body">
+			<div class="meta__form">
+				<form class="form__meta" action="" method="post">
+					<label><input class="name" type="text" name="name" placeholder="Ваше имя" required /></label>
+					<label><input class="phone" type="text" name="phone" placeholder="Ваш номер телефона" required /></label>
+					<button class="meta__btn">Оставить заявку</button>
+					<div class="meta__form__text">
+						<p>Нажимая на кнопку "Получить предложение" Вы даете <a href=""> на обработку своих персональных
+								данных</a> и соглашаетесь с условиями <a href="">Политикой конфиденциальности</a></p>
+					</div>
+				</form>
+			</div>
+			<div class="meta__img">
+				<img src="./images/Фото1.png" alt="">
+			</div>
+		</div>
+	</section>
 
 
 	<section class="footer">
 		<div class="container">
 			<div class="footer__footer">
-			<div class="footer__up">
-				<div class="footer__logo">
-					<img src="./images/logo.png" alt="">
+				<div class="footer__up">
+					<div class="footer__logo">
+						<img src="./images/logo.png" alt="">
+					</div>
+					<div class="footer__tel">
+						<p>Звоните с 10:00 до 19:00</p>
+						<h2><a href="tel:+7(993) 196-05-76"> +7(993) 196-05-76</a></h2>
+					</div>
+					<div class="footer__email">
+						<p>Мы любим, когда нам пишут</p>
+						<h2><a href="mailto:info@studia.ru">info@studia.ru</a></h2>
+					</div>
+					<div class="footer__messenger">
+						<p>Наши мессенджеры</p>
+						<div class="footer__icon">
+							<a href=""><img src="./images/whatsap.png" alt="WhatsApp"></a>
+							<a href=""><img src="./images/tele.png" alt="Telegram"></a>
+						</div>
+					</div>
 				</div>
-				<div class="footer__tel">
-					<p>Звоните с 10:00 до 19:00</p>
-					<h2><a href="tel:+7(993) 196-05-76"> +7(993) 196-05-76</a></h2>
+				<hr class="footer__hr">
+				<div class="footer__center">
+					<div class="footer__menu">
+						<ul>
+							<li class="rect"><a href="#keyse">Кейсы</a></li>
+							<li class="rect"><a href="#shema">Схема работы</a></li>
+							<li class="rect"><a href="#tarif">Тарифы</a></li>
+							<li class="rect"><a href="#otzov">Отзывы</a></li>
+						</ul>
+					</div>
 				</div>
-				<div class="footer__email">
-					<p>Мы любим, когда нам пишут</p>
-					<h2><a href="mailto:info@studia.ru">info@studia.ru</a></h2>
-				</div>
-				<div class="footer__messenger">
-					<p>Наши мессенджеры</p>
-					<div class="footer__icon">
-						<a href=""><img src="./images/whatsap.png" alt="WhatsApp"></a>
-						<a href=""><img src="./images/tele.png" alt="Telegram"></a>
+				<hr class="footer__hr">
+				<div class="footer__down">
+					<div class="down__politika">
+						<p>© <span id="currentYear"></span> Студия Orange. Все права защищены.</p>
+					</div>
+					<div class="down__politika">
+						<p>ОГРН 314715405700142</p>
+					</div>
+					<div class="down__politika">
+						<p>ИНН 711405269078</p>
+					</div>
+					<div class="down__knopka">
+						<a href="tel:+7(993) 196-05-76"><img src="./images/Чат.png" alt=""></a>
 					</div>
 				</div>
 			</div>
-			<hr class="footer__hr">
-			<div class="footer__center">
-				<div class="footer__menu">
-					<ul>
-						<li class="rect"><a href="#keyse">Кейсы</a></li>
-						<li class="rect"><a href="#shema">Схема работы</a></li>
-						<li class="rect"><a href="#tarif">Тарифы</a></li>
-						<li class="rect"><a href="#otzov">Отзывы</a></li>
-					</ul>
-				</div>
-			</div>
-			<hr class="footer__hr">
-			<div class="footer__down">
-				<div class="footer-footer">
-				<p>© <span id="currentYear"></span> Студия Orange. Все права защищены.</p>
-				</div>
-
-				<div class="down__knopka">
-					<a href="tel:+7(993) 196-05-76"><img src="./images/Чат.png" alt=""></a>
-				</div>
-			</div>
 		</div>
-	</div>
-	
+
 	</section>
 
 	<!-- Форма контактных данных начало -->
 
-	<div id="myModal" class="modal">
-		<div class="modal-content">
-			<span class="close">&times;</span>
-			<div class="contact__modal">
-				<div class="contact__form">
-					<h3 class="contact__form-h3">Связаться с нами можно</h3>
+
+
+	<div id="popup__modals" class="popup__modals">
+		<a href="#" class="popup__mobal"></a>
+		<div class="popup__body">
+			<div class="popup__content">
+				<a href="#" class="popup__close">X</a>
+				<div class="popup__title">
+					<h2>Связаться с нами можно</h2>
+				</div>
+				<div class="popup__text">
 					<div class="form__soc-icon">
 						<a href=""><img src="images/tg.png" alt="telegram"></a>
 						<a href=""><img src="images/wh.png" alt="whatsapp"></a>
@@ -678,8 +704,7 @@
 				</div>
 			</div>
 		</div>
-	</div> 
-
+	</div>
 
 	<!-- Форма контактных данных конец -->
 
@@ -696,15 +721,13 @@
 				</div>
 				<div class="popup__text">
 					<form class="form" action="" method="post">
-						<label><input class="name" type="text" name="name" placeholder="Ваше имя" required/></label>
-						<label><input
-							class="phone"
-							type="text"
-							name="phone"
-							placeholder="Ваш номер телефона" required
-						/></label>
+						<label><input class="name" type="text" name="name" placeholder="Ваше имя" required /></label>
+						<label><input class="phone" type="text" name="phone" placeholder="Ваш номер телефона" required /></label>
 						<button class="button__form">Оставить заявку</button>
-						<div class="form__text"><p>Нажимая на кнопку "Получить предложение" Вы даете <a href=""> на обработку своих персональных данных</a> и соглашаетесь с условиями <a href="">Политикой конфиденциальности</a></p></div>
+						<div class="form__text">
+							<p>Нажимая на кнопку "Получить предложение" Вы даете <a href=""> на обработку своих персональных
+									данных</a> и соглашаетесь с условиями <a href="">Политикой конфиденциальности</a></p>
+						</div>
 					</form>
 				</div>
 			</div>
@@ -712,7 +735,8 @@
 	</div>
 
 	<!-- Форма обратной связи конец -->
-	
+
+
 	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 	<script src="js/slider.js"></script>
 	<script src="js/contact.js"></script>

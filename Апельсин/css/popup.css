@@ -1,3 +1,6 @@
+
+/* Попап заказа звонка */
+
 .popup {
 	position: fixed;
 	width: 100%;
@@ -124,3 +127,8 @@
 	text-decoration: none;
 	color: #000;
 }
+
+
+/* Попап заказа звонка конец */
+
+
