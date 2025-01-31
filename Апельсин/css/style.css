@@ -516,7 +516,7 @@
 	border-radius: 3%;
 }
 
-.aside__block-item {
+/* .aside__block-item {
 	display: flex;
 	justify-content: space-around;
 }
@@ -599,7 +599,148 @@
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	margin-top: 10px;
+} */
+
+
+/* Стили радио */
+.cartoon-container {
+	background: linear-gradient(rgb(207, 203, 203), rgb(211, 209, 209));
+    overflow: hidden;
+    position: relative;
+		padding: 30px;
+		margin: 0 auto;
 }
+.cartoon__container {
+	width: 1440px;
+	margin: 0 auto;
+}
+.cartoon-container input[type="radio"] {
+    display: none;
+}
+.cartoon-container label {
+    clear: left;
+    float: left;
+    width: 241px;
+		height: 85px;
+}
+
+.cartoon-container label:hover {
+    cursor: pointer;
+}
+.cartoon__items{
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 20px;
+}
+.cartoon__items:active{
+	background-color: #f17b00;
+}
+.cartoon__h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	width: 241px;
+	margin: 0;
+}
+.cartoon__p{
+	font-family: 'Montserrat', sans-serif;
+	max-width: 175px;
+	margin-left: 45px;
+	font-size: 12px;
+	width: 241px;
+}
+.cartoon {
+    margin-left: 25.5%;
+    position: relative;
+    width: 991px;
+		height: 690px;
+}
+.cartoon figure {
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    transform: scale(0.8);
+	-webkit-transform: scale(0.8);
+    transition: all 0.5s linear 0s;
+		border-radius: 20px;
+}
+.aside__text-block{
+	display: flex;
+	justify-content: space-between;
+}
+.aside__text-h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+.aside__title p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	margin-top: 15px;
+}
+.aside__p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+.aside__ol {
+	margin-top: 50px;
+}
+
+.aside__li {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.aside__title{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+  padding: 50px;
+	background-color: #fff;
+	border-radius: 20px;
+}
+.aside__title h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	margin-top: 50px;
+}
+.svg {
+	background-image: url(../img/svg.png), url(../img/Ellipse.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 102px;
+	height: 102px;
+}
+.cartoon figure {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    width: 100%;
+}
+#prototip:checked ~ .cartoon #f-prototip, 
+#dizain:checked ~ .cartoon #f-dizain, 
+#verstka:checked ~ .cartoon #f-verstka, 
+#reklama:checked ~ .cartoon #f-reklama {
+    opacity: 1;
+    transform: scale(1);
+	-webkit-transform: scale(1);
+}
+
+#prototip:checked+label, 
+#dizain:checked+label, 
+#verstka:checked+label, 
+#reklama:checked+label {
+    opacity: 0.6;
+}
+
+#prototip:checked ~ .cartoon #f-prototip figcaption, 
+#dizain:checked ~ .cartoon #f-dizain figcaption, 
+#verstka:checked ~ .cartoon #f-verstka figcaption, 
+#reklama:checked ~ .cartoon #f-reklama figcaption {
+    top: -5rem;
+}
+/* стили радио конец */
 
 .wrapper__h1 {
 	font-family: 'Montserrat', sans-serif;
