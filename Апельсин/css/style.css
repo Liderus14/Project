@@ -5,7 +5,9 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .container {
 	max-width: 1440px;
 	margin: 0 auto;
@@ -1084,7 +1086,6 @@ section.faq {
 	gap: 10px;
 	margin-top: 8px;
 }
-
 .footer__messenger p {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;

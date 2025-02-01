@@ -49,7 +49,7 @@
 	transition: all 0.8s ease 0s;
 }
 
-.popup__mobal {
+.popup__modal {
 	position: absolute;
 	width: 100%;
 	height: 100%;
