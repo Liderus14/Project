@@ -1,4 +1,3 @@
-
 /* Попап заказа звонка */
 
 .popup {
@@ -11,7 +10,9 @@
 	opacity: 0;
 	visibility: hidden;
 	transition: all 0.8s ease 0s;
+	z-index: 2;
 }
+
 .popup__area {
 	position: absolute;
 	width: 100%;
@@ -19,6 +20,7 @@
 	top: 0;
 	left: 0;
 }
+
 .popup:target {
 	opacity: 1;
 	visibility: visible;
@@ -50,7 +52,7 @@
 	transform: translate(0px, -100%);
 }
 
-.popup__close img{
+.popup__close img {
 	position: absolute;
 	right: 15px;
 	top: 15px;
@@ -59,18 +61,18 @@
 	height: 30px;
 }
 
-
-.popup__title h2{
+.popup__title h2 {
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	font-size: 32px;
-	color: #232C31;
+	color: #232c31;
 }
-.popup__title p{
+
+.popup__title p {
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	font-size: 16px;
-	color: #232C31;
+	color: #232c31;
 	margin-top: 15px;
 }
 
@@ -80,28 +82,31 @@
 	height: 78px;
 	padding: 10px;
 	border-radius: 10px;
-	border: solid 1px #D3D3D3;
+	border: solid 1px #d3d3d3;
 	color: #838688;
 	font-size: 18px;
 	font-weight: normal;
 }
+
 .name {
 	font-family: 'Montserrat', sans-serif;
 	width: 386px;
 	height: 78px;
 	padding: 10px;
 	border-radius: 10px;
-	border: solid 1px #D3D3D3;
+	border: solid 1px #d3d3d3;
 	color: #838688;
 	font-size: 18px;
 	font-weight: normal;
 }
-.form{
+
+.form {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
 	margin-top: 15px;
 }
+
 .button__form {
 	font-family: 'Montserrat', sans-serif;
 	width: 386px;
@@ -109,26 +114,25 @@
 	padding: 10px;
 	margin-top: 15px;
 	border-radius: 10px;
-	border: solid 1px #D3D3D3;
+	border: solid 1px #d3d3d3;
 	background-color: #f17b00;
 	color: #000;
 	font-size: 20px;
 	font-weight: bold;
 	cursor: pointer;
 }
-.form__text{
+
+.form__text {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
-	color: #9B9D9D;
+	color: #9b9d9d;
 	text-align: center;
 	margin-top: 15px;
 }
-.form__text a{
+
+.form__text a {
 	text-decoration: none;
 	color: #000;
 }
 
-
 /* Попап заказа звонка конец */
-
-
