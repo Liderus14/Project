@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Клубника в шоколаде Пермь</title>
 		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/popus.css">
 	</head>
 	<body>
 		<section class="container">
@@ -49,7 +50,8 @@
 							<li><a href="#">Контакты</a></li>
 						</ul>
 					</div>
-					<button class="menu__btn">Заказать звонок</button>
+					<button class="menu__btn" id="open-modal">Заказать звонок</button>
+					
 				</div>
 			</div>
 		</section>
@@ -296,6 +298,29 @@
 
 
 
+		<!-- форма попап окна  -->
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">×</span><br>
+						<h2>Оставить заявку на звонок</h2>
+            <form class="form" action="" method="post">
+							<input class="text" type="text" name="name" placeholder="Ваше имя">
+							<input class="tel" type="tel" name="phone" placeholder="Ваш номер телефона">
+							<button class="btn">Заказать</button><br><br>
+							<label>
+								<input type="checkbox" name="agree" value="agree"> согласен с условиями <a href="#">конфиденциальности</a>
+							</label>
+							</form>
+        </div>
+    </div>
+
+
+
+
+
 		<script src="js/script.js"></script>
+		<script src="js/popup.js"></script>
+
 	</body>
 </html>

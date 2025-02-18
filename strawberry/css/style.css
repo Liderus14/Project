@@ -232,3 +232,39 @@ select::after {
   border:none;
   color: red;
 }
+
+.modal-content{
+	text-align: center;
+}
+.text{
+	margin-top: 60px;
+	width: 300px;
+	height: 60px;
+	border:1px solid #000;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+
+.tel{
+	margin-top: 20px;
+	width: 300px;
+	height: 60px;
+	border:1px solid #000;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.btn{
+	width: 300px;
+	height: 60px;
+	background-color: #cf5554;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 20px;
+	font-size: 25px;
+	font-weight: bold;
+}
