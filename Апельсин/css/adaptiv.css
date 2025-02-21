@@ -234,6 +234,9 @@
 }
 
 @media screen and (max-width: 768px) {
+.container{
+	padding: 0px;
+}
 	.logo img {
 		width: 80px;
 		height: 60px;
@@ -364,6 +367,12 @@
 	.aside-p {
 		font-size: 70px;
 }
+.swiper__item h2 {
+	font-size: 20px;
+}
+.swiper__item p {
+	font-size: 14px;
+}
 	.swiper-slide-items {
 		gap: 25px;
 	}
@@ -421,9 +430,6 @@
 	gap: 8px;
 	width: 705px;
 }
-.cartoon-container{
-	padding: 0;
-}
 .cartoon{
 	width: 700px;
 	margin-left: 0;
@@ -464,7 +470,7 @@
 	gap: 20px;
 }
 .wrapper__desc1 {
-	width: 370px;
+	width: 350px;
 	height: 470px;
 }
 .wrapper__desc-title{
@@ -537,6 +543,35 @@
 	}
 	}
 	@media screen and (max-width: 500px) {
+		.container{
+			padding: 10px;
+		}
+		.nav__email {
+			gap: 2px;
+	}
+		.nav__email a {
+			font-size: 12px;
+	}
+	.nav__email img {
+    width: 12px;
+    height: 12px;
+}
+	.nav__soc-left a{
+		gap: 2px;
+		font-size: 12px;
+	}
+	.nav__soc-left img {
+    width: 12px;
+    height: 12px;
+}
+	.nav__soc-right a{
+		font-size: 12px;
+		gap: 2px;
+	}
+	.nav__soc-right img {
+    width: 12px;
+    height: 12px;
+}
 		.menu{display: none;}
 		.tel{
 			display: none;
@@ -554,6 +589,12 @@
 		.header__text-h2 {
 			margin-top: 20px;
 	}
+	.btn__header {
+		width: 165px;
+		height: 40px;
+		font-size: 11px;
+		margin-top: 45px;
+}
 	.header__pull1{
 		display: flex;
 		gap: 5px;
@@ -566,8 +607,10 @@
 		display: flex;
 		gap: 5px;
 	}
+
 	.main{
 		flex-direction: column;
+		align-items: center;
 		margin-top: 0;
 	}
 	.main__left {
@@ -627,6 +670,10 @@ margin-top: -30px;
 }
 .swiper {
 	width: 320px;
+	margin-top: 40px;
+}
+.swiper__item img{
+	margin-left: -150px;
 }
 .swiper__items-left{
 	flex-direction: column;
@@ -634,17 +681,17 @@ margin-top: -30px;
 	font-size: 12px;
 }
 .swiper__items-text{
-	width: 260px;
+	width: 300px;
 	padding: 20px;
 }
 .tooltip__items {
-	width: 215px;
+	width: 260px;
 	height: 105px;
 	margin-top: 25px;
 	padding: 10px;
 }
 .tip__items{
-	width: 215px;
+	width: 260px;
 	height: 105px;
 	margin-top: 25px;
 	padding: 10px;
@@ -656,8 +703,56 @@ margin-top: -30px;
 	margin-top: 20px;
 }
 .swiper__right-block {
-	width: 220px; 
+	width: 260px; 
 	margin-left: 0px;
 }
+.swiper-button-next {
+	background-image: url(../images/Ellipsik1.png);
+	width: 43px;
+	height: 43px;
+}
+.swiper-button-prev {
+	background-image: url(../images/left-arrow.png.png), url(../images/Ellipsik1.png);
+	width: 43px;
+	height: 43px;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+	left: var(--swiper-navigation-sides-offset, 200px);
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+	right: var(--swiper-navigation-sides-offset, 22px);
+}
+.swiper-button-next, .swiper-button-prev {
+	top: var(--swiper-navigation-top-offset, 0%);
+}
+.swiper__blok {
+	font-size: 10px;
+}
+.swiper__right-block {
+	height: 355px;
+}
+.swiper__items-text {
+	height: 760px;
+}
+.section__block h1 {
+	margin-top: 40px;
+	font-size: 30px;
+}
+.section__block h2 {
+	font-size: 15px;
+}
+.section__btn {
+	width: 300px;
+	height: 55px;
+	font-size: 17px;
+}
+.block__section {
+	margin-bottom: 45px;
+}
+.aside-p {
+	padding-top: 25px;
+	font-size: 50px;
+}
+
 	}
 
