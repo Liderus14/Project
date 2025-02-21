@@ -1,4 +1,4 @@
-.modal{
+.modal1 {
     display: none; /* Скрываем модальное окно по умолчанию */
     position: fixed;
     z-index: 1;
@@ -23,15 +23,15 @@
     animation: animatezoom 0.6s; /* Анимация появления */
 }
 
-.close {
+.close1 {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.close1:hover,
+.close1:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;

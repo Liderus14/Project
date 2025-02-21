@@ -18,4 +18,27 @@ function closeModal(event) {
 			});
 
 
+
+			// Еще одна форма 
+
+document.getElementById('open-modal1').addEventListener('click', openModal)
+document.getElementById('modal1').addEventListener('click', closeModal)
+
+function openModal() {
+	document.getElementById('modal1').style.display = 'block'
+}
+
+function closeModal(event) {
+	if (event.target === document.getElementById('modal1')) {
+		document.getElementById('modal1').style.display = 'none'
+	}
+};
+
+    document
+			.querySelector('.close1')
+			.addEventListener('click', function () {
+				document.querySelector('.modal1').style.display = 'none'
+			});
+
+
 			

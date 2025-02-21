@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montaga&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+
 * {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Montserrat Alternates", serif;
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 .logo img{
@@ -81,6 +88,7 @@
 }
 
 .menu__item a {
+	font-family: "Montserrat Alternates", serif;
 	text-decoration: none;
 	color: #000;
 	font-size: 18px;
@@ -114,8 +122,69 @@
 	margin-top: 30px;
 }
 
+.header__slider{
+	position: relative;
+	display: inline-block;
+}
+
+.text-overlay{
+	position: absolute;
+	top:50%;
+	left:40%;
+	transform: translate(-50%, -50%);
+}
+
+.text-overlay h1{
+	font-size: 35px;
+	
+}
+.text-overlay h2{
+	max-width: 400px;
+	font-size: 24px;
+	border: 1px solid red;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.text-overlay p{
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.price-block{
+	width: 260px;
+	margin-top: 40px;
+	background-color: #fff;
+	border-radius: 5px;
+	transform: rotate(-5deg);
+}
+
+.price-block span{
+	font-size: 40px;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.overlay__btn{
+	width: 300px;
+	height: 60px;
+	border: none;
+	border-radius: 10px;
+	margin-top: 40px;
+	font-size: 25px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.overlay__btn:hover{
+	background-color: #cf5554;
+	color: #fff;
+}
+
 .header__slider img {
 	height: 480px;
+	border-radius: 10px;
 }
 
 .aside__category {
@@ -210,7 +279,7 @@ select::after {
 }
 
 .btn__price{
-  width: 100px;
+  width: 120px;
   height: 35px;
   border-radius: 5px;
   border: none;
@@ -267,4 +336,148 @@ select::after {
 	margin-top: 20px;
 	font-size: 25px;
 	font-weight: bold;
+}
+
+.reviews{
+	width: 100%;
+	height: 500px;
+	background-color: #cf5554;
+	margin-bottom: 100px;
+}
+
+.reviews h1{
+	font-size: 40px;
+	padding-top: 20px;
+	color: #fff;
+}
+
+
+.promo__info h1{
+	font-size: 40px;
+}
+
+.promo__info-block{
+	width: 100%;
+	height: 500px;
+	background-color: #ede9dd;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	margin-top: 60px;
+}
+
+.promo__item{
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 80px;
+
+}
+
+.promo__items img{
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+
+.promo__items p{
+	max-width: 380px;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.footer{
+	background-color: #000;
+}
+
+.footer__block{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__left img{
+	width: 100px;
+	height: 100px;
+	padding: 20px;
+}
+
+.footer__left a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer__left p{
+	color: #fff;
+}
+
+.footer__center ul{
+	display: flex;
+	gap: 20px;
+}
+
+.footer__center a{
+text-decoration: none;
+color: #fff;
+font-size: 20px;
+}
+
+.footer__a{
+text-decoration: none;
+color: #d80000;
+font-size: 13px;
+}
+
+.menu__btn1{
+	width: 250px;
+	height: 50px;
+	margin-top: 5px;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #cf5554;
+	cursor: pointer;
+	color: #fff;
+	font-weight: bold;
+}
+
+.menu__btn1:hover{
+	color: #000;
+	font-weight: bold;
+}
+
+.footer__right{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.footer__right a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer__right h3{
+	color: #fff;
+}
+
+/* 
+Вторая страница (оплата) */
+
+.section__pay{
+	width: 100%;
+	height: 350px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	background-color: #ede9dd;
+}
+
+.pay__item{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px;
+}
+
+.pay__items img{
+	width: 200px;
+	height: 200px;
+	margin-top: 20px;
 }
