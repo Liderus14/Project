@@ -457,8 +457,7 @@ font-size: 13px;
 	color: #fff;
 }
 
-/* 
-Вторая страница (оплата) */
+/* Вторая страница (оплата) */
 
 .section__pay{
 	width: 100%;
@@ -481,3 +480,49 @@ font-size: 13px;
 	height: 200px;
 	margin-top: 20px;
 }
+
+
+/* Третья страница (Доставка) */
+
+.delivery{
+	display: flex;
+	gap: 150px;
+}
+
+.delivery__left{
+	margin-top: 30px;
+	width: 350px;
+	height: 550px;
+	background-color: #ede9dd;
+	border-radius: 10px;
+	margin-bottom: 50px;
+}
+
+.delivery__left h2{
+	padding: 10px;
+}
+
+.delivery__left h4{
+	padding: 10px;
+}
+
+.delivery__left h5{
+	padding: 10px;
+}
+
+.delivery__left p{
+	padding: 10px;
+}
+
+.delivery__right img{
+	margin-top: 30px;
+	width: 950px;
+	border: 3px solid #000;
+	border-radius: 10px;
+}
+
+.delivery__right h1{
+	margin-top: 20px;
+}
+
+
