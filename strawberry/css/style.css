@@ -199,6 +199,10 @@ html {
 	padding: 20px;
 }
 
+.category__block img{
+	border-radius: 10px;
+}
+
 .category__block:hover {
 	cursor: pointer;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
