@@ -569,6 +569,8 @@ font-size: 13px;
 
 
 
+
+
 section.faq {
   padding-top: 2em;
   padding-bottom: 3em;
@@ -627,6 +629,7 @@ section.faq {
   transition: .3s opacity, .6s max-height;
   hyphens: auto;
   z-index: 2;
+	
 }
 
 #faq ul {
@@ -694,6 +697,10 @@ section.faq {
   transform: translate(-2px, 0) rotate(-45deg);
 }
 
+.faq__title{
+	background-color: #ede9dd;
+}
+
 .popup-close img {
   position: absolute;
   right: 15px;
@@ -702,3 +709,4 @@ section.faq {
   width: 30px;
   height: 30px;
 }
+
