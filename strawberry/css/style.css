@@ -193,7 +193,6 @@ html {
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
-
 .category__h1 {
 	position: absolute;
 	padding: 20px;
@@ -209,13 +208,15 @@ html {
 }
 
 .price__pay {
-	display: flex;
-	justify-content: space-between;
+	display: grid;
+	grid-template-columns: repeat(4, 2fr);
+	gap: 10px;
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
 
 .price__block {
+	width: 338px;
 	border-radius: 10px;
 	border: 2px solid antiquewhite;
 	padding: 10px;
@@ -233,6 +234,13 @@ html {
 	font-size: 30px;
 	color: red;
 	font-weight: bold;
+}
+.price__block h3 {
+width: 312px;
+}
+
+.price__sum{
+	width: 312px;
 }
 
 select {
@@ -257,16 +265,12 @@ select::after {
 	right: 15px;
 	transform: translateY(-50%);
 }
-
-
 .button__price{
-  margin-top: 20px;
-}
-
-.button__price{
+	width: 312px;
   display: flex;
   gap: 30px;
   margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .btn__btn{
