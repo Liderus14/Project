@@ -1133,7 +1133,7 @@ section.faq {
 .footer__menu ul {
 	display: flex;
 	justify-content: space-between;
-	gap: 220px;
+	gap: 160px;
 	margin-top: 40px;
 	list-style: none;
 }
