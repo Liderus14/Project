@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="css/popus.css" />
 		<link rel="stylesheet" href="css/popup1.css">
 		<link rel="stylesheet" href="css/slider.css" />
+		<link rel="stylesheet" href="css/adaptiv.css" />
 		<link
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -49,6 +50,28 @@
 		<section class="menu">
 			<div class="container">
 				<div class="menu__block">
+					<div class="menu-mobail">
+						<input
+							type="checkbox"
+							id="burger-checkbox"
+							class="burger-checkbox"
+						/>
+						<label for="burger-checkbox" class="burger"></label>
+						<ul class="menu-list">
+							<li><a href="index.html" class="menu-item">Главная</a></li>
+							<li></li>
+							<li><a href="author.html" class="menu-item">Обо мне</a></li>
+							<li></li>
+							<li><a href="index.html#otzivy" class="menu-item">Отзывы</a></li>
+							<li></li>
+							<li><a href="faq.html" class="menu-item">Вопросы и ответы</a></li>
+							<li></li>
+							<li><a href="dostavka.html" class="menu-item">Доставка и самовывоз</a></li>
+							<li></li>
+							<li><a href="oplata.html" class="menu-item">Оплата</a></li>
+							<li></li>
+						</ul>
+					</div>
 					<div class="menu__item">
 						<ul>
 							<li><a href="author.html">Обо мне</a></li>
@@ -91,25 +114,25 @@
 						Наборы из <br />
 						клубники
 					</h1>
-					<a href="index.html"><img src="img/Frame_18_2.png" alt="" /></a>
+					<a href="index.html#ancor1"><img src="img/Frame_18_2.png" alt="" /></a>
 				</div>
 				<div class="category__block">
 					<h1 class="category__h1">
 						Букеты из <br />
 						клубники
 					</h1>
-					<img src="img/Frame_20_3.png" alt="" />
+					<a href="buket_iz_klubniki.html" id="ancor2"><img src="img/Frame_20_3.png" alt="" /></a>
 				</div>
 				<div class="category__block">
 					<h1 class="category__h1">Чизкейк</h1>
-					<img src="img/Frame_25_7.png" alt="" />
+					<a href="chizkeik.html#ancor3"><img src="img/Frame_25_7.png" alt="" /></a>
 				</div>
 				<div class="category__block">
 					<h1 class="category__h1">
 						Фруктовые корзины<br />
 						ручной работы
 					</h1>
-					<img src="img/Frame_26_2.png" alt="" />
+					<a href="korzina_fruktov.html#ancor3"><img src="img/Frame_26_2.png" alt="" /></a>
 				</div>
 			</div>
 		</section>
@@ -121,19 +144,20 @@
 		<section class="container">
 			<div class="price__pay">
 				<div class="price__block">
-					<img src="img/nabor/1.jpg" alt="" />
-					<h3>"Набор Микс 1"</h3>
+					<img src="img/buket/1.jpg" alt="" />
+					<h3>Букет "Клубничная Нежность"</h3>
 					<br />
 					<label for="my-select">Сколько ягод</label><br />
 					<select id="list1">
-						<option value="1490₽">6 ягод + 2 банана</option>
-						<option value="2240₽">8 ягод + 4 банана</option>
-						<option value="3160₽">16 ягод + 6 банана</option>
-						<option value="3920₽">20 ягод + 2 банана</option>
-						<option value="8730₽">45 ягод + 4 банана</option>
+						<option value="2490₽">12 ягод</option>
+						<option value="2625₽">15 ягод</option>
+						<option value="3890₽">19 ягод</option>
+						<option value="5090₽">25 ягод</option>
+						<option value="6490₽">32 ягоды</option>
+						<option value="8490₽">42 ягоды</option>
 					</select>
 					<div class="price__sum">
-						<input type="text" id="sum1" readonly placeholder="1490₽" /><br />
+						<input type="text" id="sum1" readonly placeholder="2490₽" /><br />
 					</div>
 					<div class="button__price">
 						<a href="#"><button class="btn__btn">Подробнее</button></a>
@@ -141,22 +165,20 @@
 					</div>
 				</div>
 				<div class="price__block">
-					<img src="img/nabor/2.jpg" alt="" />
-					<h3>Набор "Инь-Янь"</h3>
+					<img src="img/buket/2.jpg" alt="" />
+					<h3>Букет "Ягодный Романс"</h3>
 					<br />
 					<label for="my-select">Сколько ягод</label><br />
 					<select id="list2">
-						<option value="890₽">6 ягод</option>
-						<option value="1575₽">9 ягод</option>
-						<option value="2190₽">12 ягод</option>
+						<option value="2490₽">12 ягод</option>
 						<option value="2625₽">15 ягод</option>
-						<option value="3150₽">18 ягод</option>
-						<option value="4375₽">25 ягод</option>
-						<option value="5600₽">32 ягоды</option>
-						<option value="7350₽">42 ягоды</option>
+						<option value="3890₽">19 ягод</option>
+						<option value="5090₽">25 ягод</option>
+						<option value="6490₽">32 ягоды</option>
+						<option value="8490₽">42 ягоды</option>
 					</select>
 					<div class="price__sum">
-						<input type="text" id="sum2" readonly placeholder="690₽" /><br />
+						<input type="text" id="sum2" readonly placeholder="2490₽" /><br />
 					</div>
 					<div class="button__price">
 						<a href="#"><button class="btn__btn">Подробнее</button></a>
@@ -165,22 +187,20 @@
 				</div>
 
 				<div class="price__block">
-					<img src="img/nabor/3.jpg" alt="" />
-					<h3>Набор "Шоколадная Нежность"</h3>
+					<img src="img/buket/3.jpg" alt="" />
+					<h3>Букет "Клубничный шарм"</h3>
 					<br />
 					<label for="my-select">Сколько ягод</label><br />
 					<select id="list3">
-						<option value="890₽">6 ягод</option>
-						<option value="1575₽">9 ягод</option>
-						<option value="2190₽">12 ягод</option>
+						<option value="2490₽">12 ягод</option>
 						<option value="2625₽">15 ягод</option>
-						<option value="3150₽">18 ягод</option>
-						<option value="4375₽">25 ягод</option>
-						<option value="5600₽">32 ягоды</option>
-						<option value="7350₽">42 ягоды</option>
+						<option value="3890₽">19 ягод</option>
+						<option value="5090₽">25 ягод</option>
+						<option value="6490₽">32 ягоды</option>
+						<option value="8490₽">42 ягоды</option>
 					</select>
 					<div class="price__sum">
-						<input type="text" id="sum3" readonly placeholder="890₽" /><br />
+						<input type="text" id="sum3" readonly placeholder="2490₽" /><br />
 					</div>
 					<div class="button__price">
 						<a href="#"><button class="btn__btn">Подробнее</button></a>
@@ -188,22 +208,20 @@
 					</div>
 				</div>
 				<div class="price__block">
-					<img src="img/nabor/4.jpg" alt="" />
-					<h3>Набор "Клубничная Симфония"</h3>
+					<img src="img/buket/4.jpg" alt="" />
+					<h3>Букет "Ароматное Совершенство"</h3>
 					<br />
 					<label for="my-select">Сколько ягод</label><br />
 					<select id="list4">
-						<option value="890₽">6 ягод</option>
-						<option value="1575₽">9 ягод</option>
-						<option value="2190₽">12 ягод</option>
+						<option value="2490₽">12 ягод</option>
 						<option value="2625₽">15 ягод</option>
-						<option value="3150₽">18 ягод</option>
-						<option value="4375₽">25 ягод</option>
-						<option value="5600₽">32 ягоды</option>
-						<option value="7350₽">42 ягоды</option>
+						<option value="3890₽">19 ягод</option>
+						<option value="5090₽">25 ягод</option>
+						<option value="6490₽">32 ягоды</option>
+						<option value="8490₽">42 ягоды</option>
 					</select>
 					<div class="price__sum">
-						<input type="text" id="sum4" readonly placeholder="890₽" /><br />
+						<input type="text" id="sum4" readonly placeholder="2490₽" /><br />
 					</div>
 					<div class="button__price">
 						<a href="#"><button class="btn__btn">Подробнее</button></a>
@@ -215,22 +233,20 @@
 		<section class="container">
 			<div class="price__pay">
 				<div class="price__block">
-					<img src="img/nabor/5.jpg" alt="" />
-					<h3>Набор "Сладкий Каприз"</h3>
+					<img src="img/buket/5.jpg" alt="" />
+					<h3>Букет "Клубничный Эдем"</h3>
 					<br />
 					<label for="my-select">Сколько ягод</label><br />
 					<select id="list5">
-						<option value="890₽">6 ягод</option>
-						<option value="1575₽">9 ягод</option>
-						<option value="2190₽">12 ягод</option>
+						<option value="2490₽">12 ягод</option>
 						<option value="2625₽">15 ягод</option>
-						<option value="3150₽">18 ягод</option>
-						<option value="4375₽">25 ягод</option>
-						<option value="5600₽">32 ягоды</option>
-						<option value="7350₽">42 ягоды</option>
+						<option value="3890₽">19 ягод</option>
+						<option value="5090₽">25 ягод</option>
+						<option value="6490₽">32 ягоды</option>
+						<option value="8490₽">42 ягоды</option>
 					</select>
 					<div class="price__sum">
-						<input type="text" id="sum5" readonly placeholder="890₽" /><br />
+						<input type="text" id="sum5" readonly placeholder="2490₽" /><br />
 					</div>
 					<div class="button__price">
 						<a href="#"><button class="btn__btn">Подробнее</button></a>
@@ -238,23 +254,21 @@
 					</div>
 				</div>
 				<div class="price__block">
-					<img src="img/nabor/6.jpg" alt="" />
-					<h3>Набор "Пикантный Шарм"</h3>
+					<img src="img/buket/6.jpg" alt="" />
+					<h3>Букет "Яркое Обаяние"</h3>
 					<!-- <p>На фото размер 16*20см (16-20 ягод)</p> -->
 					<br />
 					<label for="my-select">Сколько ягод</label><br />
 					<select id="list6">
-						<option value="890₽">6 ягод</option>
-						<option value="1575₽">9 ягод</option>
-						<option value="2190₽">12 ягод</option>
+						<option value="2490₽">12 ягод</option>
 						<option value="2625₽">15 ягод</option>
-						<option value="3150₽">18 ягод</option>
-						<option value="4375₽">25 ягод</option>
-						<option value="5600₽">32 ягоды</option>
-						<option value="7350₽">42 ягоды</option>
+						<option value="3890₽">19 ягод</option>
+						<option value="5090₽">25 ягод</option>
+						<option value="6490₽">32 ягоды</option>
+						<option value="8490₽">42 ягоды</option>
 					</select>
 					<div class="price__sum">
-						<input type="text" id="sum6" readonly placeholder="890₽" /><br />
+						<input type="text" id="sum6" readonly placeholder="2490₽" /><br />
 					</div>
 					<div class="button__price">
 						<a href="#"><button class="btn__btn">Подробнее</button></a>
@@ -263,23 +277,21 @@
 				</div>
 
 				<div class="price__block">
-					<img src="img/nabor/7.jpg" alt="" />
-					<h3>Набор "Изысканный Тандем"</h3>
+					<img src="img/buket/7.jpg" alt="" />
+					<h3>Букет "Клубничный шарм"</h3>
 					<!-- <p>На фото размер 16*20см (16-20 ягод)</p> -->
 					<br />
 					<label for="my-select">Сколько ягод</label><br />
 					<select id="list7">
-						<option value="890₽">6 ягод</option>
-						<option value="1575₽">9 ягод</option>
-						<option value="2190₽">12 ягод</option>
+						<option value="2490₽">12 ягод</option>
 						<option value="2625₽">15 ягод</option>
-						<option value="3150₽">18 ягод</option>
-						<option value="4375₽">25 ягод</option>
-						<option value="5600₽">32 ягоды</option>
-						<option value="7350₽">42 ягоды</option>
+						<option value="3890₽">19 ягод</option>
+						<option value="5090₽">25 ягод</option>
+						<option value="6490₽">32 ягоды</option>
+						<option value="8490₽">42 ягоды</option>
 					</select>
 					<div class="price__sum">
-						<input type="text" id="sum7" readonly placeholder="890₽" /><br />
+						<input type="text" id="sum7" readonly placeholder="2490₽" /><br />
 					</div>
 					<div class="button__price">
 						<a href="#"><button class="btn__btn">Подробнее</button></a>
@@ -287,23 +299,21 @@
 					</div>
 				</div>
 				<div class="price__block">
-					<img src="img/nabor/8.jpg" alt="" />
-					<h3>Набор "Темперамент Клубники"</h3>
+					<img src="img/buket/8.jpg" alt="" />
+					<h3>Букет "Элегантный Букет"</h3>
 					<!-- <p>На фото размер 16*20см (16-20 ягод)</p> -->
 					<br />
 					<label for="my-select">Сколько ягод</label><br />
 					<select id="list8">
-						<option value="890₽">6 ягод</option>
-						<option value="1575₽">9 ягод</option>
-						<option value="2190₽">12 ягод</option>
-						<option value="2800₽">16 ягод</option>
-						<option value="3150₽">18 ягод</option>
-						<option value="4375₽">25 ягод</option>
-						<option value="5600₽">32 ягоды</option>
-						<option value="7350₽">42 ягоды</option>
+						<option value="2490₽">12 ягод</option>
+						<option value="2625₽">15 ягод</option>
+						<option value="3890₽">19 ягод</option>
+						<option value="5090₽">25 ягод</option>
+						<option value="6490₽">32 ягоды</option>
+						<option value="8490₽">42 ягоды</option>
 					</select>
 					<div class="price__sum">
-						<input type="text" id="sum8" readonly placeholder="890₽" /><br />
+						<input type="text" id="sum8" readonly placeholder="2490₽" /><br />
 					</div>
 					<div class="button__price">
 						<a href="#"><button class="btn__btn">Подробнее</button></a>

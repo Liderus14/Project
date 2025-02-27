@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="css/popus.css" />
 		<link rel="stylesheet" href="css/popup1.css">
 		<link rel="stylesheet" href="css/slider.css" />
+		<link rel="stylesheet" href="css/adaptiv.css" />
 		<link
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -49,11 +50,29 @@
 		<section class="menu">
 			<div class="container">
 				<div class="menu__block">
-					<div class="menu__item">
-						<ul>
-							<li><a href="index.html">Главная</a></li>
+					<div class="menu-mobail">
+						<input
+							type="checkbox"
+							id="burger-checkbox"
+							class="burger-checkbox"
+						/>
+						<label for="burger-checkbox" class="burger"></label>
+						<ul class="menu-list">
+							<li><a href="index.html" class="menu-item">Главная</a></li>
+							<li></li>
+							<li><a href="author.html" class="menu-item">Обо мне</a></li>
+							<li></li>
+							<li><a href="index.html#otzivy" class="menu-item">Отзывы</a></li>
+							<li></li>
+							<li><a href="faq.html" class="menu-item">Вопросы и ответы</a></li>
+							<li></li>
+							<li><a href="dostavka.html" class="menu-item">Доставка и самовывоз</a></li>
+							<li></li>
+							<li><a href="oplata.html" class="menu-item">Оплата</a></li>
+							<li></li>
 						</ul>
 					</div>
+					
 					<button class="menu__btn" id="open-modal">Заказать звонок</button>
 				</div>
 			</div>
