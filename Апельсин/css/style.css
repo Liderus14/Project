@@ -1084,7 +1084,7 @@ section.faq {
 
 .footer__up {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
 
@@ -1147,7 +1147,7 @@ section.faq {
 
 .footer__down {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
 
