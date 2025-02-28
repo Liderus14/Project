@@ -42,7 +42,9 @@ html {
 	display: flex;
 	gap: 20px;
 }
-
+.menu-mobail{
+	display: none;
+}
 .nav__soc-left a {
 	display: flex;
 	font-family: 'Montserrat', sans-serif;
