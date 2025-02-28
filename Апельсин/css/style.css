@@ -1133,7 +1133,7 @@ section.faq {
 .footer__menu ul {
 	display: flex;
 	justify-content: space-between;
-	gap: 160px;
+	gap: 70px;
 	margin-top: 40px;
 	list-style: none;
 }
@@ -1191,13 +1191,15 @@ section.faq {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	max-width: 560px;
+	padding-top: 0px;
 }
 .meta__body {
 	display: flex;
+	justify-content: space-evenly;
 	align-items: center;
-	justify-content: flex-end;
 	gap: 300px;
-	margin-top: -125px;
+	margin-top: 70px;
+	margin-bottom: 30px;
 }
 .form__meta {
 	display: flex;
@@ -1232,4 +1234,10 @@ section.faq {
 .meta__form-text a {
 	text-decoration: none;
 	color: #000;
+}
+
+.meta__img{
+	border: 6px solid #000;
+	border-radius: 5px;
+	margin-top: -160px;
 }
