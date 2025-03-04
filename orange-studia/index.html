@@ -1,53 +1,36 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Web studio Orange</title>
-		<link rel="stylesheet" href="css/style.css" />
-		<link rel="stylesheet" href="css/modal.css" />
-		<link rel="stylesheet" href="css/acordion.css" />
-		<link rel="stylesheet" href="css/video-modal.css" />
-	</head>
-	<body>
-		<nav class="navigation">
-			<div class="container">
-				<header class="head">
-					<div class="logo"><img src="images/logo.png" alt="" /></div>
-					<div class="menu">
-						<ul>
-							<li><a href="#o-nas">4 ШАГА</a></li>
-							<li><a href="#keis">КЕЙСЫ</a></li>
-							<li><a href="#komanda">НАША КОМАНДА</a></li>
-							<li><a href="#otzyv">ОТЗЫВЫ</a></li>
-						</ul>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Orange студия - разработка сайтов, интернет магазинов с уникальным дизайном, чистым кодом.">
+	<meta name="keywords" content="разработка сайтов, разработка интернет магазинов, автор Мокрушин Михаил, блог Мокрушина Михаила, разработка продающих сайтов, бренд Мокрушина Михаила, настройка Яндекс Директа, лидогенерация, клиенты для бизнеса, верстка сайтов">
+	<title>Веб студия Orange</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/slider.css" />
+	<link rel="stylesheet" href="css/contact.css">
+	<link rel="stylesheet" href="css/form.css">
+	<link rel="stylesheet" href="css/popup.css">
+	<link rel="stylesheet" href="css/style_slaider.css">
+	<link rel="stylesheet" href="css/adaptiv.css">
+</head>
+
+<body>
+	<div class="nav__block">
+		<div class="container">
+			<div class="nav__contact">
+				<div class="nav__email">
+					<img src="images/mail.png" alt="Email" />
+					<a href="mailto:info@orangestudia.ru">info@orangestudia.ru</a>
+				</div>
+				<div class="nav__soc">
+					<div class="nav__soc-left">
+						<a href="#" target="_blank"><img src="images/telegram.png" alt="Whatsapp" />Telegram</a>
 					</div>
 
-					<div class="contact">
-						<div class="contact-img">
-							<img src="images/ph_phone-light.png" alt="" />
-						</div>
-						<div class="contact-tel">
-							<p>8 912 584 03 11</p>
-						</div>
-					</div>
 
-					<div class="soc-sety">
-						<a href="https://wa.me/79125840311"
-							><img src="images/whatsapp.png" alt="Whatsapp"
-						/></a>
-						<a href="https://t.me/79125840311"
-							><img src="images/telegran.png" alt="Telegram"
-						/></a>
-					</div>
-
-					<div class="button">
-						<button class="btn">
-							<a href="#popup"
-								>Оставить заявку</a
-							>
-						</button>
-					</div>
 					<div class="menu-mobail">
 						<input
 							type="checkbox"
@@ -56,1194 +39,845 @@
 						/>
 						<label for="burger-checkbox" class="burger"></label>
 						<ul class="menu-list">
-							<li><a href="#o-nas" class="menu-item">4 ШАГА</a></li>
+							<li><a href="#keyse" class="menu-item">Кейсы</a></li>
 							<li></li>
-							<li><a href="#keis" class="menu-item">КЕЙСЫ</a></li>
+							<li><a href="#tarif" class="menu-item">Тарифы</a></li>
 							<li></li>
-							<li><a href="#komanda" class="menu-item">НАША КОМАНДА</a></li>
+							<li><a href="#otzov" class="menu-item">Отзывы</a></li>
 							<li></li>
-							<li><a href="#otzyv" class="menu-item">ОТЗЫВЫ</a></li>
+							<li><a href="#" class="menu-item">Обо мне</a></li>
 							<li></li>
 						</ul>
 					</div>
-				</header>
-			</div>
-		</nav>
 
-		<section class="header-block">
-			<div class="container">
-				<div class="header-content">
-					<div class="header-content-left">
-						<h1>Клиенты в Ваш бизнес без затрат на рекламу</h1>
-						<h2>Сочные, как <span>апельсин,</span> лиды</h2>
-						<p>Поможем Вам выгодно привести клиентов для Вашего бизнеса</p>
 
-						<form class="form" action="" method="post">
-							<input
-								class="text"
-								type="text"
-								name="name"
-								placeholder="Ваше имя" required
-							/>
-							<input
-								class="phone"
-								type="tel"
-								name="phone"
-								placeholder="Номер телефона" required
-							/>
-							<button class="form-btn">Оставить заявку</button>
-						</form>
-						<div class="checkbox1">
-							<input class="check1" type="checkbox" name="a" value="" checked required/>
-							<h4>
-								Отправляя заявку, Вы принимаете условия соглашения и обработки
-								<a href="#politika">персональных данных</a>
-							</h4>
-						</div>
-					</div>
-					<div class="header-content-right">
-						<img class="img-orang" src="images/orange.png" alt="Апельсин" />
-						<img
-							class="img-mobile"
-							src="images/orange-mobile.png"
-							alt="Апельсин"
-						/>
-					</div>
 				</div>
 			</div>
-		</section>
+		</div>
+	</div>
+	<hr class="hr" />
 
-		<section class="wrapper">
-			<h4 class="box">УСЛУГИ</h4>
-			<div class="container">
-				<div class="wrapper-items">
-					<div class="wrapper-item">
-						<div class="box-content">
-							<img src="images/lico.png" alt="" />
-							<p class="box-content-p">Лидогенерация</p>
-						</div>
-						<div class="box-text">
-							<p>
-								Мы предлагаем услугу лидогенерации — это способ привлечь поток
-								потенциальных клиентов, которые уже ищут то, что Вы предлагаете.
-								Мы используем современные методы маркетинга, чтобы привлечь
-								именно Вашу целевую аудиторию. И самое главное,<span
-									>Вы платите только за тех клиентов, которые совершили ключевое
-									действие.</span
-								>
-								Это позволяет Вам эффективно использовать свой бюджет.
-							</p>
-						</div>
-						<button class="wrapper-button">
-							<a href="#popup">Оставить заявку</a>
-						</button>
-					</div>
-					<div class="wrapper-item">
-						<div class="box-content">
-							<img src="images/chel-mac.png" alt="" />
-							<p class="box-content-p">Разработка сайтов</p>
-						</div>
-						<div class="box-text">
-							<p>
-								Наша компания предлагает
-								<span
-									>полный цикл разработки сайтов без использования
-									аутсорсинга.</span
-								>
-								Вся наша команда специалистов — разработчики и дизайнеры —
-								работает внутри компании, гарантируя высоко качеством и
-								соответствие вашим требованиям. Мы занимаемся созданием
-								современных функциональных сайтов, которые помогут вашему
-								бизнесу привлечь клиентов.
-							</p>
-						</div>
-						<button class="wrapper-button">
-							<a class="close" href="#popup">Оставить заявку</a>
-						</button>
-					</div>
-					<div class="wrapper-item">
-						<div class="box-content">
-							<img src="images/chel-diz.png" alt="" />
-							<p class="box-content-p">Дизайн</p>
-						</div>
-						<div class="box-text">
-							<p>
-								Наши специалисты также занимаются разработкой дизайнов, которые
-								могут включать в себя
-								<span
-									>создание баннеров, логотипов и других графических
-									элементов.</span
-								>
-								Мы поможем вам создать уникальный стиль для вашего бренда,
-								который будет привлекать внимание и запоминаться вашим клиентам.
-								Наши дизайнеры подготовят все необходимые материалы для успешной
-								продукции вашего бизнеса.
-							</p>
-						</div>
-						<button class="wrapper-button">
-							<a href="#popup">Оставить заявку</a>
-						</button>
-					</div>
+	<section class="container">
+		<div class="navigation">
+			<div class="logo">
+				<img src="images/logo.png" alt="Logo" />
+			</div>
+			<div class="menu">
+				<ul>
+					<li class="rect"><a href="#keyse">Кейсы</a></li>
+					<li class="rect"><a href="#shema">Схема работы</a></li>
+					<li class="rect"><a href="#tarif">Тарифы</a></li>
+					<li class="rect"><a href="#otzov">Отзывы</a></li>
+					<li class="rect"><a href="#">Обо мне</a></li>
+				</ul>
+			</div>
+			<div class="tel">
+				<a href="tel:+7(993) 196-05-76">+7(993) 196-05-76</a>
+			</div>
+			<div class="button__nav">
+				<a href="#popup"><button class="nav__btn">Заказать звонок</button></a>
+			</div>
+		</div>
+	</section>
+
+	<section class="container">
+		<div class="header">
+			<div class="header__left">
+				<div class="header__text-h1">
+					<h1 data-text="Клиенты в Ваш">Клиенты в Ваш <h1 data-text="бизнес без затрат">бизнес без затрат</h1>
+						<h1 data-text="на рекламу">на рекламу</h1>
+					</h1>
+				</div>
+				<div class="header__text-h2">
+					<h2>Сочные, как <span>апельсин,</span> лиды</h2>
+					<p>Помогу Вам выгодно привести клиентов для Вашего бизнеса</p>
 				</div>
 			</div>
-		</section>
-
-		<section class="content-text">
-			<div class="container">
-				<div class="content-title">
-					<h2>
-						Благодаря нашему сервису и опытным вебмастерам мы успешно и выгодно
-						приводим клиентов для малого и среднего бизнеса
-					</h2>
-					<div class="content-center">
-						<h3>Договор</h3>
-						<p>
-							Работаем по официальному договору, в котором прописана
-							фиксированная стоимость клиента
-						</p>
-					</div>
-
-					<div class="content-right">
-						<h1>Гарантированный результат</h1>
-						<p>
-							Вы платите только за результат – за клиентов, совершивших нужное
-							вам действие. Рекламу мы берем на себя
-						</p>
-						<img src="images/image.png" alt="" />
-					</div>
-				</div>
-
-				<div class="content-bottom">
-					<div class="content-bottom-left">
-						<h1>Свои специалисты</h1>
-						<p>
-							Мы не отдаем работу на аутсорс. Все делаем в рамках компании.
-							Поэтому Вы всегда можете узнать на каком этапе находимся, а при
-							желании можете выбрать сотрудника, с которым Вам комфортнее
-							работать
-						</p>
-					</div>
-
-					<div class="content-bottom-right">
-						<h1>Реклама за наш бюджет</h1>
-						<div class="content-bottom-img">
-							<img src="images/apelsin.png" alt="" />
-							<p>
-								Настраиваем рекламу в Яндекс Директ, Таргет Мейл за свой бюджет.
-								Ищем горячих клиентов в социальных сетях и мессенджерах
-							</p>
-						</div>
-					</div>
+			<div class="header__right">
+				<div class="header__img">
+					<img src="images/header-img.png" alt="" />
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<section class="main-content" id="o-nas">
-			<h1 class="main-h1">ЧЕТЫРЕ ШАГА ДО РЕЗУЛЬТАТА</h1>
-			<div class="container">
-				<div class="main-content-text">
-					<div class="main-content-left">
-						<h1 class="main-h2">
-							С <span>Orange</span> работа строится
-							<span>просто и понятно</span>
-						</h1>
-					</div>
-					<div class="main-content-right">
-						<div class="main-top">
-							<p>
-								Вы всегда можете связаться с менеджером для уточнения всех
-								деталей, узнать сроки, остаток бюджета, этапы работ
-							</p>
-						</div>
-						<div class="main-soc">
-							<a href="https://wa.me/79125840311"><img src="images/whatsapp.png" alt="" /></a>
-							<a href="https://t.me/79125840311"><img src="images/telegran.png" alt="" /></a>
-						</div>
-					</div>
-				</div>
+	<section class="container">
+		<div class="header__blog">
+			<div class="header__btn">
+
+				<a href="#popup__modals"><button class="btn__header">Получить консультацию</button></a>
+
 			</div>
-		</section>
-
-		<section class="aside">
-			<div class="container">
-				<div class="aside-block">
-					<div class="aside-left">
-						<div class="aside-left-block">
-							<div class="aside-left-img">
-								<h1>1</h1>
-							</div>
-							<div class="aside-left-text">
-								<h1>Заключаете с нами договор</h1>
-							</div>
-						</div>
-						<div class="aside-text">
-							Оставьте заявку на сайте, в удобном мессенджере или по номеру
-							телефона. Наши менеджеры свяжутся с Вами, проконсультируют и
-							уточнят все необходимые детали.
-						</div>
-					</div>
-					<div class="aside-left">
-						<div class="aside-left-block">
-							<div class="aside-left-img">
-								<h1>2</h1>
-							</div>
-							<div class="aside-left-text">
-								<h1>Назначаете цену лида сами</h1>
-							</div>
-						</div>
-						<div class="aside-text">
-							Выберете ключевое действие, которое будет для Вас результатом,
-							далее назначьте цену. Это может быть фиксированная стоимость на
-							работу или процент от прибыли или стоимости.
-						</div>
-					</div>
-				</div>
-				<div class="aside-block">
-					<div class="aside-left">
-						<div class="aside-left-block">
-							<div class="aside-left-img">
-								<h1>3</h1>
-							</div>
-							<div class="aside-left-text">
-								<h1>Мы приступаем к работе</h1>
-							</div>
-						</div>
-						<div class="aside-text">
-							После заключения договора, наши специалисты приступают к работе.
-							Создаем одностраничный сайт при необходимости, запускаем рекламную
-							кампанию, ищем Ваших потенциальных клиентов. Вы всегда можете
-							отслеживать расход бюджета в нашей СРМ-системе.
-						</div>
-					</div>
-					<div class="aside-left">
-						<div class="aside-left-block">
-							<div class="aside-left-img">
-								<h1>4</h1>
-							</div>
-							<div class="aside-left-text">
-								<h1>Получаете горячие лиды</h1>
-							</div>
-						</div>
-						<div class="aside-text">
-							Горячие лиды — потенциальные клиенты, заинтересованные в Вашем
-							продукте или услуге, которые уже проявили активность, например,
-							заполнили форму обратной связи.
-						</div>
-					</div>
-				</div>
+			<div class="header__pull1">
+				<img src="images/galka.png" alt="" />
+				<p>
+					<b>Эффективная</b> настройка Яндекс директ, подбор семантики
+				</p>
 			</div>
-		</section>
-
-		<!-- не совсем удачный блок 
-
-		<section class="blockitems">
-			<div class="blockitems-img-r">
-				<img src="images/br.png" alt="" />
+			<div class="header__pull2">
+				<img src="images/galka.png" alt="" />
+				<p><b>Расчет бюджета</b> расчет бюджета на рекламную компанию</p>
 			</div>
-			<div class="block-items-block">
-				<div class="block-items-left">
-					<img src="images/privet.png" alt="" />
-					<p>Познакомимся, расскажете о своем проекте</p>
+			<div class="header__pull3">
+				<img src="images/galka.png" alt="" />
+				<p><b>Работаю только с теми,</b> кому могу дать результат</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="container">
+		<div class="main">
+			<div class="main__left">
+				<div class="main-left-items">
+					<h1>8 лет</h1>
+					<div class="coding"></div>
 				</div>
+				<hr />
+				<h2 class="main-left-items-h2">
+					Занимаюсь разработкой сайтов любой сложности
+				</h2>
 			</div>
+			<div class="main__right">
+				<div class="main-right-items">
+					<h1>5 лет</h1>
+					<div class="search-engine"></div>
+				</div>
+				<hr />
+				<h2 class="main-right-items-h2">
+					Занимаюсь настройкой и ведением яндекс директ
+				</h2>
+			</div>
+		</div>
+	</section>
 
-			<form class="form-block" action="" method="post">
-				<h1>Оставьте заявку на консультацию</h1>
-				<label class="input-text">
-					<input type="text" name="name" placeholder="Ваше имя" />
-				</label>
-				<label class="input-phone">
-					<input type="text" name="tel" placeholder="Номер телефона" />
-				</label>
-				<button class="form-block-btn">Отправить</button>
-				<div class="checbox-check">
-					<input checked type="checkbox" name="agree" />
-					<p>Отправляя заявку, вы принимаете условия соглашения и обработки <a href="#"> персональных данных</a>
+	<section class="article">
+		<div class="container">
+			<h1 class="article__title">Как <span>я работаю</span></h1>
+			<div class="article__item">
+				<div class="article__items">
+					<div class="article__items-img">
+						<img class="" src="images/wall-clock.png" alt="" />
+						<p class="article__item-p">01</p>
+					</div>
+					<h3 class="article__items-h3">Честность</h3>
+					<p class="article__items-p">
+						Я за честность, так как любой мой клиент - это вложение в будущее
+						развитие моего бренда. У меня огромный опыт. Я не беру деньги, если не уверены, что сделаю результат! <br><br>
+						Мой договор с Вами - это дополнительная гарантия взаимоотношений.
 					</p>
 				</div>
-			</form>
-
-            <div class="block-items-bottom">
-              <div class="block-items-right">
-                <img src="images/zdr.png" />
-                <p>Подберём для Вас оптимальную рекламную кампанию</p>
-              </div>
-            </div>
-
-			<div class="blockitems-img-l">
-				<img src="images/br-l.png" alt="" />
-			</div>
-		</section>
-		<!-- конец не совсем удачного блока -->
-
-		<section class="work" id="keis">
-			<h1 class="work-h1">НАШИ РАБОТЫ И КЕЙСЫ</h1>
-			<div class="container">
-				<div class="work-top">
-					<div class="work-left">
-						<h1>Наша команда работает с самыми разными нишами бизнеса</h1>
+				<div class="article__items">
+					<div class="article__items-img">
+						<img class="" src="images/equalizer.png" alt="" />
+						<p class="article__item-p">02</p>
 					</div>
-					<div class="work-right">
-						<div class="work-button">
-							<buttons class="work-btn"> <a href="#popup">Оставить заявку </a> </buttons>
-						</div>
-						<div class="work-icon">
-							<a href="https://wa.me/79125840311"
-								><img src="images/whatsapp.png" alt=""
-							/></a>
-							<a href="https://t.me/79125840311"
-								><img src="images/telegran.png" alt=""
-							/></a>
-						</div>
+					<h3 class="article__items-h3">Гибкость</h3>
+					<p class="article__items-p">
+						Я максимально адаптируюсь под каждого клиента. Вы можете
+						обратиться с вопросом ко мне и получить ответ.
+						Соблюдая рамки рабочего времени.
+					</p>
+				</div>
+				<div class="article__items-orange">
+					<div class="article__items-img">
+						<img class="" src="images/data-analytics.png" alt="" />
+						<p class="article__item-p">03</p>
+					</div>
+					<h3 class="article__items-orange-h3">Постоянная отчетность</h3>
+					<p class="article__items-orange-p">
+						Я делаю промежуточные отчеты 1 раз в неделю, сверяя показатели
+						прошлой недели. Стараюсь оптимизировать рекламные компании и
+						улучшить показатели.
+					</p>
+					<div class="box__btn">
+
+						<a href="#popup__modals"><button class="btn__box">Получить бесплатную консультацию</button></a>
+
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<section class="project">
-			<div class="container">
-				<div class="project-block">
-					<div class="project-left">
-						<div class="project-left-l">
-							<img class="project-img" src="images/фото.png" alt="" />
-							<h2>Клининговая компания в г. Пермь</h2>
-							<div class="project-text">
-								<div class="project-text-left">
-									<li><p>Бюджет компании</p></li>
-									<li><p>Кликов</p></li>
-									<li><p>Заявок</p></li>
-									<li><p>Лидов</p></li>
-								</div>
-								<div class="project-text-right">
-									<li><p>30.000 рублей</p></li>
-									<li><p>1443 клика</p></li>
-									<li><p>92</p></li>
-									<li><p>16</p></li>
-								</div>
-								<div class="project-center">
-									<img src="images/poloska.png" alt="" />
-
-									<div class="project-left-r">
-										<h2>
-											Что мы сделали в рамках данного проекта.
-											<span>Cрок выполнения: 7 рабочих дней</span>
-										</h2>
-
-										<div class="project-text-title">
-											<div class="project-text-img">
-												<img src="images/strelka.png" />
-												<p>
-													с нуля подбор рекламной компании, площадок для
-													размещения
-												</p>
-											</div>
-										</div>
-										<div class="project-text-title">
-											<div class="project-text-img">
-												<img src="images/strelka.png" />
-												<p>разработка сайта для привлечения трафика</p>
-											</div>
-										</div>
-										<div class="project-text-title">
-											<div class="project-text-img">
-												<img src="images/strelka.png" />
-												<p>
-													консультации и поддержка по настройке рекламе после
-													завершения работ
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+	<!-- Swiper -->
+	<div class="container" id="keyse">
+		<h1 class="title__keyse">Кейсы</h1>
+		<div class="swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="swiper-slide-items">
+						<div class="swiper__item"><img src="./images/eco.png"></div>
+						<div class="swiper__item">
+							<h2>«Скупка №1»</h2>
+						</div>
+						<div class="swiper__item">
+							<p><b>Результат:</b> За 1 месяц</p>
 						</div>
 					</div>
-
-					<div class="project-right">
-						<div class="project-left-l">
-							<img class="project-img" src="images/фото-2.png" alt="" />
-							<h2>Скупка техники в г. Пермь</h2>
-							<div class="project-text">
-								<div class="project-text-left">
-									<li><p>Бюджет компании</p></li>
-									<li><p>Кликов</p></li>
-									<li><p>Заявок</p></li>
-									<li><p>Лидов</p></li>
+					<div class="swiper__items-text">
+						<div class="swiper__items-left">
+							<div class="tooltip__items">
+								<h4>Было:</h4>
+								<p><img src="./images/exclamation.png"> &nbsp;5-7 заявок в месяц.</p>
+								<p><img src="./images/exclamation.png"> &nbsp;1-2 лида за 1 месяц.</p>
+							</div>
+							<div class="tip__items">
+								<h4>Стало:</h4>
+								<p><img src="./images/Group.png"> &nbsp;27-30 заявок в месяц</p>
+								<p><img src="./images/Group.png"> &nbsp;12-18 лидов в месяц</p>
+							</div>
+							<div class="swiper__btn">
+								<a href="https://mylead-store.ru/go2850" target="_blank"><button class="btn__swiper">Посмотреть сайт</button></a>
+							</div>
+						</div>
+						<div class="swiper__items-right">
+							<img class="items__img" src="./images/Фото.png">
+							<div class="swiper__right-block">
+								<div class="swiper__block">
+									<img src="./images/avatar.png">
+									<h4><b>Сергей</b><br> Генеральный директор «Скупка №1»</h4>
 								</div>
-								<div class="project-text-right">
-									<li><p>50.000 рублей</p></li>
-									<li><p>2839 клика</p></li>
-									<li><p>192</p></li>
-									<li><p>54</p></li>
-								</div>
-								<div class="project-center">
-									<img src="images/poloska.png" alt="" />
-
-									<div class="project-left-r">
-										<h2>
-											Что мы сделали в рамках данного проекта.
-											<span>Cрок выполнения: 12 рабочих дней</span>
-										</h2>
-
-										<div class="project-text-title">
-											<div class="project-text-img">
-												<img src="images/strelka.png" />
-												<p>
-													с нуля подбор рекламной компании, площадок для
-													размещения
-												</p>
-											</div>
-										</div>
-										<div class="project-text-title">
-											<div class="project-text-img">
-												<img src="images/strelka.png" />
-												<p>разработка сайта для привлечения трафика</p>
-											</div>
-										</div>
-										<div class="project-text-title">
-											<div class="project-text-img">
-												<img src="images/strelka.png" />
-												<p>
-													консультации и поддержка по настройке рекламе после
-													завершения работ
-												</p>
-											</div>
-										</div>
-									</div>
+								<div class="swiper__blok">
+									<p>В 2023 году мы впервые обратились к Михаилу за созданием лендинга для одного из наших направлений деятельности и были приятно удивлены скоростью и качеством выполнения работ. Лендинг работает и по сей день и даже по прошествию времени не потерял актуальность в плане дизайна и как раньше приносит нам клиентов. </p><br>
+									<p>Далее мы обращались к Михаилу за созданием еще одного лендинга, а самое главное мы заказали разработку многостраничного корпоративного сайта. Михаил справился со всеми задачами на отлично.</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-
-		<section class="items-block">
-			<h1 class="work-h1">ВАРИАНТЫ ГОТОВЫХ САЙТОВ</h1>
-			<div class="container">
-				<div class="items-block-item">
-					<div class="items-block-center">
-						<h1 class="items-blok">Одностраничный сайт</h1>
-						<p>Сайт-визитка/лендинг</p>
-						<img src="images/7681.png" alt="" />
-						<p>
-							Сайт подходит для презентации специалиста, компании или услуги
-						</p>
-						<h3 class="items-blok">от 9 600 руб</h3>
-					</div>
-					<div class="items-block-center">
-						<h1 class="items-blok">Сайт-каталог услуг</h1>
-						<p>Сайт-визитка/лендинг</p>
-						<img src="images/7691.png" alt="" />
-						<p>
-							Если у Вас несколько услуг и Вы хотите описать каждую на отдельной
-							странице
-						</p>
-						<h3 class="items-blok">от 25 600 руб</h3>
-					</div>
-					<div class="items-block-center">
-						<h1 class="items-blok">Сайт-каталог товаров</h1>
-						<p>Сайт-визитка/лендинг</p>
-						<img src="images/77.png" alt="" />
-						<p>
-							Если у Вас сложные товары и перед покупкой Вам нужна консультация
-							специалиста
-						</p>
-						<h3 class="items-blok">от 35 900 руб</h3>
-					</div>
-					<div class="items-block-center">
-						<h1 class="items-blok">Интернет-магазин</h1>
-						<p>Сайт-визитка/лендинг</p>
-						<img src="images/111.png" alt="" />
-						<p>
-							Подходит тем, кто хочет продавать товары онлайн (без звонка перед
-							покупкой)
-						</p>
-						<h3 class="items-blok">от 56 900 руб</h3>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="form-container">
-			<div class="container">
-				<div class="form-block">
-					<div class="form-bloc-left">
-						<img src="images/str.png" alt="" />
-					</div>
-					<div class="form-bloc-centr">
-						<h1>
-							А хотите БЕСПЛАТНО?<br />
-							Оставьте заявку и мы расскажем об этом подробнее
-						</h1>
-					</div>
-					<div class="form-bloc-riht">
-						<img src="images/34.png" alt="" />
-					</div>
-				</div>
-				<form class="block-forma" action="" method="post">
-					<input type="text" name="name" placeholder="Ваше имя" required/>
-					<input type="tel" name="phone" placeholder="Номер телефона" required/>
-					<button class="forma-btn">Оставить заявку</button>
-				</form>
-				<div class="che-b">
-					<input class="check-b" type="checkbox" name="a" value="" checked required/>
-					<h5>
-						Отправляя заявку, Вы принимаете условия соглашения и обработки
-						<a href="#politika">персональных данных</a>
-					</h5>
-				</div>
-			</div>
-		</section>
-		<section class="command" id="komanda">
-			<h1 class="command-h1">НАША КОМАНДА</h1>
-			<div class="container">
-				<div class="command-block">
-					<div class="command-left">
-						<p class="command-p">
-							Приветствуем Вас в нашей команде! У нас работают настоящие мастера
-							своего дела. Наши разработчики, дизайнеры, аналитики и менеджеры
-							проектов готовы взяться за вашу задачу. Мы ценим индивидуальный
-							подход к каждому клиенту и стремимся сделать ваш проект успешным.
-						</p>
-					</div>
-					<div class="command-right">
-						<div class="coomand-text">
-							<h3 class="command-h3">
-								Если Вы хотите поработать с конкретным специалистом, выбирайте
-								того, кто Вас вдохновляет и оставляйте заявку на его услуги
-							</h3>
+				<div class="swiper-slide">
+					<div class="swiper-slide-items">
+						<div class="swiper__item"><img src="./images/eco1.png"></div>
+						<div class="swiper__item">
+							<h2>«Ремонт ванных»</h2>
 						</div>
-						<div class="command-img">
-							<img src="images/Vector14.png" alt="" />
+						<div class="swiper__item">
+							<p><b>Результат:</b> за 1 месяц</p>
+						</div>
+					</div>
+					<div class="swiper__items-text">
+						<div class="swiper__items-left">
+							<div class="tooltip__items">
+								<h4>Было:</h4>
+								<p><img src="./images/exclamation.png"> &nbsp;0 заявок</p>
+								<p><img src="./images/exclamation.png"> &nbsp;0 лидов</p>
+							</div>
+							<div class="tip__items">
+								<h4>Стало:</h4>
+								<p><img src="./images/Group.png"> &nbsp;16 заявок</p>
+								<p><img src="./images/Group.png"> &nbsp;4 лида за месяц</p>
+							</div>
+							<div class="swiper__btn">
+								<a href="https://mylead-store.ru/go2849" target="_blank"><button class="btn__swiper">Посмотреть сайт</button></a>
+							</div>
+						</div>
+						<div class="swiper__items-right">
+							<img class="items__img" src="./images/Фото12.png">
+							<div class="swiper__right-block">
+								<div class="swiper__block">
+									<img src="./images/avatar1.png">
+									<h4><b>Алексей</b><br> Генеральный директор</h4>
+								</div>
+								<div class="swiper__blok">
+									<p>Заказал у Михаила создание сайта. К моему запросу подошел очень внимательно и кропотливо. Михаил давал хорошую коммуникацию на каждом этапе работы. Круто проявил себя в создании уникального фирменного стиля. </p><br>
+									<p>Я искренне люблю итоговый результат, получил эксклюзивный сайт высокого уровня. Смело рекомендую Михаила как качественного и ответственного исполнителя.</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="items-block-command">
-					<div class="item-block-command">
-						<div class="block-command-left">
-							<div class="block-command-img">
-								<img src="images/photo3.png" alt="" />
-							</div>
-							<div class="block-command-title">
-								<h3>Татьяна</h3>
-								<p>Веб-дизайнер</p>
-							</div>
-							<div class="block-command-icon">
-								<img src="images/photoshjp.png" alt="" />
-								<img src="images/figma.png" alt="" />
-								<img src="images/tilda1.png" alt="" />
-							</div>
+				<div class="swiper-slide">
+					<div class="swiper-slide-items">
+						<div class="swiper__item"><img src="./images/eco2.png"></div>
+						<div class="swiper__item">
+							<h2>«Видеонаблюдение»</h2>
 						</div>
-						<div class="bloc-command-i">
-							<img src="images/Rectangle77.png" alt="" />
-						</div>
-
-						<div class="block-command-right">
-							<div class="block-command-right-title">
-								<h3>Специализация</h3>
-								<p>Дизайн сайтов, цифровые баннеры, проработка UX</p>
-							</div>
-
-							<p class="block-p">
-								Люблю совмещать удобство и красоту. Уже 1,5 года делаю это
-								профессионально, помогая бизнесу клиентов выделяться на рынке и
-								развиваться. Узнаю всё о Вашем бизнесе и создам дизайн, который
-								будет актуален именно в Вашей нише!
-							</p>
-
-								<button class="block-command-btn">
-							<a  href="#popup">Оставить заявку</a>
-						</button>
-							</button>
+						<div class="swiper__item">
+							<p><b>Результат:</b> за 1 месяц</p>
 						</div>
 					</div>
-					<div class="item-block-command">
-						<div class="block-command-left">
-							<div class="block-command-img">
-								<img src="images/photo2.png" alt="" />
+					<div class="swiper__items-text">
+						<div class="swiper__items-left">
+							<div class="tooltip__items">
+								<h4>Было:</h4>
+								<p><img src="./images/exclamation.png"> &nbsp;24 заявки в месяц</p>
+								<p><img src="./images/exclamation.png"> &nbsp;5-7 лидов в месяц</p>
 							</div>
-							<div class="block-command-title-a">
-								<h3>Кирилл</h3>
-								<p>Разработчик</p>
+							<div class="tip__items">
+								<h4>Стало:</h4>
+								<p><img src="./images/Group.png"> &nbsp;45-49 заявок в месяц</p>
+								<p><img src="./images/Group.png"> &nbsp;16 лидов</p>
 							</div>
-							<div class="block-command-icon">
-								<img src="images/pngwing.png" alt="" />
-								<img src="images/pngwi.png" alt="" />
-								<img src="images/jq.png" alt="" />
-							</div>
-						</div>
-						<div class="bloc-command-i">
-							<img src="images/Rectangle77.png" alt="" />
-						</div>
-
-						<div class="block-command-right">
-							<div class="block-command-right-title">
-								<h3>Специализация</h3>
-								<p>Разработка сайтов, мобильных приложений, баз данных.</p>
-							</div>
-
-							<p class="block-p">
-								Один из лучших специалистов в данной области, умею работать
-								качественно и в срок, выполняю любые задачи которые мне под
-								силу, берусь за проект если могу. Не откладываю на завтра то что
-								могу сделать сегодня! Сказал сделаю значит сделаю!
-							</p>
-
-						<button class="block-command-btn">
-							<a  href="#popup">Оставить заявку</a>
-						</button>
-						</div>
-					</div>
-					<div class="item-block-command">
-						<div class="block-command-left">
-							<div class="block-command-img">
-								<img class="img-m" src="images/misha2.png" alt="" />
-							</div>
-							<div class="block-command-title-m">
-								<h3>Михаил</h3>
-								<p>Разработчик</p>
-							</div>
-							<div class="block-command-icon">
-								<img src="images/html.png" alt="" />
-								<img src="images/css.png" alt="" />
-								<img src="images/js.png" alt="" />
+							<div class="swiper__btn">
+								<a href="https://mylead-store.ru/go2854" target="_blank"><button class="btn__swiper">Посмотреть сайт</button></a>
 							</div>
 						</div>
-						<div class="bloc-command-i">
-							<img src="images/Rectangle77.png" alt="" />
-						</div>
-
-						<div class="block-command-right">
-							<div class="block-command-right-title">
-								<h3>Специализация</h3>
-								<p>Разработка адаптивных сайтов, лендингов.</p>
+						<div class="swiper__items-right">
+							<img class="items__img" src="./images/Фото11.png">
+							<div class="swiper__right-block">
+								<div class="swiper__block">
+									<img src="./images/avatar2.png">
+									<h4><b>Дмитрий</b><br> генеральный директор</h4>
+								</div>
+								<div class="swiper__blok">
+									<p>Очень доволен работой с Михаилом! Оперативно, креативно и с душой! Его настоятельные профессиональные советы позволяют получить наилучший результат, даже если в первый момент я, как заказчик, с ним категорически не согласен. Но в итоге, он оказывается прав. Это не первое наше сотрудничество и результат всегда на высоте. </p><br>
+									<p>Настоятельно рекомендую! Наши успехи в продвижении без его помощи не состоялись бы. Спасибо!!!!</p>
+								</div>
 							</div>
-
-							<p class="block-p">
-								Всем привет! Умею делать классные продающие сайты, чтоб
-								посмотрел на сайт и захотелось купить услугу или продукт, делаю
-								качественную верстку, добавляю свои фишки, иногда отклоняюсь от
-								дизайна так как вижу немного иначе сайт, и еще не разу не
-								ошибся.
-							</p>
-
-							<button class="block-command-btn">
-							<a  href="#popup">Оставить заявку</a>
-						</button>
-						</div>
-					</div>
-					<div class="item-block-command">
-						<div class="block-command-left">
-							<div class="block-command-img">
-								<img src="images/1photo.png" alt="" />
-							</div>
-							<div class="block-command-title-n">
-								<h3>Анастасия</h3>
-								<p>Маркетолог</p>
-							</div>
-							<div class="block-command-icon">
-								<img src="images/mail.png" alt="" />
-								<img src="images/yandex.png" alt="" />
-								<img src="images/tag.png" alt="" />
-							</div>
-						</div>
-						<div class="bloc-command-i">
-							<img src="images/Rectangle77.png" alt="" />
-						</div>
-
-						<div class="block-command-right">
-							<div class="block-command-right-title">
-								<h3>Специализация</h3>
-								<p>Реклама Яндекс директ, таргет-майл, таргет-вк,соц.сети</p>
-							</div>
-
-							<p class="block-p">
-								Реклама это мое! Люблю настраивать рекламу, проводить анализ
-								ниши,стартапа или уже прибыльного бизнеса, подхожу с умом к
-								любому проекту, всегда держу клиента вкурсе его бюджетов, раз в
-								неделю провожу отчетность, в общем работаю по полной.
-							</p>
-
-							<button class="block-command-btn">
-							<a  href="#popup">Оставить заявку</a>
-						</button>
 						</div>
 					</div>
 				</div>
+				<!-- ... дополнительные слайды ... -->
 			</div>
-		</section>
+			<!-- Если нужны пагинация и навигационные кнопки -->
+			<div class="swiper-pagination"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+		</div>
+	</div>
 
-		<section class="block-otzov" id="otzyv">
-			<h1 class="otzov-h1">ОТЗЫВЫ</h1>
-			<div class="container">
-				<div class="block-otzov-item">
-					<div class="block-otzov-items">
-						<div class="block-items-top">
-							<img src="images/otziv1.png" alt="" />
-							<div class="block-items-tite">
-								<h3>Услуга</h3>
-								<p>Рекламная кампания, одностраничный сайт</p>
-							</div>
-						</div>
-						<h1>Скупка техники в Перми</h1>
-
-						<h4>
-							В 2023 году мы впервые обратились в студию Orange за созданием
-							лендинга для одного из наших направлений деятельности и были
-							приятно удивлены скоростью и качеством выполнения работ. Лендинг
-							работает и по сей день и даже по прошествию времени не потерял
-							актуальность в плане дизайна и как раньше приносит нам клиентов.
-							Далее мы обращались в студию Orange за созданием еще одного
-							лендинга, а самое главное мы заказали разработку многостраничного
-							корпоративного сайта. Orange справились со всеми задачами на
-							отлично.
-						</h4>
-						<div class="podrobno">
-							<a href="https://mylead-store.ru/go2850" target="_blank">Перейти на сайт...</a>
-						</div>
-					</div>
-					<div class="block-otzov-items">
-						<div class="block-items-top">
-							<img src="images/otziv3.png" alt="" />
-							<div class="block-items-tite">
-								<h3>Услуга</h3>
-								<p>Рекламная кампания, одностраничный сайт</p>
-							</div>
-						</div>
-						<h1>Ремонт ванных комнат</h1>
-
-						<h4>
-							Заказал в orange создание сайта. К моему запросу отнеслись очень
-							внимательно и кропотливо. Ребята давали хорошую коммуникацию на
-							каждом этапе работы. Круто проявили себя в создании уникального
-							фирменного стиля. Я искренне люблю итоговый результат, получил
-							эксклюзивный сайт высокого уровня. Смело рекомендую компанию
-							orange как качественного и ответственного подрядчика.
-						</h4>
-						<div class="podrobno">
-							<a href="https://mylead-store.ru/go2849" target="_blank">Перейти на сайт...</a>
-						</div>
-					</div>
-					<div class="block-otzov-items">
-						<div class="block-items-top">
-							<img src="images/otziv2.png" alt="" />
-							<div class="block-items-tite">
-								<h3>Услуга</h3>
-								<p>Рекламная кампания, одностраничный сайт</p>
-							</div>
-						</div>
-						<h1>Установка видео-наблюдения</h1>
-
-						<h4>
-							Очень довольна работой с Orange! Оперативно, креативно и с душой!
-							Их настоятельные профессиональные советы позволяют получить
-							наилучший результат, даже если в первый момент я, как заказчик, с
-							ними категорически не согласна. Но в итоге, они оказывается правы.
-							Это не первое наше сотрудничество и результат всегда на высоте.
-							Настоятельно рекомендую! Наши успехи в продвижении без их помощи
-							не состоялись бы. Спасибо!!!!
-						</h4>
-						<div class="podrobno">
-							<a href="https://mylead-store.ru/go2848" target="_blank">Перейти на сайт...</a>
-						</div>
-					</div>
-				</div>
+	<section class="container">
+		<div class="block__section">
+			<div class="section__block">
+				<h1>Начните <b>работу со мной уже</b><span> сегодня</span></h1>
+				<h2>Подпишем договор сегодня, получите скидку 10%</h2>
 			</div>
-		</section>
-
-		<section class="block-form-items">
-			<div class="continer">
-				<div class="block-form-item">
-					<div class="block-form-item-left">
-						<h1>Что мы можем Вам предложить?</h1>
-						<div class="block-form-title">
-							<img src="images/strelka-orange.png" alt="" />
-							<p>Быстро вникнем в специфику Вашего проекта</p>
-						</div>
-						<div class="block-form-title">
-							<img src="images/strelka-orange.png" alt="" />
-							<p>Продумаем работу по продвижению и поиску клиентов</p>
-						</div>
-						<div class="block-form-title">
-							<img src="images/strelka-orange.png" alt="" />
-							<p>Разработаем сайт для трафика</p>
-						</div>
-						<div class="block-form-title">
-							<img src="images/strelka-orange.png" alt="" />
-							<p>Запустим рекламную кампанию за свой бюджет</p>
-						</div>
-						<div class="block-form-title">
-							<img src="images/strelka-orange.png" alt="" />
-							<p>Получите горячих клиентов в короткие сроки</p>
-						</div>
-
-						<div class="block-form-socseti">
-							<a href="https://wa.me/79125840311"><img src="images/whatsapp1.png" alt="" /></a>
-							<a href="https://t.me/79125840311"><img src="images/telegran1.png" alt="" /></a>
-						</div>
-					</div>
-					<div class="block-form-item-right">
-						<form class="form-block-1-1" action="" method="post">
-							<h1>ОСТАВЬТЕ ЗАЯВКУ НА<br />КОНСУЛЬТАЦИЮ</h1>
-							<label class="form-name">
-								<input type="text" name="name" placeholder="Ваше имя" required/>
-							</label>
-							<label class="form-phone">
-								<input type="tel" name="phone" placeholder="Номер телефона" required/>
-							</label>
-							<button class="formbutton">Оставить заявку</button>
-							<div class="che-b">
-								<input
-									class="check-b"
-									type="checkbox"
-									name="a"
-									value=""
-									checked required
-								/>
-								<h5>
-									Отправляя заявку, Вы принимаете условия соглашения и обработки
-									<a href="#politika">персональных данных</a>
-								</h5>
-							</div>
-						</form>
-					</div>
-				</div>
+			<div class="section__footer">
+				<a href="договор.docx" download target="_blank"><button class="section__btn">Ознакомиться с
+						договором</button></a>
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<section class="question">
-			<div class="container">
-				<h1 class="question-h1">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h1>
-			</div>
-			<div class="question-acordion">
-				<div class="faq">
-					<div class="faq-item">
-						<input class="faq-input" type="checkbox" id="faq_1" />
-						<label class="faq-title" for="faq_1"
-							>Что такое лидогенерация и как это работает?</label
-						>
-						<div class="faq-text">
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Inventore dolor consequuntur, architecto fugiat distinctio
-								exercitationem voluptatum illo unde provident? Modi voluptates,
-								perspiciatis quis vel corporis ea deserunt numquam asperiores
-								vero!
-							</p>
-						</div>
+	<section class="aside" id="shema">
+		<div class="container">
+			<h1 class="aside-p">Схема <b>работы</b></h1>
+		<div class="cartoon-container">
+				<div class="cartoon__container">
+					<input type="radio" name="cartoon" id="prototip" checked/>
+					<div>
+						<label class="cartoon__items" for="prototip">
+							<h3 class="cartoon__h3">01. Прототип сайта</h3>
+							<p class="cartoon__p">Я готовлю прототип Вашего будущего сайта.</p>
+						</label>
 					</div>
-					<div class="faq-item">
-						<input class="faq-input" type="checkbox" id="faq_2" />
-						<label class="faq-title" for="faq_2"
-							>Сколько будет стоить запустить рекламную кампанию на имеющийся
-							сайт?</label
-						>
-						<div class="faq-text">
-							<p>
-								Настройка рекламы и продвижение для Вас абсолютно бесплатны! Вы
-								платите только за совершенные целевые действия клиентом на Вашем
-								сайте. Стоимость горячего клиента обсуждается сразу и
-								фиксируется в договоре.
-							</p>
-						</div>
+					<input type="radio" name="cartoon" id="dizain">
+					<div>
+						<label class="cartoon__items" for="dizain">
+							<h3 class="cartoon__h3">02. Рисую дизайн сайта</h3>
+							<p class="cartoon__p">Работаю в программе Figma, делаю дизайн из Вашего технического задания.</p>
+						</label>
 					</div>
-					<div class="faq-item">
-						<input class="faq-input" type="checkbox" id="faq_3" />
-						<label class="faq-title" for="faq_3"
-							>Как я пойму, что заявки пошли в результате работы Вашей
-							компании?</label
-						>
-						<div class="faq-text">
-							<p>
-								Настройка рекламы и продвижение для Вас абсолютно бесплатны! Вы
-								платите только за совершенные целевые действия клиентом на Вашем
-								сайте. Стоимость горячего клиента обсуждается сразу и
-								фиксируется в договоре.
-							</p>
-						</div>
+					<input type="radio" checked="" name="cartoon" id="verstka">
+					<div>
+						<label class="cartoon__items" for="verstka">
+							<h3 class="cartoon__h3">03. Верстка сайта</h3>
+							<p class="cartoon__p">Верстаю чистым кодом HTML/CSS настраиваю и загружаем его в свою CRM-систему. Для анализа статистики</p>
+						</label>
 					</div>
-					<div class="faq-item">
-						<input class="faq-input" type="checkbox" id="faq_4" />
-						<label class="faq-title" for="faq_4"
-							>Как быстро вы вносите изменения в рекламную кампанию?</label
-						>
-						<div class="faq-text">
-							<p>
-								Настройка рекламы и продвижение для Вас абсолютно бесплатны! Вы
-								платите только за совершенные целевые действия клиентом на Вашем
-								сайте. Стоимость горячего клиента обсуждается сразу и
-								фиксируется в договоре.
-							</p>
-						</div>
+					<input type="radio" name="cartoon" id="reklama">
+					<div>
+						<label class="cartoon__items" for="reklama">
+							<h3 class="cartoon__h3">04. Запуск рекламной компании</h3>
+							<p class="cartoon__p">Запускаю первую рекламную компанию в Яндекс.Директ.</p>
+						</label>
 					</div>
-					<div class="faq-item">
-						<input class="faq-input" type="checkbox" id="faq_5" />
-						<label class="faq-title" for="faq_5"
-							>Что требуется для успешной раскрутки моего бизнеса?</label
-						>
-						<div class="faq-text">
-							<p>
-								Настройка рекламы и продвижение для Вас абсолютно бесплатны! Вы
-								платите только за совершенные целевые действия клиентом на Вашем
-								сайте. Стоимость горячего клиента обсуждается сразу и
-								фиксируется в договоре.
-							</p>
-						</div>
-					</div>
-					<div class="faq-item">
-						<input class="faq-input" type="checkbox" id="faq_6" />
-						<label class="faq-title" for="faq_6"
-							>Могу ли я у Вас заказать только сайт, без продвижения?</label
-						>
-						<div class="faq-text">
-							<p>
-								Настройка рекламы и продвижение для Вас абсолютно бесплатны! Вы
-								платите только за совершенные целевые действия клиентом на Вашем
-								сайте. Стоимость горячего клиента обсуждается сразу и
-								фиксируется в договоре.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="footer-block">
-			<div class="container">
-				<div class="footer-block-item">
-					<div class="footer-block-item-left">
-						<h2>
-							Напишите нам в социальных сетях, позвоните или просто заполните
-							форму обратной связи!
-						</h2>
-						<h3>График работы</h3>
-						<h3>Понедельник - пятница 08:00-18:00 (по Мск.)</h3>
-						<div class="footer-soc">
-							<a href="https://wa.me/79125840311"><img src="images/whatsapp1.png" alt="" /></a>
-							<a href="https://t.me/79125840311"><img src="images/telegran1.png" alt="" /></a>
-						</div>
-
-						<div class="footer-tel">
-							<img src="images/tr.png" alt="" />
-							<p>8 912 584 03 11</p>
-						</div>
-					</div>
-					<div class="footer-block-item-center">
-						<h1>Не нашли ответ на свой вопрос?</h1>
-						<form class="footer-form" action="" method="post">
-							<label class="label-name">
-								<input type="text" name="name" placeholder="Ваше имя" required/>
-							</label>
-							<label class="label-phone">
-								<input type="tel" name="phone" placeholder="+7 (777) 777-77-77" pattern="[+]7\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" required/>
-							</label>
-							<button class="footer-btn">Оставить заявку</button>
-							<div class="footer-check">
-								<input type="checkbox" checked="" required/>
-								<p>
-									Отправляя заявку, вы принимаете условия соглашения и обработки
-									<a href="#politika">персональных данных</a> 
+					<div class="cartoon">
+						<figure id="f-prototip">
+							<div class="aside__title">
+								<div class="aside__text-block">
+									<h1 class="aside__text-h1">01.</h1>
+									<div class="svg"></div>
+								</div>
+								<h2>Создание прототипа сайта</h2>
+								<p class="aside__p">
+									Для успешного создание самого сайта создается прототип сайта.<br />
+									Прототип сайта используется для распределения блоков что и в каком
+									месте будет расположено.
 								</p>
+								<ol class="aside__ol">
+									<li class="aside__li">
+										Создание первого блока (главный экран обычно текст призыва и
+										картинка с кнопкой призыва к действию)
+									</li>
+									<li class="aside__li">
+										Второй экран обычно описание о нас (о компании)
+									</li>
+									<li class="aside__li">Третий блок (почему мы)</li>
+									<li class="aside__li">
+										Четвертый блок Отзывы уже тех кто обращался в компанию
+									</li>
+									<li class="aside__li">
+										Пятый блок блок заключительный блок (вопросы ответы и контакты)
+									</li>
+								</ol>
 							</div>
-						</form>
-					</div>
+						</figure>
 
-					<div class="footer-block-item-right">
-						<div class="footer-img">
-							<img src="images/123.png" alt="" />
-							<p>Расскажите нам о своем бизнесе, а мы найдем Вам клиентов</p>
-						</div>
+						<figure id="f-dizain">
+							<div class="aside__title">
+								<div class="aside__text-block">
+									<h1 class="aside__text-h1">02.</h1>
+									<div class="svg"></div>
+								</div>
+								<h2>Рисую дизайн в программе Figma</h2>
+								<p class="aside__p">
+									Для успешной реализации дизайн необходим утвержденный прототип, 
+									согласно прототипу и техническому заданию я рисую дизайн.<br />
+								
+								</p>
+								<ol class="aside__ol">
+									<li class="aside__li">
+										Подбираю цвета согласно предпочтению заказчика.
+									</li>
+									<li class="aside__li">
+										Обычный дизайн занимает на разработку 2-3 рабочих дня
+									</li>
+									<li class="aside__li">Я стараюсь сделать дизайн продающим и цепляющим, чтоб реклама приносила свои плоды.</li>
+									<li class="aside__li">
+										сложные дизайны с анимацией и больше 7 блоков могут занимать до 5-7 дней разработки
+									</li>
+									<li class="aside__li">
+										Самое важное это четкое техническое задние от заказчика и маркетологов. 
+									</li>
+								</ol>
+							</div>
+						</figure>
+
+						<figure id="f-verstka">
+							<div class="aside__title">
+								<div class="aside__text-block">
+									<h1 class="aside__text-h1">03.</h1>
+									<div class="svg"></div>
+								</div>
+								<h2>Верстка сайта использую технологии</h2>
+								<p class="aside__p">
+								Использую технологии чистого кода  HTML/CSS/JS.
+								</p>
+								<ol class="aside__ol">
+									<li class="aside__li">
+										HTML- Создаем каркас сайта /CSS - создаю краски сайта, добавляем цвета, анимации.
+									</li>
+									<li class="aside__li">
+										JS - Добавляю взаимодействие с сайтом модальные окна, различный скрипты и прочее.
+									</li>
+									<li class="aside__li">Верстаю адаптив чтоб сайт мог корректно открываться на всех устройствах (телефоны, планшеты, компьютеры)</li>
+									<li class="aside__li">
+										Регистрирую хостинг и заливаю его на сервер, регистрирую домен чтоб сайт мог начать свою работу.
+									</li>
+									<li class="aside__li">
+										Тестирую функциональность сайта, проверяю все формы, и отправляю ссылку заказчику. 
+									</li>
+								</ol>
+							</div>
+						</figure>
+
+						<figure id="f-reklama">
+							<div class="aside__title">
+								<div class="aside__text-block">
+									<h1 class="aside__text-h1">04.</h1>
+									<div class="svg"></div>
+								</div>
+								<h2>Запуск рекламной компании</h2>
+								<p class="aside__p">
+									Запускаю первую тестовую рекламную компанию в Яндекс директ
+								</p>
+								<ol class="aside__ol">
+									<li class="aside__li">
+										Создание рекламной компании
+									</li>
+									<li class="aside__li">
+										подготовка семантики (подбор ключей исходя из тематики сайта)
+									</li>
+									<li class="aside__li">Составляю утп (пишу короткие названия с призывом к действию)</li>
+									<li class="aside__li">
+										Пишу объявления на 3- 5 тестовых компаний зависимости от бюджета.
+									</li>
+									<li class="aside__li">
+										запускаю рекламную компанию, подключаю метрику для отслеживания статистики.
+									</li>
+								</ol>
+							</div>
+						</figure>
 					</div>
 				</div>
 			</div>
-		</section>
+			
+			
+			</div>
+	</section>
 
-		<section class="footer">
-			<div class="container">
-				<div class="footer-container">
-					<div class="footer-logo">
-						<img src="images/logo.png" alt="" />
+	<div class="wrapper__money" id="tarif">
+		<div class="container">
+			<h1 class="wrapper__h1">Тарифы</h1>
+			<div class="wrapper__block">
+				<p class="wrapper__p">
+					Я слежу за ценообразованием и дешевле сделать к сожалению не могу, во первых я делаю качественно, соблюдаю сроки и пунктуальность, во вторых у меня есть образование и опыт коммерческой разработки, также имею опыт более 10 лет в маркетинге, поэтому если вы не готовы платить то я не готов делать) Надеюсь справедливо.</p>
+				<div class="wrapper__block-left">
+					<div class="wrapper__items">
+						<img src="images/choice.png" alt="" />
+						<h3>Тариф Старт</h3>
 					</div>
-					<div class="footer-contact">
-						<h2>Связь с нами</h2>
-						<h3>8 912 584 03 11</h3>
-						<h3>StudiaOrange59@yandex.ru</h3>
-						<div class="soc-footer">
-							<a href="https://wa.me/79125840311"
-								><img src="images/whatsapp.png" alt="" />
-							</a>
-							<a href="https://t.me/+79125840311"
-								><img src="images/telegran.png" alt=""
-							/></a>
-						</div>
-					</div>
-					<div class="footer-form" id="footer-form">
-						<h1 class="form-h1">Оставить заявку на консультацию или услугу</h1>
-						<form class="form-class" action="" method="post">
-							<label class="name-for">
-								<input type="text" name="name" placeholder="Ваше имя" required/>
-							</label>
-							<label class="phone-for">
-								<input type="tel" name="phone" placeholder="Номер телефона" required/>
-							</label>
-							<button class="button-for">Оставить заявку</button>
-						</form>
+					<div class="wrapper__title">
+						<p>
+							Тариф старт разработан для тестовых компаний, в него входит 1
+							сайт Landing page и выделенный бюджет в сумме 10.000 рублей на
+							1 рекламную компанию.
+						</p>
+						<h3 class="wrapper__text-h3">50 000 рублей</h3>
+						<a href="#"><button class="wrapper__btn">Оплатить тариф</button></a>
 					</div>
 				</div>
 			</div>
-		</section>
-		<hr />
-		<section class="footer-footer">
-			<div class="footer-footer-r">
-				<a href="#politika">Политика конфиденциальности</a>
+		</div>
+		<div class="wrapper__money-footer">
+			<div class="wrapper__desc1">
+				<div class="wrapper__desc-item">
+					<img src="images/choice.png" alt="">
+					<h3>Тариф Бизнес</h3>
+				</div>
+				<div class="wrapper__desc-title">
+					<p> Тариф бизнес разработан для тех кто хочет запустить бизнес без рутины и доверить все профессионалам. </p>
+					<ol class="wrapper__desc-ul">
+						<li>Разработка прототипа сайта</li>
+						<li>Разработка Дизайна</li>
+						<li>Верстка сайта</li>
+						<li>Интеграция с CRM</li>
+						<li>Настройка рекламной компании</li>
+						<li>Подключения аналитики</li>
+					</ol>
+					<h3 class="wrapper__title-h3">75 000 рублей</h3>
+					<a href="#"><button class="wrapper__desc-btn">Оплатить тариф</button></a>
+				</div>
 			</div>
-			<div class="footer-footer-c">
-				<p>ИНН: 590415452100</p>
+			<div class="wrapper__desc1">
+				<div class="wrapper__desc-item">
+					<img src="images/choice.png" alt="">
+					<h3>Тариф Премиум</h3>
+				</div>
+				<div class="wrapper__desc-title">
+					<p> Тариф Премиум разработан для организаций мы делаем сайты и ведем их на протяжении 3 месяцев.</p>
+					<ol class="wrapper__desc-ul">
+						<li>Разработка прототипа сайта</li>
+						<li>Разработка Дизайна</li>
+						<li>Верстка сайта</li>
+						<li>Интеграция с CRM</li>
+						<li>Настройка рекламной компании</li>
+						<li>Подключения аналитики</li>
+
+					</ol>
+					<h3 class="wrapper__title-h3">105 000 рублей</h3>
+					<a href="#"><button class="wrapper__desc-btn">Оплатить тариф</button></a>
+				</div>
 			</div>
-		</section>
-
-
-<!-- Модальное окно -->
-
-		<div id="popup" class="popup">
-			<a href="#" class="popup__area"></a>
-			<div class="popup__body">
-				<div class="popup__content">
-					<a href="#" class="popup__close">X</a>
-					<div class="popup__title">
-						ОСТАВЬТЕ ЗАЯВКУ НА УСЛУГУ<br />
-						ИЛИ КОНСУЛЬТАЦИЮ
+			<div class="wrapper__desc1">
+				<div class="wrapper__desc-item">
+					<img src="images/choice.png" alt="">
+					<h3>Тариф Эксклюзив</h3>
+				</div>
+				<div class="wrapper__desc-title">
+					<p> Тариф эксклюзив разработан для индивидуального подхода к каждому клиенту, обсуждаем индивидуально.</p>
+					<ol class="wrapper__desc-ul">
+						<li>Разработка прототипа сайта</li>
+						<li>Разработка Дизайна</li>
+						<li>Верстка сайта</li>
+						<li>Интеграция с CRM</li>
+						<li>Настройка рекламной компании</li>
+						<li>Подключения аналитики</li>
+					</ol>
+					<h3 class="wrapper__title-h3">155 000 рублей</h3>
+					<a href="#"><button class="wrapper__desc-btn">Оплатить тариф</button></a>
+				</div>
+			</div>
+		</div>
+	</div>
+<section class="container">
+	<div class="faq">
+	<div id="faq">
+  <h1 class="faq__h1"><b>Вопросы</b> и ответы</h1>
+  <ul>
+    <li>
+			<div class="faq__title">
+      <input type="checkbox" checked>
+      <i></i>
+      <h2><span class="faq__span">01.</span> &nbsp; &nbsp;А есть ли у Вас гарантия в том что я получу результат?</h2>
+      <p>К сожалению предоставить гарантии на то что я приведу клиента  Ваш бизнес не могу, а вот разработка качественного сайта который у Вас останется и будет всегда под рукой это да! Также хочу заметить что-бы получать клиентов для Вашего бизнеса нужна хотя бы одна тестовая рекламная компания, после которой я смогу провести аудит и сказать какова стоимость Вашего клиента и какой бюджет Вам необходим в месяц.</p>
+			<a href="#" class="popup__close"><img src="images/strelka.webp" alt=""></a>
+			</div>
+    </li>
+    <li>
+      <div class="faq__title">
+      <input type="checkbox" checked>
+      <i></i>
+      <h2><span class="faq__span">02.</span> &nbsp; &nbsp;А могу ли я оплатить Вашу работу частями?</h2>
+      <p>Да я предоставляю такую возможность оплаты, также у меня есть рассрочка от банков, после заключения договора Вы можете оплатить всего лишь 30% от стоимости чтоб я преступил к работе, после первого этапа работы и демонстрации его Вам Вы оплачиваете 2 часть также 30%  и после завершения всей работы остаток 40%</p>
+			<a href="#" class="popup__close"><img src="images/strelka.webp" alt=""></a>
+			</div>
+    </li>
+    <li>
+      <div class="faq__title">
+      <input type="checkbox" checked>
+      <i></i>
+      <h2><span class="faq__span">03.</span> &nbsp; &nbsp;Я так и не понял(а) какие услуги предоставляете?</h2>
+      <p>Давайте познакомимся еще раз, наша студия Orange в лице Мокрушина Михаила Андреевича предоставляет комплексную услугу в разработке сайта(Landing page) и настройке рекламных компаний в яндекс директе, тем самым я веду клиентов для вашего бизнеса, весь процесс Вы контролируете в моей CRM системе, там Вы увидите свой сайт, и там же Вы будете получать заявки, которые дублируются на Вашу почту.</p>
+			<a href="#" class="popup__close"><img src="images/strelka.webp" alt=""></a>
+			</div>
+    </li>
+		<li>
+      <div class="faq__title">
+      <input type="checkbox" checked>
+      <i></i>
+      <h2><span class="faq__span">04.</span> &nbsp; &nbsp;Не могу определиться с тарифом</h2>
+      <p>Если Вы хотите протестировать бизнес в интернете и понять пойдет ли он, будут ли клиенты то начать необходимо с тарифа Старт, если же Ваш бизнес уже есть в интернете но нет клиентов то возьмите тариф Бизнес, если клиенты есть но их мало  то Вам подойдет тариф Премиум. Тариф Эксклюзив для тех кто хочет что то необычное уникальное данный тариф обсуждаем с заказчиком. </p>
+			<a href="#" class="popup__close"><img src="images/strelka.webp" alt=""></a>
+			</div>
+    </li>
+		<li>
+      <div class="faq__title">
+      <input type="checkbox" checked>
+      <i></i>
+      <h2><span class="faq__span">05.</span> &nbsp; &nbsp;Скажите а сайт который Вы сделаете я смогу получить?</h2>
+      <p>Конечно, собственно Вы его и оплачиваете и он является Вашей интеллектуальной собственностью, мы также оплатим Вам хостинг и купим домен за свой счет и разместим на нем Ваш ресурс и передадим на него ссылку и все доступы. </p>
+			<a href="#" class="popup__close"><img src="images/strelka.webp" alt=""></a>
+			</div>
+    </li>
+  </ul>
+</div>
+</div>
+</section>
+	<section class="container" id="otzov">
+		<h1 class="reviews__h1">Что о нас <b>говорят?</b></h1>
+		<div class="reviews">
+			<div class="reviews__block">
+				<div class="img-block-img">
+					<h3 class="reviews__block-h3">Скупка №1</h3>
+					<img src="images/avatar.png" alt="логотип скупка техники">
+				</div>
+				<div class="img__block-btn">
+					<p>Хочу поделиться своим небольшим опытом сотрудничая с Михаилом. 	Уже как 3 с небольшим года он приводит
+						мне клиентов на скупку техники ноутбуков и компьютеров, работаю с ними по факту они мне товар я ему деньги,
+						лично я очень доволен, поэтому рекомендую!</p>
+					<a href="https://mylead-store.ru/skupka59/?flow=2358" target="_blank"><button class="rev__btn1">Сайт скупки </button></a>
+				</div>
+			</div>
+			<div class="reviews__block">
+				<div class="img-block-img">
+					<h3 class="reviews__block-h3">«Видеонаблюдение»</h3>
+					<img src="images/avatar2.png" alt="логотип скупка техники">
+				</div>
+				<div class="img__block-btn">
+					<p>Привет Михаил! Хочу выразить тебе огромную благодарность, сайт который ты сделал просто бомба, за 8000 тысяч рублей, Такой цены я не нашел не на одном фрилансе, еще раз огромное тебе спасибо что вошел в мое положение. </p>
+					<a href="https://mylead-store.ru/video/?_preview=show&pkey=e1086d2bea&flow=2854" target="_blank"><button class="rev__btn2">Сайт скупки </button></a>
+				</div>
+			</div>
+			<div class="reviews__block">
+				<div class="img-block-img">
+					<h3 class="reviews__block-h3">Скупка Apple</h3>
+					<img src="images/avatar4.png" alt="логотип скупка техники">
+				</div>
+				<div class="img__block-btn">
+					<p>Спасибо огромное за сайт, все работает как нужно, учли все мои пожелания в работе и дизайне, по срокам тоже все хорошо, единственное мне не очень понравилось это домен моего сайта, но потом мне его перенесли на другой домен, так что тут работают на совесть!</p>
+					<a href="https://mylead-store.ru/iphone/?_preview=show&pkey=e1086d2be2&flow=2841" target="_blank"><button class="rev__btn3">Сайт скупки </button></a>
+				</div>
+			</div>
+			<div class="reviews__block">
+				<div class="img-block-img">
+					<h3 class="reviews__block-h3">Ремонт ванных комнат</h3>
+					<img src="images/avatar1.png" alt="логотип скупка техники">
+				</div>
+				<div class="img__block-btn">
+					<p>Привет всем! Что тут писать даже не знаю, скажу так было 5000 рублей, нужен был сайт для ремонта ванных комнат, обратился к Михаилу через авито, сделали вот такой простенький сайт. </p>
+					<a href="https://mylead-store.ru/remont-vanny/?_preview=show&pkey=e1086d2ae6&flow=2849#" target="_blank"><button class="rev__btn4">Сайт скупки </button></a>
+				</div>
+			</div>
+	</section>
+	<section class="promo">
+		<div class="container">
+			<div class="promo__block">
+				<div class="promo__title">
+					<div class="promo__img">
+						<img src="./images/contract.png" alt="">
 					</div>
-					<div class="popup__text">
-						<form class="form" action="" method="post">
-							<input class="name" type="text" name="name" placeholder="Имя" required/>
-							<input
-								class="tel"
-								type="text"
-								name="phone"
-								placeholder="Телефон" required
-							/>
-							<input class="check" type="checkbox" required/>
-							<p class="check-p">
-								Согласие на обработку
-								<a href="#politika" class=""> персональных данных</a>
-							</p>
-							<button class="button__form">Оставить заявку</button>
-						</form>
+					<div class="promo__text">
+						<h3 class="promo__text-h3">Соблюдаю<br> сроки и договор</h3>
+						<p class="promo__text-p">Все прописанные задачи в договоре будут выполнены качественно и в указанные сроки.
+						</p>
+					</div>
+				</div>
+				<div class="promo__title">
+					<div class="promo__img">
+						<img src="./images/list.png" alt="">
+					</div>
+					<div class="promo__text">
+						<h3 class="promo__text-h3">Выставляю приорететность</h3>
+						<p class="promo__text-p">Выполняю самые важные работы в начале разработки сайта. Приоритизируем каждое ТЗ на
+							внедрение.</p>
+					</div>
+				</div>
+				<div class="promo__title">
+					<div class="promo__img">
+						<img src="./images/protection.png" alt="">
+					</div>
+					<div class="promo__text">
+						<h3 class="promo__text-h3">Контроль<br> качества</h3>
+						<p class="promo__text-p">Моя служба внутреннего контроля качества строга, надежна и неподкупна.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="meta">
+		<div class="meta__text">
+			<h1 class="meta__h1"><b>Видео убедит Вас оставить заявку</b> на разработку сайта</h1>
+			<p class="meta__p">Посмотрите короткий ролик о том как я работаю, и что я могу Вам дать, какая от меня польза.</p>
+		</div>
+		<div class="meta__body">
+			<div class="meta__form">
+				<form class="form__meta"   method="post">
+					<input type="hidden" name="project_name" value="Orangestudia">
+					<input type="hidden" name="admin_email" value="info@orangestudia.ru">
+					<input type="hidden" name="form_subject" value="Заявка с нижней формы">
+					<label><input class="name" type="text" name="name" placeholder="Ваше имя" required /></label>
+					<label><input class="phone" type="text" name="phone" placeholder="Ваш номер телефона" required /></label>
+					<input class="btn__header" type="submit" value="Отправить">
+					<div class="meta__form-text">
+						<p>Нажимая на кнопку "Получить предложение" Вы даете <a href=""> на обработку своих персональных
+								данных</a> и соглашаетесь с условиями <a href="">Политикой конфиденциальности</a></p>
+					</div>
+				</form>
+			</div>
+			<div class="meta__img">
+	<video class="video" width="640" height="360" controls>
+        <source src="#" type="video/mp4">
+        Ваш браузер не поддерживает тег video.
+    </video>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="footer">
+		<div class="container">
+			<div class="footer__footer">
+				<div class="footer__up">
+					<div class="footer__logo">
+						<img src="./images/logo.png" alt="">
+					</div>
+					<div class="footer__tel">
+						<p>Звоните с 10:00 до 19:00</p>
+						<h2><a href="tel:+7(993) 196-05-76"> +7(993) 196-05-76</a></h2>
+					</div>
+					<div class="footer__email">
+						<p>Мы любим, когда нам пишут</p>
+						<h2><a href="mailto:info@orangestudia.ru">info@orangestudia.ru</a></h2>
+					</div>
+					<div class="footer__messenger">
+						<p>Наши мессенджеры</p>
+						<div class="footer__icon">
+							<a href=""><img src="./images/whatsap.png" alt="WhatsApp"></a>
+							<a href=""><img src="./images/tele.png" alt="Telegram"></a>
+						</div>
+					</div>
+				</div>
+				<hr class="footer__hr">
+				<div class="footer__center">
+					<div class="footer__menu">
+						<ul>
+							<li class="rect"><a href="#keyse">Кейсы</a></li>
+							<li class="rect"><a href="#shema">Схема работы</a></li>
+							<li class="rect"><a href="#tarif">Тарифы</a></li>
+							<li class="rect"><a href="#otzov">Отзывы</a></li>
+							<li class="rect"><a href="#otzov">Способы оплаты</a></li>
+							<li class="rect"><a href="#">Обо мне</a></li>
+						</ul>
+					</div>
+				</div>
+				<hr class="footer__hr">
+				<div class="footer__down">
+					<div class="down__footer">
+						<p>© <span id="currentYear"></span> Студия Orange. Все права защищены.</p>
+						<h1 id="currentDate"></h1>
+					</div>
+					<div class="down__footer">
+						<p>Мокрушин Михаил Андреевич</p>
+					</div>
+					<div class="down__footer">
+						<p>ИНН 590415452100</p>
+					</div>
+					<div class="down__btn">
+						<a href="tel:+7(993) 196-05-76"><img src="./images/Чат.png" alt=""></a>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<!-- конец модального окна -->
+	</section>
 
-		
+	<!-- Форма контактных данных начало -->
 
-<!-- Модальное окно политика-->
 
-		<div id="politika" class="politika">
-			<div class="politika__body">
-				<div class="politika__content">
-					<a href="#" class="politika__close">X</a>
-					<div class="politika__title">Пользовательское соглашение</div>
-					<div class="politika__text">
-						<div class="soglashenie-text">
-							СОГЛАСИЕ на обработку персональных данных.
-						</div>
-						<p>
-							Настоящим я, далее – «Субъект Персональных Данных», во исполнение
-							требований Федерального закона от 27.07.2006 г. № 152-ФЗ «О
-							персональных данных» (с изменениями и дополнениями) свободно,
-							своей волей и в своем интересе даю свое согласие Представителям
-							Orange веб-студия (далее – «») на обработку своих персональных
-							данных, указанных при регистрации путем заполнения веб-формы на
-							сайте &nbsp; Orange веб-студия;и его поддоменов (далее – Сайт),
-							направляемой (заполненной) с использованием Сайта.
-						</p>
-						<p>
-							Под персональными данными я понимаю любую информацию, относящуюся
-							ко мне как к Субъекту Персональных Данных, в том числе мои
-							фамилию, имя, отчество, адрес, образование, профессию, контактные
-							данные (телефон, факс, электронная почта, почтовый адрес),
-							фотографии, иную другую информацию.
-						</p>
-						<p>
-							Под обработкой персональных данных я понимаю сбор, систематизацию,
-							накопление, уточнение, обновление, изменение, использование,
-							распространение, передачу, в том числе трансграничную,
-							обезличивание, блокирование, уничтожение, бессрочное хранение), и
-							любые другие действия (операции) с персональными данными.
-						</p>
-						<p>
-							Обработка персональных данных Субъекта Персональных Данных
-							осуществляется исключительно в целях регистрации Субъекта
-							Персональных Данных в базе данных веб-студии с
-							последующим направлением Субъекту Персональных Данных почтовых
-							сообщений и смс-уведомлений, в том числе рекламного содержания,
-							его аффилированных лиц и/или субподрядчиков, информационных и
-							новостных рассылок, приглашений на мероприятия веб-студии и другой 
-							информации рекламно-новостного содержания, а
-							также с целью подтверждения личности Субъекта Персональных Данных
-							при посещении мероприятий. Датой выдачи
-							согласия на обработку персональных данных Субъекта Персональных
-							Данных является дата отправки регистрационной веб-формы с Сайта
-							веб-студии.
-						</p>
-						<p>
-							Обработка персональных данных Субъекта Персональных Данных может
-							осуществляться с помощью средств автоматизации и/или без
-							использования средств автоматизации в соответствии с действующим
-							законодательством РФ и внутренними положениями веб-студии. Веб-студия Orange
-						  принимает необходимые правовые,
-							организационные и технические меры или обеспечивает их принятие
-							для защиты персональных данных от неправомерного или случайного
-							доступа к ним, уничтожения, изменения, блокирования, копирования,
-							предоставления, распространения персональных данных, а также от
-							иных неправомерных действий в отношении персональных данных, а
-							также принимает на себя обязательство сохранения
-							конфиденциальности персональных данных Субъекта Персональных
-							Данных. Веб-студия вправе привлекать для обработки
-							персональных данных Субъекта Персональных Данных субподрядчиков, а
-							также вправе передавать персональные данные для обработки своим
-							аффилированным лицам, обеспечивая при этом принятие такими
-							субподрядчиками и аффилированными лицами соответствующих
-							обязательств в части конфиденциальности персональных данных.
-						</p>
-						<p>
-							Пользуясь услугами веб-студии, вы автоматически соглашаетесь с
-							нашей политикой конфиденциальности, ссылка на которую расположена
-							внизу каждой страницы сайта. Я ознакомлен(а), что:
-						</p>
-						<p>
-							1.)настоящее согласие на обработку моих персональных данных,
-							указанных при регистрации или заполнении и отправки любой
-							веб-формы на Сайте веб-студии Orange, направляемых
-							(заполненных) с использованием Cайта, действует в течение 20
-							(двадцати) лет с момента регистрации на Cайте веб-студии Orange.
-						</p>
-						<p>
-							2.)согласие может быть отозвано мною на основании письменного
-							заявления в произвольной форме;
-						</p>
-						<p>
-							3.)предоставление персональных данных третьих лиц без их согласия
-							влечет ответственность в соответствии с действующим
-							законодательством Российской Федерации.
-						</p>
-						<p>
-							4.)если вы являетесь не дееспособным лицом (не
-							совершеннолетним(й)), то вы получили соответствующее письменное
-							согласие своих законных представителей-родителей, усыновителей или
-							попечителя на обработку ваших персональных данных.
-						</p>
+
+	<div id="popup__modals" class="popup__modals">
+		<a href="#target-content" class="popup__modal"></a>
+		<div class="popup__body">
+			<div class="popup__content">
+				<a href="#target-content" class="popup__close"><img src="images/krestik.png" alt=""></a>
+				<div class="popup__title">
+					<h2>Связаться с нами можно</h2>
+				</div>
+				<div class="popup__text">
+					<div class="form__soc-icon">
+						<a href=""><img src="images/tg.png" alt="telegram"></a>
+						<a href=""><img src="images/wh.png" alt="whatsapp"></a>
+					</div>
+					<div class="form__contact">
+						<a href="mailto:info@orangestudia.ru">info@orangestudia.ru</a>
+						<a href="tel:+7(993) 196-05-76">+7(993) 196-05-76</a>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 
-		<script src="js/modal.js"></script>
-		<script src="js/acordion.js"></script>
-		<script src="js/video-modal.js"></script>
-	</body>
+	<!-- Форма контактных данных конец -->
+
+	<!-- Форма обратной связи начало -->
+
+	<div id="popup" class="popup">
+		<a href="#target-content" class="popup__area"></a>
+		<div class="popup__body">
+			<div class="popup__content">
+				<a href="#target-content" class="popup__close"><img src="images/krestik.png" alt=""></a>
+				<div class="popup__title">
+					<h2>Обратный звонок</h2>
+					<p>Оставьте Ваши данные и мы свяжемся с Вами в ближайшее время.</p>
+				</div>
+				<div class="popup__text">
+					<form  class="form"  method="post">
+						<input type="hidden" name="project_name" value="Orangestudia">
+						<input type="hidden" name="admin_email" value="info@orangestudia.ru">
+						<input type="hidden" name="form_subject" value="Заявка с модальной формы">
+						<label><input class="name" type="text" name="name" placeholder="Ваше имя" required="" value="" /></label>
+						<label><input class="phone" type="tel" name="phone" placeholder="Ваш номер телефона" required="" value="" /></label>
+						<input class="btn__popup" type="submit" value="Отправить">
+						<div class="form__text">
+							<p>Нажимая на кнопку "Получить предложение" Вы даете <a href=""> на обработку своих персональных
+									данных</a> и соглашаетесь с условиями <a href="">Политикой конфиденциальности</a></p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Форма обратной связи конец -->
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/slider.js"></script>
+	<script src="js/scroll.js"></script>
+	<script src="js/form.js"></script>
+</body>
+
 </html>

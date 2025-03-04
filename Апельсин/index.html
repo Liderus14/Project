@@ -734,10 +734,13 @@
 		</div>
 		<div class="meta__body">
 			<div class="meta__form">
-				<form class="form__meta" action="" method="post">
+				<form class="form__meta"   method="post">
+					<input type="hidden" name="project_name" value="Orangestudia">
+					<input type="hidden" name="admin_email" value="info@orangestudia.ru">
+					<input type="hidden" name="form_subject" value="Заявка с нижней формы">
 					<label><input class="name" type="text" name="name" placeholder="Ваше имя" required /></label>
 					<label><input class="phone" type="text" name="phone" placeholder="Ваш номер телефона" required /></label>
-					<button class="meta__btn">Оставить заявку</button>
+					<input class="btn__header" type="submit" value="Отправить">
 					<div class="meta__form-text">
 						<p>Нажимая на кнопку "Получить предложение" Вы даете <a href=""> на обработку своих персональных
 								данных</a> и соглашаетесь с условиями <a href="">Политикой конфиденциальности</a></p>
@@ -767,7 +770,7 @@
 					</div>
 					<div class="footer__email">
 						<p>Мы любим, когда нам пишут</p>
-						<h2><a href="mailto:info@studia.ru">info@studia.ru</a></h2>
+						<h2><a href="mailto:info@orangestudia.ru">info@orangestudia.ru</a></h2>
 					</div>
 					<div class="footer__messenger">
 						<p>Наши мессенджеры</p>
@@ -829,7 +832,7 @@
 						<a href=""><img src="images/wh.png" alt="whatsapp"></a>
 					</div>
 					<div class="form__contact">
-						<a href="mailto:info@studia.ru">info@studia.ru</a>
+						<a href="mailto:info@orangestudia.ru">info@orangestudia.ru</a>
 						<a href="tel:+7(993) 196-05-76">+7(993) 196-05-76</a>
 					</div>
 				</div>
@@ -851,10 +854,13 @@
 					<p>Оставьте Ваши данные и мы свяжемся с Вами в ближайшее время.</p>
 				</div>
 				<div class="popup__text">
-					<form class="form" action="" method="post">
-						<label><input class="name" type="text" name="name" placeholder="Ваше имя" required /></label>
-						<label><input class="phone" type="tel" name="phone" placeholder="Ваш номер телефона" required /></label>
-						<button class="button__form">Оставить заявку</button>
+					<form  class="form"  method="post">
+						<input type="hidden" name="project_name" value="Orangestudia">
+						<input type="hidden" name="admin_email" value="info@orangestudia.ru">
+						<input type="hidden" name="form_subject" value="Заявка с модальной формы">
+						<label><input class="name" type="text" name="name" placeholder="Ваше имя" required="" value="" /></label>
+						<label><input class="phone" type="tel" name="phone" placeholder="Ваш номер телефона" required="" value="" /></label>
+						<input class="btn__popup" type="submit" value="Отправить">
 						<div class="form__text">
 							<p>Нажимая на кнопку "Получить предложение" Вы даете <a href=""> на обработку своих персональных
 									данных</a> и соглашаетесь с условиями <a href="">Политикой конфиденциальности</a></p>
@@ -866,11 +872,12 @@
 	</div>
 
 	<!-- Форма обратной связи конец -->
-
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/slider.js"></script>
 	<script src="js/scroll.js"></script>
+	<script src="js/form.js"></script>
 </body>
 
 </html>
