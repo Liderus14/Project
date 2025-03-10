@@ -10,7 +10,7 @@ const Slider = {
     this.maxOffset = (this.sliderItemsEl.length - 1) * 100;
 
     this.slideInnerEl.addEventListener('transitionend', this.onSliderTransitionEnd.bind(this));
-    setInterval(this.slide.bind(this), 3000);
+    setInterval(this.slide.bind(this), 6000);
   },
   slide() {
     if (this.isMaxLeft()) {
