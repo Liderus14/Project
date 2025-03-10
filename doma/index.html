@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Строительство Домов</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Подключение стилей -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <!-- Первый блок: Меню -->
+<div class="nav">
+    <div class="logo">
+        <img src="images/a9b95fd4e2213b2a6e8cab3eef943fb3.png" alt="">
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Наши услуги</a></li>
+            <li><a href="#">Как мы работаем</a></li>
+            <li><a href="#">Проекты домов</a></li>
+            <li><a href="#">Отзывы</a></li>
+        </ul>
+    </div>
+    <div class="contact">
+        <p><a href="">+7 (999) 888-17-32</a></p>
+    </div>
+</div>
+    
+    <!-- Второй блок: Слайдер -->
+<!-- Swiper -->
+<div class="wrapper">
+
+    <div class="slider">
+      <div class="slider__inner">
+        <div class="slider__item">
+          <div class="slider__block">
+            <div class="slider__block-left">
+                <h1 class="block__h1">ПОСТРОИМ КАРКАСНЫЙ ДОМ
+                    ЗА 40 ДНЕЙ!</h1>
+                    <h3>уточнить подробности по кнопке ниже</h3>
+                    <button class="block__btn">Оставить заявку</button>
+            </div>
+
+          </div>
+        </div>
+        <!-- <div class="slider__item">
+          <img class="slider__image" src="https://i.ibb.co/zfxz2mv/img-2.jpg" alt="Image 2">
+          <img class="slider__image" src="https://i.ibb.co/zfxz2mv/img-2.jpg" alt="Image 2">
+          <img class="slider__image" src="https://i.ibb.co/zfxz2mv/img-2.jpg" alt="Image 2">
+          <img class="slider__image" src="https://i.ibb.co/zfxz2mv/img-2.jpg" alt="Image 2">
+          <img class="slider__image" src="https://i.ibb.co/zfxz2mv/img-2.jpg" alt="Image 2">
+        </div> -->
+      </div> <!-- /slider__inner -->
+    </div> <!-- /slider -->
+
+  </div> <!-- /wrapper -->
+    
+    <!-- Третий блок: О компании -->
+    <section id="about-us" class="about-us-block">
+        <h2>О нас</h2>
+        <p>Здесь информация о вашей компании.</p>
+    </section>
+    
+    <!-- Четвертый блок: Услуги -->
+    <section id="services" class="services-block">
+        <h2>Наши услуги</h2>
+        <div class="service-item">
+            <h3>Проектирование</h3>
+            <p>Описание услуги проектирования.</p>
+        </div>
+        <div class="service-item">
+            <h3>Строительство</h3>
+            <p>Описание строительной услуги.</p>
+        </div>
+        <div class="service-item">
+            <h3>Ремонт и отделка</h3>
+            <p>Описание услуг ремонта и отделки.</p>
+        </div>
+    </section>
+    
+    <!-- Пятый блок: Портфолио -->
+    <section id="portfolio" class="portfolio-block">
+        <h2>Наше портфолио</h2>
+        <div class="portfolio-item">
+            <img src="images/portfolio1.jpg" alt="Пример работы">
+            <p>Название проекта</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="images/portfolio2.jpg" alt="Пример работы">
+            <p>Название проекта</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="images/portfolio3.jpg" alt="Пример работы">
+            <p>Название проекта</p>
+        </div>
+    </section>
+    
+    <!-- Шестой блок: Расценки и акции -->
+    <section id="pricing" class="pricing-block">
+        <h2>Цены и акции</h2>
+        <table>
+            <tr>
+                <th>Услуга</th>
+                <th>Цена</th>
+                <th>Акция</th>
+            </tr>
+            <tr>
+                <td>Проектирование дома</td>
+                <td>От 50 000 руб.</td>
+                <td>Скидка 10% до конца месяца</td>
+            </tr>
+            <tr>
+                <td>Строительство дома</td>
+                <td>От 1 500 000 руб.</td>
+                <td>Бесплатный проект при заказе строительства</td>
+            </tr>
+            <tr>
+                <td>Ремонт и отделка</td>
+                <td>От 200 000 руб.</td>
+                <td>Скидка 15% на материалы</td>
+            </tr>
+        </table>
+    </section>
+    
+    <!-- Седьмой блок: Контакты и форма для отправки заявки -->
+    <section id="contact" class="contact-block">
+        <h2>Свяжитесь с нами</h2>
+        <form action="#" method="post">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            
+            <button type="submit">Отправить заявку</button>
+        </form>
+        
+        <div class="contact-info">
+            <p>Адрес: г. Москва, ул. Ленина, д. 25</p>
+            <p>Телефон: +7 (495) 123-45-67</p>
+            <p>Email: info@company.ru</p>
+        </div>
+    </section>
+    
+    <!-- Восьмой блок: Футер с меню -->
+    <footer class="footer-block">
+        <nav>
+            <ul>
+                <li><a href="#about-us">О нас</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#pricing">Расценки и Акции</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+        <p>© 2023 Строительство Домов. Все права защищены.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>

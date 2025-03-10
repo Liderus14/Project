@@ -1,0 +1,359 @@
+/* Общие стили */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.logo img{
+    width: 100px;
+    height: 80px;
+}
+
+/* Блок nav*/
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+
+}
+
+/* Блок меню*/
+.menu ul  {
+    display: flex;
+    gap:20px;
+}
+
+.menu  li a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.contact p a{
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.block__h1{
+  max-width: 1000px;
+  padding-top: 150px;
+  padding-left: 100px;
+  font-size: 54px;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+}
+
+
+/* Слайдер */
+:root {
+    --rate: 19.9%;
+    --function: ease-in-out;
+    --slide-distortion-delay: 5s;
+    --slide-distortion-time: 4.5s;
+    --slide-reset-delay: 5.4s;
+    --slide-reset-time: 5.5s;
+    --slider-offset: 0%;
+    --slider-time: 0.8s;
+  }
+  
+
+  
+  .wrapper {
+    padding: 0;
+  }
+  
+  .slider {
+    overflow: hidden;
+  }
+  
+  .slider__inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    transform: translateX(var(--slider-offset));
+    transition-property: transform;
+    transition-duration: var(--slider-time);
+    transition-timing-function: ease;
+    will-change: transform;
+  }
+  
+  .slider__item {
+    flex: 1 0 100%;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .slider__image {
+    width: 100%;
+    height: auto;
+    transform: translateX(0);
+    animation-delay: var(--slide-distortion-delay), var(--slide-reset-delay);
+    animation-duration: var(--slide-distortion-time), var(--slide-reset-time);
+    animation-fill-mode: forwards, forwards;
+    animation-direction: normal, reverse;
+  }
+  
+  .slider__image:not(:first-child) {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .slider__image:nth-child(1) {
+    clip-path: inset(0 0 calc(var(--rate) * 4) 0);
+  }
+  
+  .slider__image:nth-child(2) {
+    clip-path: inset(calc(var(--rate) * 1) 0 calc(var(--rate) * 3) 0);
+  }
+  
+  .slider__image:nth-child(3) {
+    clip-path: inset(calc(var(--rate) * 2) 0 calc(var(--rate) * 2) 0);
+  }
+  
+  .slider__image:nth-child(4) {
+    clip-path: inset(calc(var(--rate) * 3) 0 calc(var(--rate) * 1) 0);
+  }
+  
+  .slider__image:nth-child(5) {
+    clip-path: inset(calc(var(--rate) * 4) 0 0 0);
+  }
+  
+ 
+  .slider__item--animating .slider__image:nth-child(1) {
+    animation-name: animation-1, animation-1;
+  }
+  
+  .slider__item--animating .slider__image:nth-child(2) {
+    animation-name: animation-2, animation-2;
+  }
+  
+  .slider__item--animating .slider__image:nth-child(3) {
+    animation-name: animation-3, animation-3;
+  }
+  
+  .slider__item--animating .slider__image:nth-child(4) {
+    animation-name: animation-4, animation-4;
+  }
+  
+  .slider__item--animating .slider__image:nth-child(5) {
+    animation-name: animation-5, animation-5;
+  }
+  
+
+  @keyframes animation-1 {
+    from {
+      transform: translateX(0);
+    }
+    to {
+     transform: translateX(-50px);
+      transform: translateX(-5vw);
+    }
+  }
+  
+  @keyframes animation-2 {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-3vw);
+    }
+  }
+  
+  @keyframes animation-3 {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(1vw);
+    }
+  }
+  
+  @keyframes animation-4 {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(3vw);
+    }
+  }
+  
+  @keyframes animation-5 {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-1vw);
+    }
+  }
+  
+  @keyframes slide {
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .slider__block{
+    width: 1920px;
+    height: 800px;
+    background-image: url(../images/header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.6;
+  }
+
+/* Блоки "О компании", "Услуги", "Портфолио", "Расценки и акции", "Контакты" */
+.block-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.block-title h2 {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 20px;
+}
+
+.block-text p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.services-block .service-item,
+.portfolio-block .portfolio-item,
+.pricing-block table {
+    max-width: 800px;
+    margin: auto;
+}
+
+.service-item {
+    margin-bottom: 40px;
+}
+
+.service-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.portfolio-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.portfolio-item img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.pricing-block table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.pricing-block td, .pricing-block th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.pricing-block tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.contact-block form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact-block label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-block input[type=text], .contact-block input[type=email], .contact-block textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-block button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-block button[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.contact-block .contact-info {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contact-block .contact-info p {
+    margin-bottom: 10px;
+}
+
+/* Футер */
+.footer-block {
+    background-color: #333;
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+}
+
+.footer-block nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-block nav ul li {
+    margin-right: 30px;
+}
+
+.footer-block nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-block nav ul li a:hover {
+    color: lightgray;
+}
+
+.footer-block p {
+    font-size: 14px;
+}
