@@ -65,10 +65,10 @@ body {
   color: #fff;
 }
 .block__h3{
-  font-family: "Montserrat", sans-serif;
+  font-family: "Sofia Sans", sans-serif;
   max-width: 1000px;
   padding-left: 100px;
-  font-size: 20px;
+  font-size: 24px;
   color: #fff;
 }
 
@@ -96,7 +96,7 @@ body {
   height: 900px;
   background-repeat: no-repeat;
   background-position: center;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/header.png');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/header2.png');
 }
 
 
@@ -110,7 +110,7 @@ body {
 }
 
 .block__text-h3{
-  font-family: "Montserrat", sans-serif;
+  font-family: "Sofia Sans", sans-serif;
   max-width: 1000px;
   padding-left: 100px;
   font-size: 20px;
