@@ -48,6 +48,14 @@ body {
     color: #fff;
 }
 
+.slider__block{
+  width: 1920px;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/header.png');
+}
+
 .block__h1{
   font-family: "Sofia Sans", sans-serif;
   max-width: 1100px;
@@ -80,6 +88,33 @@ body {
 
 .block__btn:hover{
   color:#000;
+}
+
+
+.slider__block1{
+  width: 1920px;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/header.png');
+}
+
+
+.block__text-h2{
+  font-family: "Sofia Sans", sans-serif;
+  max-width: 1100px;
+  padding-top: 150px;
+  padding-left: 100px;
+  font-size: 85px;
+  color: #fff;
+}
+
+.block__text-h3{
+  font-family: "Montserrat", sans-serif;
+  max-width: 1000px;
+  padding-left: 100px;
+  font-size: 20px;
+  color: #fff;
 }
 
 
@@ -235,13 +270,7 @@ body {
     }
   }
 
-  .slider__block{
-    width: 1920px;
-    height: 900px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/header.png');
-  }
+
 
 /* Блоки "О компании", "Услуги", "Портфолио", "Расценки и акции", "Контакты" */
 .block-title {
