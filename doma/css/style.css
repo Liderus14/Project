@@ -41,6 +41,34 @@ body {
     font-size: 20px;
 }
 
+.link {
+  position: relative;
+}
+.link::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: white;
+}
+
+.link::after {
+  width: 0;
+  transition: 0.3s;
+}
+.link:hover:after {
+  width: 100%;
+}
+.link::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
 .contact p a{
     font-family: "Sofia Sans", sans-serif;
     text-decoration: none;
