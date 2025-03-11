@@ -16,8 +16,8 @@
     <div class="menu">
         <ul>
             <li><a href="#" class="link">Главная</a></li>
-            <li><a href="#" class="link">О нас</a></li>
-            <li><a href="#" class="link">Наши услуги</a></li>
+            <li><a href="#about" class="link">О нас</a></li>
+            <li><a href="#services" class="link">Наши услуги</a></li>
             <li><a href="#" class="link">Как мы работаем</a></li>
             <li><a href="#" class="link">Проекты домов</a></li>
             <li><a href="#" class="link">Земельные участки</a></li>
@@ -60,107 +60,69 @@
   </div> <!-- /wrapper -->
     
     <!-- Третий блок: О компании -->
-    <section id="about-us" class="about-us-block">
-        <h2>О нас</h2>
-        <p>Здесь информация о вашей компании.</p>
+    <section  class="container">
+        <div class="about" id="about">
+            <h1 class="about__h1">О нас</h1>
+            <p class="about__p">Главная ценность нашей компании - это наши клиенты и их желание иметь собственный дом, поэтому Миссия нашей компании сделать путь клиента от мечты о доме до ее воплощения максимально простым! Мы любим свое дело, ценим Ваши любые пожелания и обязательно построим Вам Дом мечты. </p>
+        </div>
     </section>
     
     <!-- Четвертый блок: Услуги -->
-    <section id="services" class="services-block">
-        <h2>Наши услуги</h2>
-        <div class="service-item">
-            <h3>Проектирование</h3>
-            <p>Описание услуги проектирования.</p>
-        </div>
-        <div class="service-item">
-            <h3>Строительство</h3>
-            <p>Описание строительной услуги.</p>
-        </div>
-        <div class="service-item">
-            <h3>Ремонт и отделка</h3>
-            <p>Описание услуг ремонта и отделки.</p>
+    <section  class="container">
+        <div class="services">
+            <h1 class="services__h1" id="services">Наши услуги</h1>
+            <div class="services__block">
+                <div class="services__item">
+                    <h3>1. Проектирование</h3>
+                   <ul>
+                    <li>Разработка архитектурной концепции дома.</li>
+                    <li>Подготовка проектной документации </li>
+                    <li>Инженерные расчеты конструкций и коммуникаций.</li>
+                    <li>Дизайн интерьера (по желанию заказчика).</li>
+                </ul>
+                </div>
+                <div class="services__item">
+                    <h3>2. Земляные работы</h3>
+                   <ul>
+                    <li>Рытье котлована под фундамент.</li>
+                    <li>Выравнивание участка земли.</li>
+                    <li>Устройство дренажной системы.</li>
+                </ul>
+                </div>
+                <div class="services__item">
+                    <h3>3. Фундаментные работы</h3>
+                   <ul>
+                    <li>Заливка фундамента (ленточного, свайного и др.).</li>
+                    <li>Гидроизоляция фундамента. </li>
+                    <li>Утепление фундамента (при необходимости).</li>
+                    <li>Дизайн интерьера (по желанию заказчика).</li>
+                </ul>
+                </div>
+         
+            </div>
+      
         </div>
     </section>
     
     <!-- Пятый блок: Портфолио -->
     <section id="portfolio" class="portfolio-block">
-        <h2>Наше портфолио</h2>
-        <div class="portfolio-item">
-            <img src="images/portfolio1.jpg" alt="Пример работы">
-            <p>Название проекта</p>
-        </div>
-        <div class="portfolio-item">
-            <img src="images/portfolio2.jpg" alt="Пример работы">
-            <p>Название проекта</p>
-        </div>
-        <div class="portfolio-item">
-            <img src="images/portfolio3.jpg" alt="Пример работы">
-            <p>Название проекта</p>
-        </div>
+
     </section>
     
     <!-- Шестой блок: Расценки и акции -->
     <section id="pricing" class="pricing-block">
-        <h2>Цены и акции</h2>
-        <table>
-            <tr>
-                <th>Услуга</th>
-                <th>Цена</th>
-                <th>Акция</th>
-            </tr>
-            <tr>
-                <td>Проектирование дома</td>
-                <td>От 50 000 руб.</td>
-                <td>Скидка 10% до конца месяца</td>
-            </tr>
-            <tr>
-                <td>Строительство дома</td>
-                <td>От 1 500 000 руб.</td>
-                <td>Бесплатный проект при заказе строительства</td>
-            </tr>
-            <tr>
-                <td>Ремонт и отделка</td>
-                <td>От 200 000 руб.</td>
-                <td>Скидка 15% на материалы</td>
-            </tr>
-        </table>
+
+     
     </section>
     
     <!-- Седьмой блок: Контакты и форма для отправки заявки -->
     <section id="contact" class="contact-block">
-        <h2>Свяжитесь с нами</h2>
-        <form action="#" method="post">
-            <label for="name">Ваше имя:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Ваш email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Сообщение:</label>
-            <textarea id="message" name="message" rows="4" cols="50"></textarea>
-            
-            <button type="submit">Отправить заявку</button>
-        </form>
-        
-        <div class="contact-info">
-            <p>Адрес: г. Москва, ул. Ленина, д. 25</p>
-            <p>Телефон: +7 (495) 123-45-67</p>
-            <p>Email: info@company.ru</p>
-        </div>
+ 
     </section>
     
     <!-- Восьмой блок: Футер с меню -->
     <footer class="footer-block">
-        <nav>
-            <ul>
-                <li><a href="#about-us">О нас</a></li>
-                <li><a href="#services">Услуги</a></li>
-                <li><a href="#portfolio">Портфолио</a></li>
-                <li><a href="#pricing">Расценки и Акции</a></li>
-                <li><a href="#contact">Контакты</a></li>
-            </ul>
-        </nav>
-        <p>© 2023 Строительство Домов. Все права защищены.</p>
+
     </footer>
 
     <script src="js/script.js"></script>
