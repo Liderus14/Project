@@ -328,6 +328,7 @@ body {
 }
 
 .about {
+  margin-left: 200px;
   width: 950px;
   height: 300px;
   background-color: #ffffff;
@@ -335,7 +336,9 @@ body {
   padding: 40px;
   margin-top: -80px;
   position: relative;
-  margin-left: 200px;
+  -webkit-box-shadow: 0px 0px 22px -2px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 0px 22px -2px rgba(66, 68, 90, 1);
+  box-shadow: 0px 0px 22px -2px rgba(66, 68, 90, 1);
 }
 
 .about__h1 {
@@ -356,22 +359,37 @@ body {
 .services__h1{
   font-size: 40px;
 }
-
 .services__block{
-  display: flex;
-  justify-content: space-around;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   margin-top: 50px;
+  justify-items: center;
 }
 
 .services__item{
-  width: 550px;
-  height: 200px;
-  background-color: #d6d6d6;
-  border-radius: 5px;
-  padding: 30px;
+  width: 590px;
+  height: auto;
+  border-radius: 20px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 22px -2px rgba(66, 68, 90, 1);
+-moz-box-shadow: 0px 0px 22px -2px rgba(66, 68, 90, 1);
+box-shadow: 0px 0px 22px -2px rgba(66, 68, 90, 1);
 }
 
-.services__item ul{
-  margin-top: 20px;
+.services__items-left h1{
+  margin-bottom: 20px;
+}
+
+.services__items-left p{
+  line-height:1.5;
+}
+ 
+.services__items-right{
+  margin-top: 30px;
 }
