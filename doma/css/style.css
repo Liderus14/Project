@@ -393,3 +393,34 @@ box-shadow: 0px 0px 22px -2px rgba(66, 68, 90, 1);
 .services__items-right{
   margin-top: 30px;
 }
+.work__h1 {
+	font-size: 40px;
+}
+.work__block{
+	display: grid;
+	grid-template-columns: repeat(4, 4fr);
+	justify-items: center;
+	gap: 20px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.work__item{
+	background: #3e3e40;
+	width: 345px;
+	color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+}
+.work__item:hover {
+	transform: scale(1.1); /* (150% зум — Примечание: если масштаб слишком велик, он будет выходить за пределы видового экрана) */
+}
+.work__item__h1{
+	font-size: 15px;
+}
+.work__item__p{
+	font-size: 15px;
+	margin-top: 10px;
+}
+.work__items{
+	background: green;
+}
