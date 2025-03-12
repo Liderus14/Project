@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Строительство Домов</title>
 	<link rel="stylesheet" href="css/style.css"> <!-- Подключение стилей -->
+	<link rel="stylesheet" href="css/popup.css"> <!-- Подключение стилей -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
@@ -42,7 +43,7 @@
 						<div class="slider__block-left">
 							<h1 class="block__h1">Качественное строительство каркасных домов в минимальные сроки</h1>
 							<h3 class="block__h3">С поддержкой в оформлении ипотеки</h3>
-							<button class="block__btn">Оставить заявку</button>
+							<button id="open-modal" class="block__btn">Оставить заявку</button>
 						</div>
 
 					</div>
@@ -52,7 +53,7 @@
 						<div class="slider__block-left1">
 							<h1 class="block__text-h2">Проектируем и строим надежные дома из газобетона</h1>
 							<h3 class="block__text-h3">С поддержкой в оформлении ипотеки </h3>
-							<button class="block__btn">Оставить заявку</button>
+							<button id="open-modal1" class="block__btn">Оставить заявку</button>
 						</div>
 
 					</div>
@@ -357,8 +358,45 @@
 
 	</footer>
 
+
+<!-- Модальное окно 1 -->
+
+<div class="modal" id="modal">
+	<div class="modal-content">
+			<span class="close">×</span>
+			<h1>Оставьте заявку на консультацию</h1>
+			<form class="form" action="" method="post">
+				<input class="text" type="text" name="name" placeholder="Ваше имя" />
+				<input class="tel" type="tel" name="phone" placeholder="Ваш номер телефона" />
+				<button class="btn">Заказать</button><br /><br />
+				<label>
+					<input type="checkbox" name="agree" value="agree" /> <p class="checkbox__p">согласен с
+					условиями <a href="#">конфиденциальности</a></p>
+				</label>
+			</form>
+	</div>
+</div>
+<!-- Модальное окно 2 -->
+
+<div id="modal1" class="modal1">
+	<div class="modal-content">
+		<span class="close1">×</span>
+		<h1>Оставьте заявку на консультацию</h1>
+		<form class="form" action="" method="post">
+			<input class="text" type="text" name="name" placeholder="Ваше имя" required/>
+			<input class="tel" type="tel" name="phone" placeholder="Ваш номер телефона" required/>
+			<button class="btn">Заказать</button><br /><br />
+			<label>
+				<input type="checkbox" name="agree" value="agree" required />согласен с
+				условиями <a href="#">конфиденциальности</a>
+			</label>
+		</form>
+	</div>
+</div>
+
 	<script src="js/script.js"></script>
 	<script src="js/slider.js"></script>
+	<script src="js/popup.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 
