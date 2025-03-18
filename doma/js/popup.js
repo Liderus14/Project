@@ -39,3 +39,23 @@ function closeModal1(event) {
 			.addEventListener('click', function () {
 				document.querySelector('.modal1').style.display = 'none'
 			});
+			// Модальное окно 3 
+
+document.getElementById('open-modal2').addEventListener('click', openModal2)
+document.getElementById('modal2').addEventListener('click', closeModal2)
+
+function openModal2() {
+	document.getElementById('modal2').style.display = 'block'
+}
+
+function closeModal2(event) {
+	if (event.target === document.getElementById('modal2')) {
+		document.getElementById('modal2').style.display = 'none'
+	}
+};
+
+    document
+			.querySelector('.close2')
+			.addEventListener('click', function () {
+				document.querySelector('.modal2').style.display = 'none'
+			});

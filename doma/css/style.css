@@ -517,7 +517,7 @@ a:active {
 	line-height: 1.5;
 }
 .portfolio__block{
-	height: 1200px;
+	height: auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -525,6 +525,7 @@ a:active {
 	gap: 20px;
 	background: #333;
 	margin-top: 70px;
+	padding: 40px;
 }
 .image.first,.image.second {
 	width: 640px;
@@ -616,3 +617,67 @@ a:active {
 		color: #999;
 		margin-top: 10px;
 	}
+	.footer-block{
+		background: #333;
+		height: 300px;
+	}
+	.footer_logo{
+		width: 150px;
+		height: 150px;
+	}
+	.footer_item {
+    display: flex;
+    color: #fff;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 100px;
+    font-size: 15px;
+		line-height: 1.5;
+}
+.footer_items a{
+	color: #fff;
+	text-decoration: none;
+}
+.footer_items a:hover{
+	color: green;
+}
+.footer_menu ul {
+  list-style-type: none;
+}
+
+.footer_menu li a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  font-size: 15px;
+}
+.footer_h4{
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+.telegram{
+	width: 33px;
+	height: 33px;
+}
+.messenger{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.footer_form{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.block__btn1 {
+  width: 280px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+}
+
