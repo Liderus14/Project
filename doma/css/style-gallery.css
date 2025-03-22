@@ -1,0 +1,149 @@
+.galerry_items{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.galerry__item{
+	padding: 20px;
+	font-size: 20px;
+}
+	.image {
+	background-color: #fff;
+	height: 420px;
+	}
+	.image img{
+		width: 600px;
+		height: 350px;
+	}
+	.title_info{
+		position: relative;
+		padding: 20px;
+		border-radius: 10px;
+		margin-top: 60px
+	}
+	.title_info_h1{
+		font-size: 40px;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	.title_info-p{
+		font-size: 18px;
+	}
+	.title_img{
+		width: 1180px;
+		height: 700px;
+		position: absolute;
+		top: 32%;
+		left: -38%;
+	}
+
+/* Модальный (фон) */
+.modal3{
+	display: none; /* Скрываем модальное окно по умолчанию */
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.4); /* Затемнение фона */
+}
+
+.modal3-content {
+	width: 1100px;
+	height: 700px;
+	background-color: #fefefe;
+	margin: 9% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	animation: animatezoom 0.6s; /* Анимация появления */
+}
+
+.close3 {
+	position: relative;
+	top: 19%;
+	left: -22%;
+	color: #000000;
+	float: right;
+	font-size: 35px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.close3:hover,
+.close3.modal-leave-to {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Анимация открытия и закрытия модального окна */
+.modal-enter-active,
+.modal-leave-active {
+	transition: opacity 0.5s;
+}
+
+.modal-enter,
+.modal-leave-to {
+	opacity: 0;
+}
+
+
+@keyframes animatezoom {
+	from {transform: scale(0)}
+	to {transform: scale(1)}
+}
+/* конец модального окна */
+
+
+
+#gallery_modal {
+  position: relative;
+  padding-top: 50%;
+  -moz-user-select: none; user-select: none;
+}
+
+#gallery_modal img {
+  position: absolute;
+  top: 25%;
+  left: 12.5%;
+  max-width: 24.5%;
+  max-height: 49.5%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor: zoom-in;
+  transition: .2s;
+	cursor: pointer;
+}
+#gallery_modal img:nth-child(4n-2) {left: 37.5%;}
+#gallery_modal img:nth-child(4n-1) {left: 62.5%;}
+#gallery_modal img:nth-child(4n) {left: 87.5%;}
+#gallery_modal img:nth-child(n+5) {top: 75%;}
+
+#gallery_modal img:focus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  max-width: 100%;
+  max-height: 100%;
+  outline: none;
+  pointer-events: none;
+}
+
+#gallery_modal img:focus ~ div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  cursor: zoom-out;
+}
