@@ -452,14 +452,16 @@ body {
 	left: -35%;
 	transform: rotate(23deg);
 	}
+.skull1_img{
+overflow: hidden;
+	}
 .skull1{
 	position: absolute;
-	width: 1200px;
-	height: 750px;
+	width: 600px;
+	height: 700px;
 	margin: 0 auto;
-	top: 140%;
-	right: -33%;
-	transform: rotate(-23deg);
+	top: 150%;
+	right: 0;
 	}
 .aside {
 	width: 100%;
