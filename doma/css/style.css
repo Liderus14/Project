@@ -1,6 +1,6 @@
 /* Общие стили */
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -35,11 +35,11 @@ body {
 }
 
 .menu li a {
-  text-decoration: none;
-  color: white;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  font-size: 20px;
+	text-decoration: none;
+	color: white;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+	font-size: 20px;
 }
 
 .link {
@@ -79,9 +79,9 @@ body {
 
 
 .contact p a {
-  text-decoration: none;
-  font-size: 20px;
-  color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
 }
 
 .slider__block {
@@ -350,13 +350,13 @@ body {
 }
 
 .about__h1 {
-  font-size: 40px;
+	font-size: 40px;
 }
 
 .about__p {
-  max-width: 950px;
-  padding-top: 30px;
-  font-size: 20px;
+	max-width: 950px;
+	padding-top: 30px;
+	font-size: 20px;
 }
 
 .services {
@@ -402,6 +402,7 @@ body {
 .services__items-right {
 	margin-top: 30px;
 }
+
 .work__h1 {
 	font-size: 40px;
 }
@@ -440,62 +441,259 @@ body {
 .work__items {
 	background: green;
 }
-.portfolio__h1 {
-	font-size: 40px;
-	margin-bottom: 70px;
-}
-.aside__category{
-	display: flex;
-	justify-content: space-evenly;
-	gap: 50px;
+
+/* стили радиокнопок начало */
+.skull{
+	position: absolute;
+	width: 1200px;
+	height: 750px;
+	margin: 0 auto;
+	top: 140%;
+	left: -35%;
+	transform: rotate(23deg);
+	}
+.skull1_img{
+overflow: hidden;
+	}
+.skull1{
+	position: absolute;
+	width: 600px;
+	height: 700px;
+	margin: 0 auto;
+	top: 150%;
+	right: 0;
+	}
+.aside {
+	width: 100%;
+	height: 1043px;
+	margin-top: 40px;
 }
 
-.portfolio__h4 {
+.aside-p {
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 115px;
+}
+
+.cartoon-container {
+	overflow: hidden;
+	position: relative;
+	padding: 30px;
+	margin-top: 100px;
+}
+
+.cartoon__container {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.cartoon-container input[type='radio'] {
+	display: none;
+}
+
+.cartoon-container label {
+	clear: left;
+	float: left;
+	width: 280px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+.cartoon-container label:hover {
+	cursor: pointer;
+	background-color: green;
+	color: #FFF;
+}
+
+.cartoon-container label::before {
+	background-color: green;
+	color: #FFF;
+}
+
+.cartoon__items {
+	display: flex;
+	flex-direction: column;
+	margin-top: 15px;
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.cartoon__h3 {
+	font-size: 16px;
+	font-weight: bold;
+	width: 250px;
+}
+
+.cartoon__h3 span {
+	margin-left: 26px;
+}
+
+.cartoon__p {
+	max-width: 175px;
+	font-size: 12px;
+	width: 250px;
+}
+
+.cartoon {
+	margin-left: 25.5%;
+	position: relative;
+	width: 991px;
+	height: 690px;
+}
+
+.cartoon figure {
+	margin: 0;
+	opacity: 0;
+	position: absolute;
+	transform: scale(0.8);
+	-webkit-transform: scale(0.8);
+	transition: all 0.5s linear 0s;
+	border-radius: 20px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+	width: 100%;
+}
+
+.aside__text-block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.aside__text-h1 {
 	font-size: 30px;
 }
-.portfolio__p {
-	line-height: 1.5;
+
+.aside__title p {
+	font-size: 20px;
+	margin-top: 15px;
 }
-.portfolio__block{
+
+.aside__p {
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 115px;
+}
+
+.aside__ul {
+	margin-top: 30px;
+}
+
+.aside__li {
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.aside__title {
+	font-size: 30px;
+	padding: 50px;
+	background-color: #fff;
+	border-radius: 20px;
 	height: auto;
+}
+
+.aside__title h2 {
+	font-size: 30px;
+	margin-top: 50px;
+}
+
+.svg {
+	background-image: url(../images/svg.png), url(../images/Ellipse.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 102px;
+	height: 102px;
+}
+
+#prototip:checked~.cartoon #f-prototip,
+#dizain:checked~.cartoon #f-dizain,
+#verstka:checked~.cartoon #f-verstka,
+#reklama:checked~.cartoon #f-reklama,
+#reklamka:checked~.cartoon #f-reklamka {
+	opacity: 1;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+
+#prototip:checked+label,
+#dizain:checked+label,
+#verstka:checked+label,
+#reklama:checked+label,
+#reklamka:checked+label {
+	opacity: 0.6;
+}
+
+#prototip:checked~.cartoon #f-prototip figcaption,
+#dizain:checked~.cartoon #f-dizain figcaption,
+#verstka:checked~.cartoon #f-verstka figcaption,
+#reklama:checked~.cartoon #f-reklama figcaption,
+#reklamka:checked~.cartoon #f-reklamka figcaption {
+	top: -5rem;
+}
+
+/* конец стилей радиокнопок */
+
+/* портфолио начало */
+.portfolio__h1 {
+	font-size: 40px;
+	margin-bottom: 100px;
+}
+
+.portfolio {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	gap: 20px;
-	background: #333;
-	margin-top: 70px;
-	padding: 40px;
+	gap: 50px;
+	margin-bottom: 100px;
+	
 }
-.image.first,.image.second {
-	width: 640px;
-	height: 370px;
-	border:2px solid transparent;
-	margin:0;
-	padding:0;
-	}
-	
-	.image.first {
-	display:block;
-	position:absolute;
-	z-index:100;
-	transition-duration:0.96s;
-	-webkit-transition-duration:0.96s;
-	-moz-transition-duration:0.96s;
-	-o-transition-duration:0.96s;
-	-ms-transition-duration:0.96s;
-	}
-	
-	.image.first:hover {
-	opacity:0.00;
-	}
-	 
-	div.ImgField {
-	display:inline-block;
-	background-position:center center;
-	background-repeat:no-repeat;
-	margin:0;
-	padding:0;
+
+.portfolio__left {
+	position: relative;
+
+}
+.portfolio__left img {
+	width: 600px;
+	height: 350px;
+	border-radius: 10px;
+  transition: transform 1.1s;
+}
+.portfolio__left:hover img {
+	transform: scale(1.1);
+}
+
+.portfolio__right img {
+	width: 600px;
+	height: 350px;
+	border-radius: 10px;
+  transition: transform 1.1s;
+}
+.portfolio__right:hover img {
+	transform: scale(1.1);
+}
+.portfolio__title {
+	position: absolute;
+	top: 10%;
+	left: 27%;
+	transform: translate(-50%, -50%);
+	color: #000;
+	display: flex;
+	flex-direction: column;
+}
+.portfolio__title_right {
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	color: #000;
+	display: flex;
+	flex-direction: column;
+}
+
+.portfolio__title-h1 {
+	font-size: 35px;
+}
+
+.btn__h3 {
+	font-size: 25px;
 	color: #fff;
 	padding: 15px;
 }
