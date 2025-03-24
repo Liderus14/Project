@@ -697,6 +697,9 @@ overflow: hidden;
 	color: #fff;
 	padding: 15px;
 }
+.btn__h3:hover {
+	color: #000;
+}
 
 .btn-border-left {
 	position: absolute;
@@ -712,23 +715,8 @@ overflow: hidden;
 	margin-left: 30px;
 	margin-top: 15px;
 }
-.btn-border-right {
-	position: absolute;
-	transform: translate(-50%, -50%);
-	background-color: transparent;
-	color: green;
-	border-radius: 10px;
-	height: 50px;
-	background-color: green;
-	border: none;
-	margin-left: -450px;
-	margin-top: 300px;
-}
 
 .btn-border-left a {
-	text-decoration: none;
-}
-.btn-border-right a {
 	text-decoration: none;
 }
 
@@ -899,6 +887,13 @@ input#img-6:checked~.nav-dots label#img-dot-6 {
 }
 
 /* отзывы */
+
+/* процесс работы начало */
+
+
+
+/* процесс работы конец */
+
 
 .footer-block {
 	background: #333;

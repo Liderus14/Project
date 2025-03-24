@@ -1,0 +1,881 @@
+/* Попап Дуар начало */
+.modal6{
+	display: none; /* Скрываем модальное окно по умолчанию */
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.4); /* Затемнение фона */
+}
+
+.modal6-content {
+	width: 1100px;
+	height: 700px;
+	background-color: #fefefe;
+	margin: 9% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	animation: animatezoom 0.6s; /* Анимация появления */
+}
+
+.close6 {
+	position: relative;
+	top: 19%;
+	left: -22%;
+	color: #000000;
+	float: right;
+	font-size: 35px;
+	font-weight: bold;
+	cursor: pointer;
+	animation: animatezoom 1.2s; /* Анимация появления */
+}
+
+.close6:hover,
+.close6.modal-leave-to {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Анимация открытия и закрытия модального окна */
+.modal-enter-active,
+.modal-leave-active {
+	transition: opacity 0.5s;
+}
+
+.modal-enter,
+.modal-leave-to {
+	opacity: 0;
+}
+
+
+@keyframes animatezoom {
+	from {transform: scale(0)}
+	to {transform: scale(1)}
+}
+/* Попап Дуар конец */
+
+/* Попап Ива начало */
+.modal7{
+	display: none; /* Скрываем модальное окно по умолчанию */
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.4); /* Затемнение фона */
+}
+
+.modal7-content {
+	width: 1100px;
+	height: 700px;
+	background-color: #fefefe;
+	margin: 9% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	animation: animatezoom 0.6s; /* Анимация появления */
+}
+
+.close7 {
+	position: relative;
+	top: 19%;
+	left: -22%;
+	color: #000000;
+	float: right;
+	font-size: 35px;
+	font-weight: bold;
+	cursor: pointer;
+	animation: animatezoom 1.2s; /* Анимация появления */
+}
+
+.close7:hover,
+.close7.modal-leave-to {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Анимация открытия и закрытия модального окна */
+.modal-enter-active,
+.modal-leave-active {
+	transition: opacity 0.5s;
+}
+
+.modal-enter,
+.modal-leave-to {
+	opacity: 0;
+}
+
+
+@keyframes animatezoom {
+	from {transform: scale(0)}
+	to {transform: scale(1)}
+}
+/* Попап Ива конец */
+
+/* Попап Иван 2 начало */
+.modal8{
+	display: none; /* Скрываем модальное окно по умолчанию */
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.4); /* Затемнение фона */
+}
+
+.modal8-content {
+	width: 1100px;
+	height: 700px;
+	background-color: #fefefe;
+	margin: 9% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	animation: animatezoom 0.6s; /* Анимация появления */
+}
+
+.close8 {
+	position: relative;
+	top: 19%;
+	left: -22%;
+	color: #000000;
+	float: right;
+	font-size: 35px;
+	font-weight: bold;
+	cursor: pointer;
+	animation: animatezoom 1.2s; /* Анимация появления */
+}
+
+.close8:hover,
+.close8.modal-leave-to {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Анимация открытия и закрытия модального окна */
+.modal-enter-active,
+.modal-leave-active {
+	transition: opacity 0.5s;
+}
+
+.modal-enter,
+.modal-leave-to {
+	opacity: 0;
+}
+
+
+@keyframes animatezoom {
+	from {transform: scale(0)}
+	to {transform: scale(1)}
+}
+/* Попап Иван 2 конец */
+
+/* Попап Александрит начало */
+.modal9{
+	display: none; /* Скрываем модальное окно по умолчанию */
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.4); /* Затемнение фона */
+}
+
+.modal9-content {
+	width: 1100px;
+	height: 700px;
+	background-color: #fefefe;
+	margin: 9% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	animation: animatezoom 0.6s; /* Анимация появления */
+}
+
+.close9 {
+	position: relative;
+	top: 19%;
+	left: -22%;
+	color: #000000;
+	float: right;
+	font-size: 35px;
+	font-weight: bold;
+	cursor: pointer;
+	animation: animatezoom 1.2s; /* Анимация появления */
+}
+
+.close9:hover,
+.close9.modal-leave-to {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Анимация открытия и закрытия модального окна */
+.modal-enter-active,
+.modal-leave-active {
+	transition: opacity 0.5s;
+}
+
+.modal-enter,
+.modal-leave-to {
+	opacity: 0;
+}
+
+
+@keyframes animatezoom {
+	from {transform: scale(0)}
+	to {transform: scale(1)}
+}
+/* Попап Александрит конец */
+
+/* Попап Аленка начало */
+.modal10{
+	display: none; /* Скрываем модальное окно по умолчанию */
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.4); /* Затемнение фона */
+}
+
+.modal10-content {
+	width: 1100px;
+	height: 700px;
+	background-color: #fefefe;
+	margin: 9% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	animation: animatezoom 0.6s; /* Анимация появления */
+}
+
+.close10 {
+	position: relative;
+	top: 19%;
+	left: -22%;
+	color: #000000;
+	float: right;
+	font-size: 35px;
+	font-weight: bold;
+	cursor: pointer;
+	animation: animatezoom 1.2s; /* Анимация появления */
+}
+
+.close10:hover,
+.close10.modal-leave-to {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Анимация открытия и закрытия модального окна */
+.modal-enter-active,
+.modal-leave-active {
+	transition: opacity 0.5s;
+}
+
+.modal-enter,
+.modal-leave-to {
+	opacity: 0;
+}
+
+
+@keyframes animatezoom {
+	from {transform: scale(0)}
+	to {transform: scale(1)}
+}
+/* Попап Аленка конец */
+
+/* Попап Арт начало */
+.modal11{
+	display: none; /* Скрываем модальное окно по умолчанию */
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.4); /* Затемнение фона */
+}
+
+.modal11-content {
+	width: 1100px;
+	height: 700px;
+	background-color: #fefefe;
+	margin: 9% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	animation: animatezoom 0.6s; /* Анимация появления */
+}
+
+.close11 {
+	position: relative;
+	top: 19%;
+	left: -22%;
+	color: #000000;
+	float: right;
+	font-size: 35px;
+	font-weight: bold;
+	cursor: pointer;
+	animation: animatezoom 1.2s; /* Анимация появления */
+}
+
+.close11:hover,
+.close11.modal-leave-to {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Анимация открытия и закрытия модального окна */
+.modal-enter-active,
+.modal-leave-active {
+	transition: opacity 0.5s;
+}
+
+.modal-enter,
+.modal-leave-to {
+	opacity: 0;
+}
+
+
+@keyframes animatezoom {
+	from {transform: scale(0)}
+	to {transform: scale(1)}
+}
+/* Попап Арт конец */
+
+/* Попап Дарья начало */
+.modal12{
+	display: none; /* Скрываем модальное окно по умолчанию */
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.4); /* Затемнение фона */
+}
+
+.modal12-content {
+	width: 1100px;
+	height: 700px;
+	background-color: #fefefe;
+	margin: 9% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	animation: animatezoom 0.6s; /* Анимация появления */
+}
+
+.close12 {
+	position: relative;
+	top: 19%;
+	left: -22%;
+	color: #000000;
+	float: right;
+	font-size: 35px;
+	font-weight: bold;
+	cursor: pointer;
+	animation: animatezoom 1.2s; /* Анимация появления */
+}
+
+.close12:hover,
+.close12.modal-leave-to {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Анимация открытия и закрытия модального окна */
+.modal-enter-active,
+.modal-leave-active {
+	transition: opacity 0.5s;
+}
+
+.modal-enter,
+.modal-leave-to {
+	opacity: 0;
+}
+
+
+@keyframes animatezoom {
+	from {transform: scale(0)}
+	to {transform: scale(1)}
+}
+/* Попап Дарья конец */
+
+/* Попап Лис начало */
+.modal13{
+	display: none; /* Скрываем модальное окно по умолчанию */
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.4); /* Затемнение фона */
+}
+
+.modal13-content {
+	width: 1100px;
+	height: 700px;
+	background-color: #fefefe;
+	margin: 9% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	animation: animatezoom 0.6s; /* Анимация появления */
+}
+
+.close13 {
+	position: relative;
+	top: 19%;
+	left: -22%;
+	color: #000000;
+	float: right;
+	font-size: 35px;
+	font-weight: bold;
+	cursor: pointer;
+	animation: animatezoom 1.2s; /* Анимация появления */
+}
+
+.close13:hover,
+.close13.modal-leave-to {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Анимация открытия и закрытия модального окна */
+.modal-enter-active,
+.modal-leave-active {
+	transition: opacity 0.5s;
+}
+
+.modal-enter,
+.modal-leave-to {
+	opacity: 0;
+}
+
+
+@keyframes animatezoom {
+	from {transform: scale(0)}
+	to {transform: scale(1)}
+}
+/* Попап Лис конец */
+
+/* Попап Максимилиан начало */
+.modal14{
+	display: none; /* Скрываем модальное окно по умолчанию */
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.4); /* Затемнение фона */
+}
+
+.modal14-content {
+	width: 1100px;
+	height: 700px;
+	background-color: #fefefe;
+	margin: 9% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	animation: animatezoom 0.6s; /* Анимация появления */
+}
+
+.close14 {
+	position: relative;
+	top: 19%;
+	left: -22%;
+	color: #000000;
+	float: right;
+	font-size: 35px;
+	font-weight: bold;
+	cursor: pointer;
+	animation: animatezoom 1.2s; /* Анимация появления */
+}
+
+.close14:hover,
+.close14.modal-leave-to {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Анимация открытия и закрытия модального окна */
+.modal-enter-active,
+.modal-leave-active {
+	transition: opacity 0.5s;
+}
+
+.modal-enter,
+.modal-leave-to {
+	opacity: 0;
+}
+
+
+@keyframes animatezoom {
+	from {transform: scale(0)}
+	to {transform: scale(1)}
+}
+/* Попап Максимилиан конец */
+
+/* Попап Павловец начало */
+.modal15{
+	display: none; /* Скрываем модальное окно по умолчанию */
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.4); /* Затемнение фона */
+}
+
+.modal15-content {
+	width: 1100px;
+	height: 700px;
+	background-color: #fefefe;
+	margin: 9% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	animation: animatezoom 0.6s; /* Анимация появления */
+}
+
+.close15 {
+	position: relative;
+	top: 19%;
+	left: -22%;
+	color: #000000;
+	float: right;
+	font-size: 35px;
+	font-weight: bold;
+	cursor: pointer;
+	animation: animatezoom 1.2s; /* Анимация появления */
+}
+
+.close15:hover,
+.close15.modal-leave-to {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Анимация открытия и закрытия модального окна */
+.modal-enter-active,
+.modal-leave-active {
+	transition: opacity 0.5s;
+}
+
+.modal-enter,
+.modal-leave-to {
+	opacity: 0;
+}
+
+
+@keyframes animatezoom {
+	from {transform: scale(0)}
+	to {transform: scale(1)}
+}
+/* Попап Павловец конец */
+
+/* Попап Подсолнух начало */
+.modal16{
+	display: none; /* Скрываем модальное окно по умолчанию */
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.4); /* Затемнение фона */
+}
+
+.modal16-content {
+	width: 1100px;
+	height: 700px;
+	background-color: #fefefe;
+	margin: 9% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	animation: animatezoom 0.6s; /* Анимация появления */
+}
+
+.close16 {
+	position: relative;
+	top: 19%;
+	left: -22%;
+	color: #000000;
+	float: right;
+	font-size: 35px;
+	font-weight: bold;
+	cursor: pointer;
+	animation: animatezoom 1.2s; /* Анимация появления */
+}
+
+.close16:hover,
+.close16.modal-leave-to {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Анимация открытия и закрытия модального окна */
+.modal-enter-active,
+.modal-leave-active {
+	transition: opacity 0.5s;
+}
+
+.modal-enter,
+.modal-leave-to {
+	opacity: 0;
+}
+
+
+@keyframes animatezoom {
+	from {transform: scale(0)}
+	to {transform: scale(1)}
+}
+/* Попап Подсолнух конец */
+
+/* Попап Посад начало */
+.modal17{
+	display: none; /* Скрываем модальное окно по умолчанию */
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.4); /* Затемнение фона */
+}
+
+.modal17-content {
+	width: 1100px;
+	height: 700px;
+	background-color: #fefefe;
+	margin: 9% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	animation: animatezoom 0.6s; /* Анимация появления */
+}
+
+.close17 {
+	position: relative;
+	top: 19%;
+	left: -22%;
+	color: #000000;
+	float: right;
+	font-size: 35px;
+	font-weight: bold;
+	cursor: pointer;
+	animation: animatezoom 1.2s; /* Анимация появления */
+}
+
+.close17:hover,
+.close17.modal-leave-to {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Анимация открытия и закрытия модального окна */
+.modal-enter-active,
+.modal-leave-active {
+	transition: opacity 0.5s;
+}
+
+.modal-enter,
+.modal-leave-to {
+	opacity: 0;
+}
+
+
+@keyframes animatezoom {
+	from {transform: scale(0)}
+	to {transform: scale(1)}
+}
+/* Попап Посад конец */
+
+/* Попап Сердолик начало */
+.modal18{
+	display: none; /* Скрываем модальное окно по умолчанию */
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.4); /* Затемнение фона */
+}
+
+.modal18-content {
+	width: 1100px;
+	height: 700px;
+	background-color: #fefefe;
+	margin: 9% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	animation: animatezoom 0.6s; /* Анимация появления */
+}
+
+.close18 {
+	position: relative;
+	top: 19%;
+	left: -22%;
+	color: #000000;
+	float: right;
+	font-size: 35px;
+	font-weight: bold;
+	cursor: pointer;
+	animation: animatezoom 1.2s; /* Анимация появления */
+}
+
+.close18:hover,
+.close18.modal-leave-to {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Анимация открытия и закрытия модального окна */
+.modal-enter-active,
+.modal-leave-active {
+	transition: opacity 0.5s;
+}
+
+.modal-enter,
+.modal-leave-to {
+	opacity: 0;
+}
+
+
+@keyframes animatezoom {
+	from {transform: scale(0)}
+	to {transform: scale(1)}
+}
+/* Попап Сердолик конец */
+
+/* Попап Солнце начало */
+.modal19{
+	display: none; /* Скрываем модальное окно по умолчанию */
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.4); /* Затемнение фона */
+}
+
+.modal19-content {
+	width: 1100px;
+	height: 700px;
+	background-color: #fefefe;
+	margin: 9% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	animation: animatezoom 0.6s; /* Анимация появления */
+}
+
+.close19 {
+	position: relative;
+	top: 19%;
+	left: -22%;
+	color: #000000;
+	float: right;
+	font-size: 35px;
+	font-weight: bold;
+	cursor: pointer;
+	animation: animatezoom 1.2s; /* Анимация появления */
+}
+
+.close19:hover,
+.close19.modal-leave-to {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Анимация открытия и закрытия модального окна */
+.modal-enter-active,
+.modal-leave-active {
+	transition: opacity 0.5s;
+}
+
+.modal-enter,
+.modal-leave-to {
+	opacity: 0;
+}
+
+
+@keyframes animatezoom {
+	from {transform: scale(0)}
+	to {transform: scale(1)}
+}
+/* Попап Солнце конец */

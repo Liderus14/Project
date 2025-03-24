@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/style.css"> <!-- Подключение стилей -->
 	<link rel="stylesheet" href="css/popup.css"> <!-- Подключение стилей -->
 	<link rel="stylesheet" href="css/style-gallery.css"> <!-- Подключение стилей -->
+	<link rel="stylesheet" href="css/style-gallery1.css"> <!-- Подключение стилей -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
@@ -33,29 +34,101 @@
 		</div>
 	</div>
 	<section class="container">
+		<div class="title_info">
+			<h1 class="title_info_h1">Дома из газоблока</h1>
+			<p class="title_info-p"> Это постройки, для возведения которых используют газобетонные блоки — 
+				искусственный пористый строительный материал из цемента, кварцевого песка, воды, 
+				алюминиевой пудры и других компонентов. </p><br>
+		</div>
+		<img src="images/derevo.png" class="title_img">
+	</section>
+	<section class="container">
 		<div class="galerry_items">
-		<div class=ImgField>
-			<img class="image first" src="images/01.jpg" />
-			<img class="image second" src="images/02.jpg" />
-			<div class="galerry__item">
-				<h2>Лавр</h2>
+			<div class="image">
+				<img id="open-modal6" class="first" src="images/01.jpg" />
+				<div class="galerry__item">
+					<h2>Дуар</h2>
+				</div>
+			</div>
+			<div class="image">
+				<img id="open-modal7" class="first" src="images/05.jpg" />
+				<div class="galerry__item">
+					<h2>Ива</h2>
+				</div>
+			</div>
+			<div class="image">
+				<img id="open-modal8" class="first" src="images/05.jpg" />
+				<div class="galerry__item">
+					<h2>Иван 2</h2>
+				</div>
+			</div>
+			<div class="image">
+				<img id="open-modal9" class="first" src="images/05.jpg" />
+				<div class="galerry__item">
+					<h2>Александрит</h2>
+				</div>
+			</div>
+			<div class="image">
+				<img id="open-modal10" class="first" src="images/05.jpg" />
+				<div class="galerry__item">
+					<h2>Аленка</h2>
+				</div>
+			</div>
+			<div class="image">
+				<img id="open-modal11" class="first" src="images/05.jpg" />
+				<div class="galerry__item">
+					<h2>Арт</h2>
+				</div>
+			</div>
+			<div class="image">
+				<img id="open-modal12" class="first" src="images/05.jpg" />
+				<div class="galerry__item">
+					<h2>Дарья</h2>
+				</div>
+			</div>
+			<div class="image">
+				<img id="open-modal13" class="first" src="images/05.jpg" />
+				<div class="galerry__item">
+					<h2>Лис</h2>
+				</div>
+			</div>
+			<div class="image">
+				<img id="open-modal14" class="first" src="images/05.jpg" />
+				<div class="galerry__item">
+					<h2>Максимилиан</h2>
+				</div>
+			</div>
+			<div class="image">
+				<img id="open-modal15" class="first" src="images/05.jpg" />
+				<div class="galerry__item">
+					<h2>Павлецов</h2>
+				</div>
+			</div>
+			<div class="image">
+				<img id="open-modal16" class="first" src="images/05.jpg" />
+				<div class="galerry__item">
+					<h2>Подсолнух</h2>
+				</div>
+			</div>
+			<div class="image">
+				<img id="open-modal17" class="first" src="images/05.jpg" />
+				<div class="galerry__item">
+					<h2>Посад</h2>
+				</div>
+			</div>
+			<div class="image">
+				<img id="open-modal18" class="first" src="images/05.jpg" />
+				<div class="galerry__item">
+					<h2>Сердолик</h2>
+				</div>
+			</div>
+			<div class="image">
+				<img id="open-modal19" class="first" src="images/05.jpg" />
+				<div class="galerry__item">
+					<h2>Солнце</h2>
+				</div>
 			</div>
 		</div>
-		<div class=ImgField>
-			<img class="image first" src="images/05.jpg" />
-			<img class="image second" src="images/1.jpg" />
-			<div class="galerry__item">
-				<h2>Лазурит</h2>
-			</div>
-		</div>
-		<div class=ImgField>
-			<img class="image first" src="images/05.jpg" />
-			<img class="image second" src="images/1.jpg" />
-			<div class="galerry__item">
-				<h2>Уют</h2>
-			</div>
-		</div>
-	</div>
 	</section>
 	<!-- Восьмой блок: Футер с меню -->
 	<footer class="footer-block">
@@ -87,7 +160,7 @@
 							<a href="#"><img class="telegram" src="images/telegram.png" alt=""></a>
 							<a href="#"><img class="vk" src="images/vk.png" alt=""></a>
 						</div>
-						<a href="#"><button id="open-modal2" class="block__btn1">Остались вопросы?</button></a>
+						<button id="open-modal2" class="block__btn1">Остались вопросы?</button>
 					</div>
 				</div>
 			</div>
@@ -99,22 +172,587 @@
 	<div id="modal2" class="modal2">
 		<div class="modal2-content">
 			<span class="close2">×</span>
-			<h1>Оставьте заявку на консультацию</h 1>
-				<form class="form" action="" method="post">
-					<input class="text" type="text" name="name" placeholder="Ваше имя" required />
-					<input class="tel" type="tel" name="phone" placeholder="Ваш номер телефона" required />
-					<button class="btn">Получить консультацию</button><br /><br />
-					<label>
-						<input type="checkbox" name="agree" value="agree" required />согласен с
-						условиями <a href="#">конфиденциальности</a>
-					</label>
-				</form>
+			<h1>Оставьте заявку на консультацию</h1>
+			<form class="form" action="" method="post">
+				<input class="text" type="text" name="name" placeholder="Ваше имя" required />
+				<input class="tel" type="tel" name="phone" placeholder="Ваш номер телефона" required />
+				<button class="btn">Получить консультацию</button><br /><br />
+				<label>
+					<input type="checkbox" name="agree" value="agree" required />согласен с
+					условиями <a href="#">конфиденциальности</a>
+				</label>
+			</form>
 		</div>
 	</div>
+
+<!-- Дуар -->
+
+	<div id="modal6" class="modal6">
+		<span class="close6">×</span>
+		<div class="modal6-content">
+			<div id="gallery_modal">
+				<img src="images/1.jpg" alt="" tabindex="0" />
+				<img src="images/02.jpg" alt="" tabindex="0" />
+				<img src="images/2.jpg" alt="" tabindex="0" />
+				<img src="images/5.jpg" alt="" tabindex="0" />
+			</div>
+
+			<div class="gallery_title">
+				<h1>Характеристики дома "Дуар"</h1>
+				<div class="gallery_body">
+					<div class="gallery_body-p">
+						<p><b>Цокольный этаж:</b> Нет</p>
+						<p><b>Гараж:</b> Отдельный</p>
+						<p><b>Мансардный этаж:</b> Нет</p>
+						<p><b>Тип крыши:</b> Вальмовая</p>
+						<p><b>Габариты:</b> 21.2x29.97</p>
+					</div>
+					<div class="gallery_body-p">
+						<p><b>Комнаты:</b> 3</p>
+						<p><b>Мансардный этаж:</b> нет</p>
+						<p><b>С/у:</b> 4</p>
+						<p><b>Спальня:</b> 4</p>
+						<p><b>Габариты:</b> 21.2x29.97</p>
+					</div>
+					<div class="gallery_body-p">
+						<p><b>Материал:</b> Дерева, металлопрокат, лёгкие стальные тонкостенные конструкций, железобетон.</p>
+						<p><b>Стиль:</b> Классический</p>
+					</div>
+				</div>
+				<div class="galerry__btn">
+				<button class="btn_gallary">Оставить заявку</button>
+			</div>
+			</div>
+		</div>
+	</div>
+
+<!-- Ива -->
+
+<div id="modal7" class="modal7">
+	<span class="close7">×</span>
+	<div class="modal7-content">
+		<div id="gallery_modal">
+			<img src="images/1.jpg" alt="" tabindex="0" />
+			<img src="images/02.jpg" alt="" tabindex="0" />
+			<img src="images/2.jpg" alt="" tabindex="0" />
+			<img src="images/5.jpg" alt="" tabindex="0" />
+		</div>
+
+		<div class="gallery_title">
+			<h1>Характеристики дома "Ива"</h1>
+			<div class="gallery_body">
+				<div class="gallery_body-p">
+					<p><b>Цокольный этаж:</b> Нет</p>
+					<p><b>Гараж:</b> Отдельный</p>
+					<p><b>Мансардный этаж:</b> Нет</p>
+					<p><b>Тип крыши:</b> Вальмовая</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Комнаты:</b> 3</p>
+					<p><b>Мансардный этаж:</b> нет</p>
+					<p><b>С/у:</b> 4</p>
+					<p><b>Спальня:</b> 4</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Материал:</b> Дерева, металлопрокат, лёгкие стальные тонкостенные конструкций, железобетон.</p>
+					<p><b>Стиль:</b> Классический</p>
+				</div>
+			</div>
+			<div class="galerry__btn">
+				<button class="btn_gallary">Оставить заявку</button>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- Иван 2 -->
+
+<div id="modal8" class="modal8">
+	<span class="close8">×</span>
+	<div class="modal8-content">
+		<div id="gallery_modal">
+			<img src="images/1.jpg" alt="" tabindex="0" />
+			<img src="images/02.jpg" alt="" tabindex="0" />
+			<img src="images/2.jpg" alt="" tabindex="0" />
+			<img src="images/5.jpg" alt="" tabindex="0" />
+		</div>
+
+		<div class="gallery_title">
+			<h1>Характеристики дома "Иван 2"</h1>
+			<div class="gallery_body">
+				<div class="gallery_body-p">
+					<p><b>Цокольный этаж:</b> Нет</p>
+					<p><b>Гараж:</b> Отдельный</p>
+					<p><b>Мансардный этаж:</b> Нет</p>
+					<p><b>Тип крыши:</b> Вальмовая</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Комнаты:</b> 3</p>
+					<p><b>Мансардный этаж:</b> нет</p>
+					<p><b>С/у:</b> 4</p>
+					<p><b>Спальня:</b> 4</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Материал:</b> Дерева, металлопрокат, лёгкие стальные тонкостенные конструкций, железобетон.</p>
+					<p><b>Стиль:</b> Классический</p>
+				</div>
+			</div>
+			<div class="galerry__btn">
+				<button class="btn_gallary">Оставить заявку</button>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- Александрит -->
+
+<div id="modal9" class="modal9">
+	<span class="close9">×</span>
+	<div class="modal9-content">
+		<div id="gallery_modal">
+			<img src="images/1.jpg" alt="" tabindex="0" />
+			<img src="images/02.jpg" alt="" tabindex="0" />
+			<img src="images/2.jpg" alt="" tabindex="0" />
+			<img src="images/5.jpg" alt="" tabindex="0" />
+		</div>
+
+		<div class="gallery_title">
+			<h1>Характеристики дома "Александрит"</h1>
+			<div class="gallery_body">
+				<div class="gallery_body-p">
+					<p><b>Цокольный этаж:</b> Нет</p>
+					<p><b>Гараж:</b> Отдельный</p>
+					<p><b>Мансардный этаж:</b> Нет</p>
+					<p><b>Тип крыши:</b> Вальмовая</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Комнаты:</b> 3</p>
+					<p><b>Мансардный этаж:</b> нет</p>
+					<p><b>С/у:</b> 4</p>
+					<p><b>Спальня:</b> 4</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Материал:</b> Дерева, металлопрокат, лёгкие стальные тонкостенные конструкций, железобетон.</p>
+					<p><b>Стиль:</b> Классический</p>
+				</div>
+			</div>
+			<div class="galerry__btn">
+				<button class="btn_gallary">Оставить заявку</button>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- Аленка -->
+
+<div id="modal10" class="modal10">
+	<span class="close10">×</span>
+	<div class="modal10-content">
+		<div id="gallery_modal">
+			<img src="images/1.jpg" alt="" tabindex="0" />
+			<img src="images/02.jpg" alt="" tabindex="0" />
+			<img src="images/2.jpg" alt="" tabindex="0" />
+			<img src="images/5.jpg" alt="" tabindex="0" />
+		</div>
+
+		<div class="gallery_title">
+			<h1>Характеристики дома "Аленка"</h1>
+			<div class="gallery_body">
+				<div class="gallery_body-p">
+					<p><b>Цокольный этаж:</b> Нет</p>
+					<p><b>Гараж:</b> Отдельный</p>
+					<p><b>Мансардный этаж:</b> Нет</p>
+					<p><b>Тип крыши:</b> Вальмовая</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Комнаты:</b> 3</p>
+					<p><b>Мансардный этаж:</b> нет</p>
+					<p><b>С/у:</b> 4</p>
+					<p><b>Спальня:</b> 4</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Материал:</b> Дерева, металлопрокат, лёгкие стальные тонкостенные конструкций, железобетон.</p>
+					<p><b>Стиль:</b> Классический</p>
+				</div>
+			</div>
+			<div class="galerry__btn">
+				<button class="btn_gallary">Оставить заявку</button>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- Арт -->
+
+<div id="modal11" class="modal11">
+	<span class="close11">×</span>
+	<div class="modal11-content">
+		<div id="gallery_modal">
+			<img src="images/1.jpg" alt="" tabindex="0" />
+			<img src="images/02.jpg" alt="" tabindex="0" />
+			<img src="images/2.jpg" alt="" tabindex="0" />
+			<img src="images/5.jpg" alt="" tabindex="0" />
+		</div>
+
+		<div class="gallery_title">
+			<h1>Характеристики дома "Арт"</h1>
+			<div class="gallery_body">
+				<div class="gallery_body-p">
+					<p><b>Цокольный этаж:</b> Нет</p>
+					<p><b>Гараж:</b> Отдельный</p>
+					<p><b>Мансардный этаж:</b> Нет</p>
+					<p><b>Тип крыши:</b> Вальмовая</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Комнаты:</b> 3</p>
+					<p><b>Мансардный этаж:</b> нет</p>
+					<p><b>С/у:</b> 4</p>
+					<p><b>Спальня:</b> 4</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Материал:</b> Дерева, металлопрокат, лёгкие стальные тонкостенные конструкций, железобетон.</p>
+					<p><b>Стиль:</b> Классический</p>
+				</div>
+			</div>
+			<div class="galerry__btn">
+				<button class="btn_gallary">Оставить заявку</button>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- Дарья -->
+
+<div id="modal12" class="modal12">
+	<span class="close12">×</span>
+	<div class="modal12-content">
+		<div id="gallery_modal">
+			<img src="images/1.jpg" alt="" tabindex="0" />
+			<img src="images/02.jpg" alt="" tabindex="0" />
+			<img src="images/2.jpg" alt="" tabindex="0" />
+			<img src="images/5.jpg" alt="" tabindex="0" />
+		</div>
+
+		<div class="gallery_title">
+			<h1>Характеристики дома "Дарья"</h1>
+			<div class="gallery_body">
+				<div class="gallery_body-p">
+					<p><b>Цокольный этаж:</b> Нет</p>
+					<p><b>Гараж:</b> Отдельный</p>
+					<p><b>Мансардный этаж:</b> Нет</p>
+					<p><b>Тип крыши:</b> Вальмовая</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Комнаты:</b> 3</p>
+					<p><b>Мансардный этаж:</b> нет</p>
+					<p><b>С/у:</b> 4</p>
+					<p><b>Спальня:</b> 4</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Материал:</b> Дерева, металлопрокат, лёгкие стальные тонкостенные конструкций, железобетон.</p>
+					<p><b>Стиль:</b> Классический</p>
+				</div>
+			</div>
+			<div class="galerry__btn">
+				<button class="btn_gallary">Оставить заявку</button>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- Лис -->
+
+<div id="modal13" class="modal13">
+	<span class="close13">×</span>
+	<div class="modal13-content">
+		<div id="gallery_modal">
+			<img src="images/1.jpg" alt="" tabindex="0" />
+			<img src="images/02.jpg" alt="" tabindex="0" />
+			<img src="images/2.jpg" alt="" tabindex="0" />
+			<img src="images/5.jpg" alt="" tabindex="0" />
+		</div>
+
+		<div class="gallery_title">
+			<h1>Характеристики дома "Лис"</h1>
+			<div class="gallery_body">
+				<div class="gallery_body-p">
+					<p><b>Цокольный этаж:</b> Нет</p>
+					<p><b>Гараж:</b> Отдельный</p>
+					<p><b>Мансардный этаж:</b> Нет</p>
+					<p><b>Тип крыши:</b> Вальмовая</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Комнаты:</b> 3</p>
+					<p><b>Мансардный этаж:</b> нет</p>
+					<p><b>С/у:</b> 4</p>
+					<p><b>Спальня:</b> 4</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Материал:</b> Дерева, металлопрокат, лёгкие стальные тонкостенные конструкций, железобетон.</p>
+					<p><b>Стиль:</b> Классический</p>
+				</div>
+			</div>
+			<div class="galerry__btn">
+				<button class="btn_gallary">Оставить заявку</button>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- Максимилиан -->
+
+<div id="modal14" class="modal14">
+	<span class="close14">×</span>
+	<div class="modal14-content">
+		<div id="gallery_modal">
+			<img src="images/1.jpg" alt="" tabindex="0" />
+			<img src="images/02.jpg" alt="" tabindex="0" />
+			<img src="images/2.jpg" alt="" tabindex="0" />
+			<img src="images/5.jpg" alt="" tabindex="0" />
+		</div>
+
+		<div class="gallery_title">
+			<h1>Характеристики дома "Максимилиан"</h1>
+			<div class="gallery_body">
+				<div class="gallery_body-p">
+					<p><b>Цокольный этаж:</b> Нет</p>
+					<p><b>Гараж:</b> Отдельный</p>
+					<p><b>Мансардный этаж:</b> Нет</p>
+					<p><b>Тип крыши:</b> Вальмовая</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Комнаты:</b> 3</p>
+					<p><b>Мансардный этаж:</b> нет</p>
+					<p><b>С/у:</b> 4</p>
+					<p><b>Спальня:</b> 4</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Материал:</b> Дерева, металлопрокат, лёгкие стальные тонкостенные конструкций, железобетон.</p>
+					<p><b>Стиль:</b> Классический</p>
+				</div>
+			</div>
+			<div class="galerry__btn">
+				<button class="btn_gallary">Оставить заявку</button>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- Павловец -->
+
+<div id="modal15" class="modal15">
+	<span class="close15">×</span>
+	<div class="modal15-content">
+		<div id="gallery_modal">
+			<img src="images/1.jpg" alt="" tabindex="0" />
+			<img src="images/02.jpg" alt="" tabindex="0" />
+			<img src="images/2.jpg" alt="" tabindex="0" />
+			<img src="images/5.jpg" alt="" tabindex="0" />
+		</div>
+
+		<div class="gallery_title">
+			<h1>Характеристики дома "Павловец"</h1>
+			<div class="gallery_body">
+				<div class="gallery_body-p">
+					<p><b>Цокольный этаж:</b> Нет</p>
+					<p><b>Гараж:</b> Отдельный</p>
+					<p><b>Мансардный этаж:</b> Нет</p>
+					<p><b>Тип крыши:</b> Вальмовая</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Комнаты:</b> 3</p>
+					<p><b>Мансардный этаж:</b> нет</p>
+					<p><b>С/у:</b> 4</p>
+					<p><b>Спальня:</b> 4</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Материал:</b> Дерева, металлопрокат, лёгкие стальные тонкостенные конструкций, железобетон.</p>
+					<p><b>Стиль:</b> Классический</p>
+				</div>
+			</div>
+			<div class="galerry__btn">
+				<button class="btn_gallary">Оставить заявку</button>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- Подсолнух -->
+
+<div id="modal16" class="modal16">
+	<span class="close16">×</span>
+	<div class="modal16-content">
+		<div id="gallery_modal">
+			<img src="images/1.jpg" alt="" tabindex="0" />
+			<img src="images/02.jpg" alt="" tabindex="0" />
+			<img src="images/2.jpg" alt="" tabindex="0" />
+			<img src="images/5.jpg" alt="" tabindex="0" />
+		</div>
+
+		<div class="gallery_title">
+			<h1>Характеристики дома "Подсолнух"</h1>
+			<div class="gallery_body">
+				<div class="gallery_body-p">
+					<p><b>Цокольный этаж:</b> Нет</p>
+					<p><b>Гараж:</b> Отдельный</p>
+					<p><b>Мансардный этаж:</b> Нет</p>
+					<p><b>Тип крыши:</b> Вальмовая</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Комнаты:</b> 3</p>
+					<p><b>Мансардный этаж:</b> нет</p>
+					<p><b>С/у:</b> 4</p>
+					<p><b>Спальня:</b> 4</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Материал:</b> Дерева, металлопрокат, лёгкие стальные тонкостенные конструкций, железобетон.</p>
+					<p><b>Стиль:</b> Классический</p>
+				</div>
+			</div>
+			<div class="galerry__btn">
+				<button class="btn_gallary">Оставить заявку</button>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- Посад -->
+
+<div id="modal17" class="modal17">
+	<span class="close17">×</span>
+	<div class="modal17-content">
+		<div id="gallery_modal">
+			<img src="images/1.jpg" alt="" tabindex="0" />
+			<img src="images/02.jpg" alt="" tabindex="0" />
+			<img src="images/2.jpg" alt="" tabindex="0" />
+			<img src="images/5.jpg" alt="" tabindex="0" />
+		</div>
+
+		<div class="gallery_title">
+			<h1>Характеристики дома "Посад"</h1>
+			<div class="gallery_body">
+				<div class="gallery_body-p">
+					<p><b>Цокольный этаж:</b> Нет</p>
+					<p><b>Гараж:</b> Отдельный</p>
+					<p><b>Мансардный этаж:</b> Нет</p>
+					<p><b>Тип крыши:</b> Вальмовая</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Комнаты:</b> 3</p>
+					<p><b>Мансардный этаж:</b> нет</p>
+					<p><b>С/у:</b> 4</p>
+					<p><b>Спальня:</b> 4</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Материал:</b> Дерева, металлопрокат, лёгкие стальные тонкостенные конструкций, железобетон.</p>
+					<p><b>Стиль:</b> Классический</p>
+				</div>
+			</div>
+			<div class="galerry__btn">
+				<button class="btn_gallary">Оставить заявку</button>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- Сердолик -->
+
+<div id="modal18" class="modal18">
+	<span class="close18">×</span>
+	<div class="modal18-content">
+		<div id="gallery_modal">
+			<img src="images/1.jpg" alt="" tabindex="0" />
+			<img src="images/02.jpg" alt="" tabindex="0" />
+			<img src="images/2.jpg" alt="" tabindex="0" />
+			<img src="images/5.jpg" alt="" tabindex="0" />
+		</div>
+
+		<div class="gallery_title">
+			<h1>Характеристики дома "Сердолик"</h1>
+			<div class="gallery_body">
+				<div class="gallery_body-p">
+					<p><b>Цокольный этаж:</b> Нет</p>
+					<p><b>Гараж:</b> Отдельный</p>
+					<p><b>Мансардный этаж:</b> Нет</p>
+					<p><b>Тип крыши:</b> Вальмовая</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Комнаты:</b> 3</p>
+					<p><b>Мансардный этаж:</b> нет</p>
+					<p><b>С/у:</b> 4</p>
+					<p><b>Спальня:</b> 4</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Материал:</b> Дерева, металлопрокат, лёгкие стальные тонкостенные конструкций, железобетон.</p>
+					<p><b>Стиль:</b> Классический</p>
+				</div>
+			</div>
+			<div class="galerry__btn">
+				<button class="btn_gallary">Оставить заявку</button>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- Солнце -->
+
+<div id="modal19" class="modal19">
+	<span class="close19">×</span>
+	<div class="modal19-content">
+		<div id="gallery_modal">
+			<img src="images/1.jpg" alt="" tabindex="0" />
+			<img src="images/02.jpg" alt="" tabindex="0" />
+			<img src="images/2.jpg" alt="" tabindex="0" />
+			<img src="images/5.jpg" alt="" tabindex="0" />
+		</div>
+
+		<div class="gallery_title">
+			<h1>Характеристики дома "Солнце"</h1>
+			<div class="gallery_body">
+				<div class="gallery_body-p">
+					<p><b>Цокольный этаж:</b> Нет</p>
+					<p><b>Гараж:</b> Отдельный</p>
+					<p><b>Мансардный этаж:</b> Нет</p>
+					<p><b>Тип крыши:</b> Вальмовая</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Комнаты:</b> 3</p>
+					<p><b>Мансардный этаж:</b> нет</p>
+					<p><b>С/у:</b> 4</p>
+					<p><b>Спальня:</b> 4</p>
+					<p><b>Габариты:</b> 21.2x29.97</p>
+				</div>
+				<div class="gallery_body-p">
+					<p><b>Материал:</b> Дерева, металлопрокат, лёгкие стальные тонкостенные конструкций, железобетон.</p>
+					<p><b>Стиль:</b> Классический</p>
+				</div>
+			</div>
+			<div class="galerry__btn">
+				<button class="btn_gallary">Оставить заявку</button>
+		</div>
+		</div>
+	</div>
+</div>
+
 
 	<script src="js/script.js"></script>
 	<script src="js/slider.js"></script>
 	<script src="js/popup.js"></script>
+	<script src="js/popup-gallery.js"></script>
+	<script src="js/popup-gallery1.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 
