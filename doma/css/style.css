@@ -448,7 +448,7 @@ body {
 	width: 1200px;
 	height: 750px;
 	margin: 0 auto;
-	top: 140%;
+	top: 135%;
 	left: -35%;
 	transform: rotate(23deg);
 	}
@@ -460,7 +460,7 @@ overflow: hidden;
 	width: 600px;
 	height: 700px;
 	margin: 0 auto;
-	top: 150%;
+	top: 174%;
 	right: 0;
 	}
 .aside {
