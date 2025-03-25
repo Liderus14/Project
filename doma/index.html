@@ -7,6 +7,9 @@
 	<title>Строительство Домов</title>
 	<link rel="stylesheet" href="css/style.css"> <!-- Подключение стилей -->
 	<link rel="stylesheet" href="css/popup.css"> <!-- Подключение стилей -->
+	<link rel="stylesheet" href="css/style-gallery.css"> <!-- Подключение стилей -->
+	<link rel="stylesheet" href="css/style-gallery1.css"> <!-- Подключение стилей -->
+	<link rel="stylesheet" href="css/style_work.css"> <!-- Подключение стилей -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
@@ -14,17 +17,17 @@
 	<!-- Первый блок: Меню -->
 	<div class="nav">
 		<div class="logo">
-			<img src="images/a9b95fd4e2213b2a6e8cab3eef943fb3.png" alt="">
+			<a href="index.html"><img src="images/a9b95fd4e2213b2a6e8cab3eef943fb3.png" alt=""></a>
 		</div>
 		<div class="menu">
 			<ul>
-				<li><a href="#" class="link">Главная</a></li>
+				<li><a href="index.html" class="link">Главная</a></li>
 				<li><a href="#about" class="link">О нас</a></li>
 				<li><a href="#services" class="link">Наши услуги</a></li>
-				<li><a href="#" class="link">Как мы работаем</a></li>
-				<li><a href="#" class="link">Проекты домов</a></li>
-				<li><a href="#" class="link">Земельные участки</a></li>
-				<li><a href="#" class="link">Отзывы</a></li>
+				<li><a href="#work" class="link">Как мы работаем</a></li>
+				<li><a href="#project" class="link">Проекты домов</a></li>
+				<li><a href="#uchastok" class="link">Земельные участки</a></li>
+				<li><a href="#otzov" class="link">Отзывы</a></li>
 			</ul>
 		</div>
 		<div class="contact">
@@ -77,7 +80,7 @@
 		</div>
 	</section>
 
-	<section class="aside" id="shema">
+	<section class="aside" id="services">
 		<img class="skull" src="images/derevo.png" alt="skull" />
 		<div class="container">
 			<h1 class="aside-p">Наши услуги</h1>
@@ -286,7 +289,7 @@
 		<div class="skull1_img">
 			<img class="skull1" src="images/derevo1.png" alt="skull" />
 		</div>
-		
+
 	</section>
 
 	<section id="work" class="container">
@@ -375,29 +378,82 @@
 	</section>
 
 	<!-- Шестой блок: Портфолио -->
-	<section id="pricing" class="container">
-		<h1 class="portfolio__h1"> Наши проекты </h1>
-		<div class="portfolio">
-			<div class="portfolio__left">
-				<img src="images/karkas.jpg" alt="">
-				<div class="portfolio__title">
-					<h1 class="portfolio__title-h1">Каркасные дома</h1>
+	<div class="project" id="project">
+		<section id="pricing" class="container">
+			<h1 class="portfolio__h1"> Наши проекты </h1>
+			<div class="portfolio">
+				<div class="portfolio__left">
+					<img src="images/karkas.jpg" alt="">
+					<div class="portfolio__title">
+						<h1 class="portfolio__title-h1">Каркасные дома</h1>
+					</div>
+					<button class="btn-border-left"><a href="karkas.html" class="btn__h3">Смотреть проекты</a></button>
 				</div>
-				<button class="btn-border-left"><a href="karkas.html" class="btn__h3">Смотреть проекты</a></button>
-			</div>
-			<div class="portfolio__left">
-				<img src="images/gazoblok.jpg" alt="">
-				<div class="portfolio__title_right">
-					<h1 class="portfolio__title-h1">Дома из газоблока</h1>
+				<div class="portfolio__left">
+					<img src="images/gazoblok.jpg" alt="">
+					<div class="portfolio__title_right">
+						<h1 class="portfolio__title-h1">Дома из газоблока</h1>
+					</div>
+					<button class="btn-border-left"><a href="gazoblok.html" class="btn__h3">Смотреть проекты</a></button>
 				</div>
-				<button class="btn-border-left"><a href="gazoblok.html" class="btn__h3">Смотреть проекты</a></button>
 			</div>
+		</section>
+	</div>
+	<!-- Процесс работы -->
+
+	<section class="container">
+		<h1 class="work__process">Процесс работы</h1>
+		<div class="slider_work">
+			<button id="prevBtn" class="btn1"><img src="img_work/str1.png"></button>
+			<div class="sliders-container">
+				<img src="img_work/1.png" alt="Slide 1" class="active-slide">
+				<img src="img_work/2.png" alt="Slide 2">
+				<img src="img_work/3.png" alt="Slide 3">
+				<img src="img_work/4.png" alt="Slide 4">
+				<img src="img_work/5.png" alt="Slide 5">
+				<img src="img_work/6.png" alt="Slide 6">
+				<img src="img_work/7.png" alt="Slide 7">
+				<img src="img_work/8.png" alt="Slide 8">
+				<img src="img_work/9.png" alt="Slide 9">
+				<img src="img_work/10.png" alt="Slide 10">
+				<img src="img_work/11.png" alt="Slide 11">
+				<img src="img_work/12.png" alt="Slide 12">
+				<img src="img_work/13.png" alt="Slide 13">
+				<img src="img_work/14.png" alt="Slide 14">
+				<img src="img_work/15.png" alt="Slide 15">
+				<img src="img_work/16.png" alt="Slide 16">
+				<img src="img_work/17.png" alt="Slide 17">
+				<img src="img_work/18.png" alt="Slide 18">
+				<img src="img_work/19.png" alt="Slide 19">
+				<img src="img_work/20.png" alt="Slide 20">
+				<img src="img_work/21.png" alt="Slide 21">
+				<img src="img_work/22.png" alt="Slide 22">
+				<img src="img_work/23.png" alt="Slide 23">
+				<img src="img_work/24.png" alt="Slide 24">
+				<img src="img_work/25.png" alt="Slide 25">
+				<img src="img_work/26.png" alt="Slide 26">
+				<img src="img_work/27.png" alt="Slide 27">
+				<img src="img_work/28.png" alt="Slide 28">
+				<img src="img_work/29.png" alt="Slide 29">
+				<img src="img_work/30.png" alt="Slide 30">
+				<img src="img_work/31.png" alt="Slide 31">
+				<img src="img_work/32.png" alt="Slide 32">
+				<img src="img_work/33.png" alt="Slide 33">
+				<img src="img_work/34.png" alt="Slide 34">
+				<img src="img_work/35.png" alt="Slide 35">
+				<img src="img_work/36.png" alt="Slide 36">
+				<img src="img_work/37.png" alt="Slide 37">
+				<img src="img_work/38.png" alt="Slide 38">
+				<img src="img_work/39.png" alt="Slide 39">
+				<img src="img_work/40.png" alt="Slide 40">
+			</div>
+			<button id="nextBtn" class="btn1"><img src="img_work/str2.png"></button>
 		</div>
 	</section>
 
 	<!-- Седьмой блок: Отзывы -->
 
-	<section class="otzov">
+	<section class="otzov" id="otzov">
 		<h1 class="otzov__h1">Отзывы</h1>
 		<div class="slide_otzov">
 			<ul class="slides">
@@ -509,9 +565,7 @@
 		</div>
 	</section>
 
-	<!-- Процесс работы -->
 
-	
 
 	<!-- Восьмой блок: Футер с меню -->
 	<footer class="footer-block">
@@ -528,12 +582,12 @@
 				<div class="footer_menu">
 					<h4 class="footer_h4">Меню</h4>
 					<ul>
-						<li><a href="#" class="link">Главная</a></li>
+						<li><a href="index.html" class="link">Главная</a></li>
 						<li><a href="#about" class="link">О нас</a></li>
 						<li><a href="#services" class="link">Наши услуги</a></li>
-						<li><a href="#" class="link">Как мы работаем</a></li>
-						<li><a href="#" class="link">Проекты домов</a></li>
-						<li><a href="#" class="link">Земельные участки</a></li>
+						<li><a href="#work" class="link">Как мы работаем</a></li>
+						<li><a href="#project" class="link">Проекты домов</a></li>
+						<li><a href="#uchastok" class="link">Земельные участки</a></li>
 					</ul>
 				</div>
 				<div class="footer_icon">
@@ -604,10 +658,14 @@
 			</form>
 		</div>
 	</div>
-		
+
+	<a href="#top" id="back-to-top" class="back-to-top" title="Back to top"><img src="images/scroll_top.png" alt=""></a>
+
 	<script src="js/script.js"></script>
 	<script src="js/slider.js"></script>
 	<script src="js/popup.js"></script>
+	<script src="js/script_work.js"></script>
+	<script src="js/knopka.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 

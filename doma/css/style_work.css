@@ -1,0 +1,67 @@
+/* Основные стили для контейнера */
+.slider_work {
+	position: relative;
+	width: 1000px;
+	margin: auto;
+	padding: 70px;
+}
+
+/* Стилизация кнопок управления */
+.btn1 {
+	border-radius: 100%;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.btn1 img{
+	padding: 2px;
+}
+.btn1:hover{
+	background-color: green;
+}
+
+#prevBtn {
+	left: -60px;
+}
+
+#nextBtn {
+	right: -60px;
+}
+
+/* Контейнер для слайдов */
+.sliders-container {
+	display: flex;
+	overflow: hidden;
+	height: 500px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+	border-radius: 10px;
+}
+
+/* Слайды */
+.sliders-container img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: all 0.4s ease-in-out;
+}
+
+/* Активный слайд */
+.active-slide {
+	opacity: 1;
+	z-index: 1;
+}
+
+/* Скрытые слайды */
+.sliders-container img:not(.active-slide) {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 10px;
+	animation: animatezoom 0.4s; /* Анимация появления */
+}
+
+

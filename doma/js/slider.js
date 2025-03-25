@@ -56,3 +56,6 @@ const Slider = {
 
 const slider = Object.create(Slider);
 slider.init();
+
+
+

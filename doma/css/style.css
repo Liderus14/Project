@@ -7,7 +7,10 @@
 	box-sizing: border-box;
 	font-family: Arial, sans-serif;
 }
-
+html
+{
+  scroll-behavior: smooth;
+}
 body {
 	font-family: "Sofia Sans", sans-serif;
 	background-color: #f9f9f9;
@@ -403,6 +406,9 @@ body {
 	margin-top: 30px;
 }
 
+.work{
+	margin-top: 70px;
+}
 .work__h1 {
 	font-size: 40px;
 }
@@ -465,14 +471,14 @@ overflow: hidden;
 	}
 .aside {
 	width: 100%;
-	height: 1043px;
+	height: 920px;
 	margin-top: 40px;
 }
 
 .aside-p {
 	font-size: 40px;
 	font-weight: bold;
-	padding-top: 115px;
+	padding-top: 70px;
 }
 
 .cartoon-container {
@@ -632,9 +638,20 @@ overflow: hidden;
 /* конец стилей радиокнопок */
 
 /* портфолио начало */
+.project{
+	width: 100%;
+	height: 550px;
+	background-image: url(../images/fon_project.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top: 240px;
+}
 .portfolio__h1 {
 	font-size: 40px;
 	margin-bottom: 100px;
+	color: #000;
+	padding-top: 30px;
 }
 
 .portfolio {
@@ -722,6 +739,10 @@ overflow: hidden;
 
 /* портфолио конец */
 
+.work__process{
+	font-size: 40px;
+	margin-top: 150px;
+}
 
 /* отзывы */
 .otzov {
@@ -888,13 +909,6 @@ input#img-6:checked~.nav-dots label#img-dot-6 {
 
 /* отзывы */
 
-/* процесс работы начало */
-
-
-
-/* процесс работы конец */
-
-
 .footer-block {
 	background: #333;
 	height: 300px;
@@ -968,3 +982,27 @@ input#img-6:checked~.nav-dots label#img-dot-6 {
 	color: #fff;
 	cursor: pointer;
 }
+
+/* scroll */
+.back-to-top {
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	display: none;
+	font-size: 25px;
+	color: #000;
+	padding: 10px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	z-index: 1000;
+}
+.back-to-top img{
+	width: 55px;
+	height: 45px;
+}
+
+.back-to-top:hover {
+	background: green;
+	text-decoration: none;
+}
+/* scroll */
