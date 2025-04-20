@@ -32,6 +32,10 @@ body {
 }
 
 /* Блок меню*/
+.menu-mobail{
+	display: none;
+}
+
 .menu ul {
 	display: flex;
 	gap: 20px;
